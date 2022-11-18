@@ -1,0 +1,2587 @@
+
+##############################################################################
+#                                                                            #
+# Starting HADDOCK2.4                                                        #
+#                                                                            #
+#         N-components version of HADDOCK (current maximum is 20)            #
+#                                                                            #
+#   Copyright 2003-2020 Alexandre Bonvin, Utrecht University.                #
+#   Originally adapted from Aria 1.2 from Nilges and Linge, EMBL.            #
+#   All rights reserved.                                                     #
+#   This code is part of the HADDOCK software and governed by its            #
+#   license. Please see the LICENSE file that should have been included      #
+#   as part of this package.                                                 #
+#                                                                            #
+##############################################################################
+    
+Starting HADDOCK on: 2022-11-01 23:48:17
+ 
+HADDOCK version:   2.4 - August 2022
+Python version: 2.7.15 (default, May  3 2018, 08:55:22) 
+[GCC 4.8.5 20150623 (Red Hat 4.8.5-16)]
+parsing run.cns file
+parsing run.param in /trinity/home/enmr/csb_webserver/data/runs/haddock24/userrun00188213/run1/data
+reading parameters from the file /trinity/home/enmr/csb_webserver/data/runs/haddock24/userrun00188213/run1/data/run.param
+  setting some variables:
+  N_COMP set to: 2
+  UNAMBIG_TBL set to: unambig.tbl
+  HADDOCK_DIR set to: /home/enmr/software/haddock2.4
+  RUN_NUMBER set to: 1
+  PROT_SEGID_2 set to: B
+  PROT_SEGID_1 set to: A
+  PDB_FILE1 set to: protein1.pdb
+  PDB_FILE2 set to: protein2.pdb
+  PROJECT_DIR set to: /home/enmr/csb_webserver/data/runs/haddock24/userrun00188213
+N_COMP 2
+UNAMBIG_TBL unambig.tbl
+HADDOCK_DIR /home/enmr/software/haddock2.4
+RUN_NUMBER 1
+PROT_SEGID_2 B
+PROT_SEGID_1 A
+PDB_FILE1 protein1.pdb
+PDB_FILE2 protein2.pdb
+PROJECT_DIR /home/enmr/csb_webserver/data/runs/haddock24/userrun00188213
+looking for existing files
+waterdock false
+generating PSF and PDB file of molecule 1 with the command:
+generating PSF and PDB file of molecule 2 with the command:
+      queue command:
+      /trinity/home/enmr/software/bin/ssub haddock complex_run1_generate_1.job
+      queue command:
+      /trinity/home/enmr/software/bin/ssub haddock complex_run1_generate_2.job
+Submitted batch job 29292193
+
+  waiting for the psf files...
+Submitted batch job 29292194
+
+  waiting for the psf files...
+  waiting for the psf files...
+merging topologies and coordinates files with the command:
+  waiting for the merged files...
+      queue command:
+      /trinity/home/enmr/software/bin/ssub haddock complex_run1_generate_complex.job
+Submitted batch job 29292197
+
+looking for iteration 0
+working on iteration 0
+starting DOCKING protocol 
+    calculating structure 1
+    calculating structure 2
+    calculating structure 3
+    calculating structure 4
+    calculating structure 5
+    calculating structure 6
+    calculating structure 7
+    calculating structure 8
+    calculating structure 9
+    calculating structure 10
+    calculating structure 11
+    calculating structure 12
+    calculating structure 13
+    calculating structure 14
+    calculating structure 15
+    calculating structure 16
+    calculating structure 17
+    calculating structure 18
+    calculating structure 19
+    calculating structure 20
+    calculating structure 21
+    calculating structure 22
+    calculating structure 23
+    calculating structure 24
+    calculating structure 25
+    calculating structure 26
+    calculating structure 27
+    calculating structure 28
+    calculating structure 29
+    calculating structure 30
+    calculating structure 31
+    calculating structure 32
+    calculating structure 33
+    calculating structure 34
+    calculating structure 35
+    calculating structure 36
+    calculating structure 37
+    calculating structure 38
+    calculating structure 39
+    calculating structure 40
+    calculating structure 41
+    calculating structure 42
+    calculating structure 43
+    calculating structure 44
+    calculating structure 45
+    calculating structure 46
+    calculating structure 47
+    calculating structure 48
+    calculating structure 49
+    calculating structure 50
+      queue command:
+      /home/diracegi/grid/diracsubmit-haddock2.4 packages/package_it0_1.tar.gz
+    calculating structure 51
+    calculating structure 52
+    calculating structure 53
+    calculating structure 54
+    calculating structure 55
+    calculating structure 56
+    calculating structure 57
+    calculating structure 58
+    calculating structure 59
+    calculating structure 60
+    calculating structure 61
+    calculating structure 62
+    calculating structure 63
+    calculating structure 64
+    calculating structure 65
+    calculating structure 66
+    calculating structure 67
+    calculating structure 68
+    calculating structure 69
+    calculating structure 70
+    calculating structure 71
+    calculating structure 72
+ 
+    calculating structure 73
+    calculating structure 74
+    calculating structure 75
+    calculating structure 76
+    calculating structure 77
+    calculating structure 78
+    calculating structure 79
+    calculating structure 80
+    calculating structure 81
+    calculating structure 82
+    calculating structure 83
+    calculating structure 84
+    calculating structure 85
+    calculating structure 86
+    calculating structure 87
+    calculating structure 88
+    calculating structure 89
+    calculating structure 90
+    calculating structure 91
+    calculating structure 92
+    calculating structure 93
+    calculating structure 94
+    calculating structure 95
+    calculating structure 96
+    calculating structure 97
+    calculating structure 98
+    calculating structure 99
+    calculating structure 100
+      queue command:
+      /home/diracegi/grid/diracsubmit-haddock2.4 packages/package_it0_2.tar.gz
+    calculating structure 101
+    calculating structure 102
+    calculating structure 103
+    calculating structure 104
+    calculating structure 105
+    calculating structure 106
+    calculating structure 107
+    calculating structure 108
+    calculating structure 109
+    calculating structure 110
+    calculating structure 111
+    calculating structure 112
+    calculating structure 113
+    calculating structure 114
+    calculating structure 115
+    calculating structure 116
+    calculating structure 117
+    calculating structure 118
+    calculating structure 119
+    calculating structure 120
+ 
+    calculating structure 121
+    calculating structure 122
+    calculating structure 123
+    calculating structure 124
+    calculating structure 125
+    calculating structure 126
+    calculating structure 127
+    calculating structure 128
+    calculating structure 129
+    calculating structure 130
+    calculating structure 131
+    calculating structure 132
+    calculating structure 133
+    calculating structure 134
+    calculating structure 135
+    calculating structure 136
+    calculating structure 137
+    calculating structure 138
+    calculating structure 139
+    calculating structure 140
+    calculating structure 141
+    calculating structure 142
+    calculating structure 143
+    calculating structure 144
+    calculating structure 145
+    calculating structure 146
+    calculating structure 147
+    calculating structure 148
+    calculating structure 149
+    calculating structure 150
+      queue command:
+      /home/diracegi/grid/diracsubmit-haddock2.4 packages/package_it0_3.tar.gz
+    calculating structure 151
+    calculating structure 152
+    calculating structure 153
+    calculating structure 154
+    calculating structure 155
+    calculating structure 156
+    calculating structure 157
+    calculating structure 158
+    calculating structure 159
+    calculating structure 160
+    calculating structure 161
+    calculating structure 162
+    calculating structure 163
+ 
+    calculating structure 164
+    calculating structure 165
+    calculating structure 166
+    calculating structure 167
+    calculating structure 168
+    calculating structure 169
+    calculating structure 170
+    calculating structure 171
+    calculating structure 172
+    calculating structure 173
+    calculating structure 174
+    calculating structure 175
+    calculating structure 176
+    calculating structure 177
+    calculating structure 178
+    calculating structure 179
+    calculating structure 180
+    calculating structure 181
+    calculating structure 182
+    calculating structure 183
+    calculating structure 184
+    calculating structure 185
+    calculating structure 186
+    calculating structure 187
+    calculating structure 188
+    calculating structure 189
+    calculating structure 190
+    calculating structure 191
+    calculating structure 192
+    calculating structure 193
+    calculating structure 194
+    calculating structure 195
+    calculating structure 196
+    calculating structure 197
+    calculating structure 198
+    calculating structure 199
+    calculating structure 200
+      queue command:
+      /home/diracegi/grid/diracsubmit-haddock2.4 packages/package_it0_4.tar.gz
+ 
+------------------------------------------------------------
+Structure    1: running
+Structure    2: running
+Structure    3: running
+Structure    4: running
+Structure    5: running
+Structure    6: running
+Structure    7: running
+Structure    8: running
+Structure    9: running
+Structure   10: running
+Structure   11: running
+Structure   12: running
+Structure   13: running
+Structure   14: running
+Structure   15: running
+Structure   16: running
+Structure   17: running
+Structure   18: running
+Structure   19: running
+Structure   20: running
+Structure   21: running
+Structure   22: running
+Structure   23: running
+Structure   24: running
+Structure   25: running
+Structure   26: running
+Structure   27: running
+Structure   28: running
+Structure   29: running
+Structure   30: running
+Structure   31: running
+Structure   32: running
+Structure   33: running
+Structure   34: running
+Structure   35: running
+Structure   36: running
+Structure   37: running
+Structure   38: running
+Structure   39: running
+Structure   40: running
+Structure   41: running
+Structure   42: running
+Structure   43: running
+Structure   44: running
+Structure   45: running
+Structure   46: running
+Structure   47: running
+Structure   48: running
+Structure   49: running
+Structure   50: running
+Structure   51: running
+Structure   52: running
+Structure   53: running
+Structure   54: running
+Structure   55: running
+Structure   56: running
+Structure   57: running
+Structure   58: running
+Structure   59: running
+Structure   60: running
+Structure   61: running
+Structure   62: running
+Structure   63: running
+Structure   64: running
+Structure   65: running
+Structure   66: running
+Structure   67: running
+Structure   68: running
+Structure   69: running
+Structure   70: running
+Structure   71: running
+Structure   72: running
+Structure   73: running
+Structure   74: running
+Structure   75: running
+Structure   76: running
+Structure   77: running
+Structure   78: running
+Structure   79: running
+Structure   80: running
+Structure   81: running
+Structure   82: running
+Structure   83: running
+Structure   84: running
+Structure   85: running
+Structure   86: running
+Structure   87: running
+Structure   88: running
+Structure   89: running
+Structure   90: running
+Structure   91: running
+Structure   92: running
+Structure   93: running
+Structure   94: running
+Structure   95: running
+Structure   96: running
+Structure   97: running
+Structure   98: running
+Structure   99: running
+Structure  100: running
+Structure  101: running
+Structure  102: running
+Structure  103: running
+Structure  104: running
+Structure  105: running
+Structure  106: running
+Structure  107: running
+Structure  108: running
+Structure  109: running
+Structure  110: running
+Structure  111: running
+Structure  112: running
+Structure  113: running
+Structure  114: running
+Structure  115: running
+Structure  116: running
+Structure  117: running
+Structure  118: running
+Structure  119: running
+Structure  120: running
+Structure  121: running
+Structure  122: running
+Structure  123: running
+Structure  124: running
+Structure  125: running
+Structure  126: running
+Structure  127: running
+Structure  128: running
+Structure  129: running
+Structure  130: running
+Structure  131: running
+Structure  132: running
+Structure  133: running
+Structure  134: running
+Structure  135: running
+Structure  136: running
+Structure  137: running
+Structure  138: running
+Structure  139: running
+Structure  140: running
+Structure  141: running
+Structure  142: running
+Structure  143: running
+Structure  144: running
+Structure  145: running
+Structure  146: running
+Structure  147: running
+Structure  148: running
+Structure  149: running
+Structure  150: running
+Structure  151: running
+Structure  152: running
+Structure  153: running
+Structure  154: running
+Structure  155: running
+Structure  156: running
+Structure  157: running
+Structure  158: running
+Structure  159: running
+Structure  160: running
+Structure  161: running
+Structure  162: running
+Structure  163: running
+Structure  164: running
+Structure  165: running
+Structure  166: running
+Structure  167: running
+Structure  168: running
+Structure  169: running
+Structure  170: running
+Structure  171: running
+Structure  172: running
+Structure  173: running
+Structure  174: running
+Structure  175: running
+Structure  176: running
+Structure  177: running
+Structure  178: running
+Structure  179: running
+Structure  180: running
+Structure  181: running
+Structure  182: running
+Structure  183: running
+Structure  184: running
+Structure  185: running
+Structure  186: running
+Structure  187: running
+Structure  188: running
+Structure  189: running
+Structure  190: running
+Structure  191: running
+Structure  192: running
+Structure  193: running
+Structure  194: running
+Structure  195: running
+Structure  196: running
+Structure  197: running
+Structure  198: running
+Structure  199: running
+Structure  200: running
+------------------------------------------------------------
+
+------------------------------------------------------------
+Structure   51: running
+Structure   52: running
+Structure   53: running
+Structure   54: running
+Structure   55: running
+Structure   56: running
+Structure   57: running
+Structure   58: running
+Structure   59: running
+Structure   60: running
+Structure   61: running
+Structure   62: running
+Structure   63: running
+Structure   64: running
+Structure   65: running
+Structure   66: running
+Structure   67: running
+Structure   68: running
+Structure   69: running
+Structure   70: running
+Structure   71: running
+Structure   72: running
+Structure   73: running
+Structure   74: running
+Structure   75: running
+Structure   76: running
+Structure   77: running
+Structure   78: running
+Structure   79: running
+Structure   80: running
+Structure   81: running
+Structure   82: running
+Structure   83: running
+Structure   84: running
+Structure   85: running
+Structure   86: running
+Structure   87: running
+Structure   88: running
+Structure   89: running
+Structure   90: running
+Structure   91: running
+Structure   92: running
+Structure   93: running
+Structure   94: running
+Structure   95: running
+Structure   96: running
+Structure   97: running
+Structure   98: running
+Structure   99: running
+Structure  100: running
+------------------------------------------------------------
+
+------------------------------------------------------------
+------------------------------------------------------------
+
+    creating file.list in /trinity/home/enmr/csb_webserver/data/runs/haddock24/userrun00188213/run1/structures/it0
+    creating file.nam in /trinity/home/enmr/csb_webserver/data/runs/haddock24/userrun00188213/run1/structures/it0
+    creating file.cns in /trinity/home/enmr/csb_webserver/data/runs/haddock24/userrun00188213/run1/structures/it0
+looking for iteration 1
+working on iteration 1
+starting DOCKING protocol 
+    calculating structure 1
+    calculating structure 2
+    calculating structure 3
+    calculating structure 4
+    calculating structure 5
+    calculating structure 6
+    calculating structure 7
+    calculating structure 8
+    calculating structure 9
+    calculating structure 10
+      queue command:
+      /home/diracegi/grid/diracsubmit-haddock2.4 packages/package_it1_1.tar.gz
+    calculating structure 11
+    calculating structure 12
+    calculating structure 13
+    calculating structure 14
+    calculating structure 15
+    calculating structure 16
+    calculating structure 17
+    calculating structure 18
+    calculating structure 19
+    calculating structure 20
+ 
+      queue command:
+      /home/diracegi/grid/diracsubmit-haddock2.4 packages/package_it1_2.tar.gz
+    calculating structure 21
+    calculating structure 22
+    calculating structure 23
+    calculating structure 24
+    calculating structure 25
+    calculating structure 26
+    calculating structure 27
+    calculating structure 28
+    calculating structure 29
+    calculating structure 30
+ 
+      queue command:
+      /home/diracegi/grid/diracsubmit-haddock2.4 packages/package_it1_3.tar.gz
+    calculating structure 31
+    calculating structure 32
+    calculating structure 33
+    calculating structure 34
+    calculating structure 35
+    calculating structure 36
+    calculating structure 37
+    calculating structure 38
+    calculating structure 39
+    calculating structure 40
+ 
+      queue command:
+      /home/diracegi/grid/diracsubmit-haddock2.4 packages/package_it1_4.tar.gz
+    calculating structure 41
+    calculating structure 42
+    calculating structure 43
+    calculating structure 44
+    calculating structure 45
+    calculating structure 46
+    calculating structure 47
+    calculating structure 48
+    calculating structure 49
+    calculating structure 50
+ 
+      queue command:
+      /home/diracegi/grid/diracsubmit-haddock2.4 packages/package_it1_5.tar.gz
+    calculating structure 51
+    calculating structure 52
+    calculating structure 53
+    calculating structure 54
+    calculating structure 55
+    calculating structure 56
+    calculating structure 57
+    calculating structure 58
+    calculating structure 59
+    calculating structure 60
+ 
+      queue command:
+      /home/diracegi/grid/diracsubmit-haddock2.4 packages/package_it1_6.tar.gz
+    calculating structure 61
+    calculating structure 62
+    calculating structure 63
+    calculating structure 64
+    calculating structure 65
+    calculating structure 66
+    calculating structure 67
+    calculating structure 68
+    calculating structure 69
+    calculating structure 70
+ 
+      queue command:
+      /home/diracegi/grid/diracsubmit-haddock2.4 packages/package_it1_7.tar.gz
+    calculating structure 71
+    calculating structure 72
+    calculating structure 73
+    calculating structure 74
+    calculating structure 75
+    calculating structure 76
+    calculating structure 77
+    calculating structure 78
+    calculating structure 79
+    calculating structure 80
+ 
+      queue command:
+      /home/diracegi/grid/diracsubmit-haddock2.4 packages/package_it1_8.tar.gz
+    calculating structure 81
+    calculating structure 82
+    calculating structure 83
+    calculating structure 84
+    calculating structure 85
+    calculating structure 86
+    calculating structure 87
+    calculating structure 88
+    calculating structure 89
+    calculating structure 90
+ 
+      queue command:
+      /home/diracegi/grid/diracsubmit-haddock2.4 packages/package_it1_9.tar.gz
+    calculating structure 91
+    calculating structure 92
+    calculating structure 93
+    calculating structure 94
+    calculating structure 95
+    calculating structure 96
+ 
+    calculating structure 97
+    calculating structure 98
+    calculating structure 99
+    calculating structure 100
+      queue command:
+      /home/diracegi/grid/diracsubmit-haddock2.4 packages/package_it1_10.tar.gz
+    calculating structure 101
+    calculating structure 102
+    calculating structure 103
+    calculating structure 104
+    calculating structure 105
+    calculating structure 106
+ 
+    calculating structure 107
+    calculating structure 108
+    calculating structure 109
+    calculating structure 110
+      queue command:
+      /home/diracegi/grid/diracsubmit-haddock2.4 packages/package_it1_11.tar.gz
+    calculating structure 111
+    calculating structure 112
+    calculating structure 113
+    calculating structure 114
+    calculating structure 115
+ 
+    calculating structure 116
+    calculating structure 117
+    calculating structure 118
+    calculating structure 119
+    calculating structure 120
+      queue command:
+      /home/diracegi/grid/diracsubmit-haddock2.4 packages/package_it1_12.tar.gz
+    calculating structure 121
+    calculating structure 122
+    calculating structure 123
+    calculating structure 124
+    calculating structure 125
+    calculating structure 126
+    calculating structure 127
+    calculating structure 128
+    calculating structure 129
+    calculating structure 130
+ 
+      queue command:
+      /home/diracegi/grid/diracsubmit-haddock2.4 packages/package_it1_13.tar.gz
+    calculating structure 131
+    calculating structure 132
+    calculating structure 133
+    calculating structure 134
+    calculating structure 135
+    calculating structure 136
+    calculating structure 137
+    calculating structure 138
+    calculating structure 139
+ 
+    calculating structure 140
+      queue command:
+      /home/diracegi/grid/diracsubmit-haddock2.4 packages/package_it1_14.tar.gz
+    calculating structure 141
+    calculating structure 142
+    calculating structure 143
+    calculating structure 144
+    calculating structure 145
+    calculating structure 146
+    calculating structure 147
+    calculating structure 148
+    calculating structure 149
+    calculating structure 150
+ 
+      queue command:
+      /home/diracegi/grid/diracsubmit-haddock2.4 packages/package_it1_15.tar.gz
+    calculating structure 151
+    calculating structure 152
+    calculating structure 153
+    calculating structure 154
+    calculating structure 155
+    calculating structure 156
+    calculating structure 157
+    calculating structure 158
+    calculating structure 159
+ 
+    calculating structure 160
+      queue command:
+      /home/diracegi/grid/diracsubmit-haddock2.4 packages/package_it1_16.tar.gz
+    calculating structure 161
+    calculating structure 162
+    calculating structure 163
+    calculating structure 164
+    calculating structure 165
+    calculating structure 166
+    calculating structure 167
+    calculating structure 168
+    calculating structure 169
+    calculating structure 170
+ 
+      queue command:
+      /home/diracegi/grid/diracsubmit-haddock2.4 packages/package_it1_17.tar.gz
+    calculating structure 171
+    calculating structure 172
+    calculating structure 173
+    calculating structure 174
+    calculating structure 175
+    calculating structure 176
+    calculating structure 177
+ 
+    calculating structure 178
+    calculating structure 179
+    calculating structure 180
+      queue command:
+      /home/diracegi/grid/diracsubmit-haddock2.4 packages/package_it1_18.tar.gz
+    calculating structure 181
+    calculating structure 182
+    calculating structure 183
+    calculating structure 184
+    calculating structure 185
+    calculating structure 186
+ 
+    calculating structure 187
+    calculating structure 188
+    calculating structure 189
+    calculating structure 190
+      queue command:
+      /home/diracegi/grid/diracsubmit-haddock2.4 packages/package_it1_19.tar.gz
+    calculating structure 191
+    calculating structure 192
+    calculating structure 193
+    calculating structure 194
+    calculating structure 195
+    calculating structure 196
+    calculating structure 197
+ 
+    calculating structure 198
+    calculating structure 199
+    calculating structure 200
+      queue command:
+      /home/diracegi/grid/diracsubmit-haddock2.4 packages/package_it1_20.tar.gz
+ 
+------------------------------------------------------------
+Structure    1: running
+Structure    2: running
+Structure    3: running
+Structure    4: running
+Structure    5: running
+Structure    6: running
+Structure    7: running
+Structure    8: running
+Structure    9: running
+Structure   10: running
+Structure   11: running
+Structure   12: running
+Structure   13: running
+Structure   14: running
+Structure   15: running
+Structure   16: running
+Structure   17: running
+Structure   18: running
+Structure   19: running
+Structure   20: running
+Structure   21: running
+Structure   22: running
+Structure   23: running
+Structure   24: running
+Structure   25: running
+Structure   26: running
+Structure   27: running
+Structure   28: running
+Structure   29: running
+Structure   30: running
+Structure   31: running
+Structure   32: running
+Structure   33: running
+Structure   34: running
+Structure   35: running
+Structure   36: running
+Structure   37: running
+Structure   38: running
+Structure   39: running
+Structure   40: running
+Structure   41: running
+Structure   42: running
+Structure   43: running
+Structure   44: running
+Structure   45: running
+Structure   46: running
+Structure   47: running
+Structure   48: running
+Structure   49: running
+Structure   50: running
+Structure   51: running
+Structure   52: running
+Structure   53: running
+Structure   54: running
+Structure   55: running
+Structure   56: running
+Structure   57: running
+Structure   58: running
+Structure   59: running
+Structure   60: running
+Structure   61: running
+Structure   62: running
+Structure   63: running
+Structure   64: running
+Structure   65: running
+Structure   66: running
+Structure   67: running
+Structure   68: running
+Structure   69: running
+Structure   70: running
+Structure   71: running
+Structure   72: running
+Structure   73: running
+Structure   74: running
+Structure   75: running
+Structure   76: running
+Structure   77: running
+Structure   78: running
+Structure   79: running
+Structure   80: running
+Structure   81: running
+Structure   82: running
+Structure   83: running
+Structure   84: running
+Structure   85: running
+Structure   86: running
+Structure   87: running
+Structure   88: running
+Structure   89: running
+Structure   90: running
+Structure   91: running
+Structure   92: running
+Structure   93: running
+Structure   94: running
+Structure   95: running
+Structure   96: running
+Structure   97: running
+Structure   98: running
+Structure   99: running
+Structure  100: running
+Structure  101: running
+Structure  102: running
+Structure  103: running
+Structure  104: running
+Structure  105: running
+Structure  106: running
+Structure  107: running
+Structure  108: running
+Structure  109: running
+Structure  110: running
+Structure  111: running
+Structure  112: running
+Structure  113: running
+Structure  114: running
+Structure  115: running
+Structure  116: running
+Structure  117: running
+Structure  118: running
+Structure  119: running
+Structure  120: running
+Structure  121: running
+Structure  122: running
+Structure  123: running
+Structure  124: running
+Structure  125: running
+Structure  126: running
+Structure  127: running
+Structure  128: running
+Structure  129: running
+Structure  130: running
+Structure  131: running
+Structure  132: running
+Structure  133: running
+Structure  134: running
+Structure  135: running
+Structure  136: running
+Structure  137: running
+Structure  138: running
+Structure  139: running
+Structure  140: running
+Structure  141: running
+Structure  142: running
+Structure  143: running
+Structure  144: running
+Structure  145: running
+Structure  146: running
+Structure  147: running
+Structure  148: running
+Structure  149: running
+Structure  150: running
+Structure  151: running
+Structure  152: running
+Structure  153: running
+Structure  154: running
+Structure  155: running
+Structure  156: running
+Structure  157: running
+Structure  158: running
+Structure  159: running
+Structure  160: running
+Structure  161: running
+Structure  162: running
+Structure  163: running
+Structure  164: running
+Structure  165: running
+Structure  166: running
+Structure  167: running
+Structure  168: running
+Structure  169: running
+Structure  170: running
+Structure  171: running
+Structure  172: running
+Structure  173: running
+Structure  174: running
+Structure  175: running
+Structure  176: running
+Structure  177: running
+Structure  178: running
+Structure  179: running
+Structure  180: running
+Structure  181: running
+Structure  182: running
+Structure  183: running
+Structure  184: running
+Structure  185: running
+Structure  186: running
+Structure  187: running
+Structure  188: running
+Structure  189: running
+Structure  190: running
+Structure  191: running
+Structure  192: running
+Structure  193: running
+Structure  194: running
+Structure  195: running
+Structure  196: running
+Structure  197: running
+Structure  198: running
+Structure  199: running
+Structure  200: running
+------------------------------------------------------------
+
+------------------------------------------------------------
+Structure    1: running
+Structure    2: running
+Structure    3: running
+Structure    4: running
+Structure    5: running
+Structure    6: running
+Structure    7: running
+Structure    8: running
+Structure    9: running
+Structure   10: running
+Structure   21: running
+Structure   22: running
+Structure   23: running
+Structure   24: running
+Structure   25: running
+Structure   26: running
+Structure   27: running
+Structure   28: running
+Structure   29: running
+Structure   30: running
+Structure   31: running
+Structure   32: running
+Structure   33: running
+Structure   34: running
+Structure   35: running
+Structure   36: running
+Structure   37: running
+Structure   38: running
+Structure   39: running
+Structure   40: running
+Structure   51: running
+Structure   52: running
+Structure   53: running
+Structure   54: running
+Structure   55: running
+Structure   56: running
+Structure   57: running
+Structure   58: running
+Structure   59: running
+Structure   60: running
+Structure   61: running
+Structure   62: running
+Structure   63: running
+Structure   64: running
+Structure   65: running
+Structure   66: running
+Structure   67: running
+Structure   68: running
+Structure   69: running
+Structure   70: running
+Structure   71: running
+Structure   72: running
+Structure   73: running
+Structure   74: running
+Structure   75: running
+Structure   76: running
+Structure   77: running
+Structure   78: running
+Structure   79: running
+Structure   80: running
+Structure   81: running
+Structure   82: running
+Structure   83: running
+Structure   84: running
+Structure   85: running
+Structure   86: running
+Structure   87: running
+Structure   88: running
+Structure   89: running
+Structure   90: running
+Structure   91: running
+Structure   92: running
+Structure   93: running
+Structure   94: running
+Structure   95: running
+Structure   96: running
+Structure   97: running
+Structure   98: running
+Structure   99: running
+Structure  100: running
+Structure  101: running
+Structure  102: running
+Structure  103: running
+Structure  104: running
+Structure  105: running
+Structure  106: running
+Structure  107: running
+Structure  108: running
+Structure  109: running
+Structure  110: running
+Structure  111: running
+Structure  112: running
+Structure  113: running
+Structure  114: running
+Structure  115: running
+Structure  116: running
+Structure  117: running
+Structure  118: running
+Structure  119: running
+Structure  120: running
+Structure  121: running
+Structure  122: running
+Structure  123: running
+Structure  124: running
+Structure  125: running
+Structure  126: running
+Structure  127: running
+Structure  128: running
+Structure  129: running
+Structure  130: running
+Structure  131: running
+Structure  132: running
+Structure  133: running
+Structure  134: running
+Structure  135: running
+Structure  136: running
+Structure  137: running
+Structure  138: running
+Structure  139: running
+Structure  140: running
+Structure  141: running
+Structure  142: running
+Structure  143: running
+Structure  144: running
+Structure  145: running
+Structure  146: running
+Structure  147: running
+Structure  148: running
+Structure  149: running
+Structure  150: running
+Structure  151: running
+Structure  152: running
+Structure  153: running
+Structure  154: running
+Structure  155: running
+Structure  156: running
+Structure  157: running
+Structure  158: running
+Structure  159: running
+Structure  160: running
+Structure  161: running
+Structure  162: running
+Structure  163: running
+Structure  164: running
+Structure  165: running
+Structure  166: running
+Structure  167: running
+Structure  168: running
+Structure  169: running
+Structure  170: running
+Structure  171: running
+Structure  172: running
+Structure  173: running
+Structure  174: running
+Structure  175: running
+Structure  176: running
+Structure  177: running
+Structure  178: running
+Structure  179: running
+Structure  180: running
+Structure  181: running
+Structure  182: running
+Structure  183: running
+Structure  184: running
+Structure  185: running
+Structure  186: running
+Structure  187: running
+Structure  188: running
+Structure  189: running
+Structure  190: running
+Structure  191: running
+Structure  192: running
+Structure  193: running
+Structure  194: running
+Structure  195: running
+Structure  196: running
+Structure  197: running
+Structure  198: running
+Structure  199: running
+Structure  200: running
+------------------------------------------------------------
+
+------------------------------------------------------------
+Structure    1: running
+Structure    2: running
+Structure    3: running
+Structure    4: running
+Structure    5: running
+Structure    6: running
+Structure    7: running
+Structure    8: running
+Structure    9: running
+Structure   10: running
+Structure   21: running
+Structure   22: running
+Structure   23: running
+Structure   24: running
+Structure   25: running
+Structure   26: running
+Structure   27: running
+Structure   28: running
+Structure   29: running
+Structure   30: running
+Structure   31: running
+Structure   32: running
+Structure   33: running
+Structure   34: running
+Structure   35: running
+Structure   36: running
+Structure   37: running
+Structure   38: running
+Structure   39: running
+Structure   40: running
+Structure   51: running
+Structure   52: running
+Structure   53: running
+Structure   54: running
+Structure   55: running
+Structure   56: running
+Structure   57: running
+Structure   58: running
+Structure   59: running
+Structure   60: running
+Structure   71: running
+Structure   72: running
+Structure   73: running
+Structure   74: running
+Structure   75: running
+Structure   76: running
+Structure   77: running
+Structure   78: running
+Structure   79: running
+Structure   80: running
+Structure   81: running
+Structure   82: running
+Structure   83: running
+Structure   84: running
+Structure   85: running
+Structure   86: running
+Structure   87: running
+Structure   88: running
+Structure   89: running
+Structure   90: running
+Structure   91: running
+Structure   92: running
+Structure   93: running
+Structure   94: running
+Structure   95: running
+Structure   96: running
+Structure   97: running
+Structure   98: running
+Structure   99: running
+Structure  100: running
+Structure  101: running
+Structure  102: running
+Structure  103: running
+Structure  104: running
+Structure  105: running
+Structure  106: running
+Structure  107: running
+Structure  108: running
+Structure  109: running
+Structure  110: running
+Structure  111: running
+Structure  112: running
+Structure  113: running
+Structure  114: running
+Structure  115: running
+Structure  116: running
+Structure  117: running
+Structure  118: running
+Structure  119: running
+Structure  120: running
+Structure  121: running
+Structure  122: running
+Structure  123: running
+Structure  124: running
+Structure  125: running
+Structure  126: running
+Structure  127: running
+Structure  128: running
+Structure  129: running
+Structure  130: running
+Structure  131: running
+Structure  132: running
+Structure  133: running
+Structure  134: running
+Structure  135: running
+Structure  136: running
+Structure  137: running
+Structure  138: running
+Structure  139: running
+Structure  140: running
+Structure  141: running
+Structure  142: running
+Structure  143: running
+Structure  144: running
+Structure  145: running
+Structure  146: running
+Structure  147: running
+Structure  148: running
+Structure  149: running
+Structure  150: running
+Structure  151: running
+Structure  152: running
+Structure  153: running
+Structure  154: running
+Structure  155: running
+Structure  156: running
+Structure  157: running
+Structure  158: running
+Structure  159: running
+Structure  160: running
+Structure  161: running
+Structure  162: running
+Structure  163: running
+Structure  164: running
+Structure  165: running
+Structure  166: running
+Structure  167: running
+Structure  168: running
+Structure  169: running
+Structure  170: running
+Structure  171: running
+Structure  172: running
+Structure  173: running
+Structure  174: running
+Structure  175: running
+Structure  176: running
+Structure  177: running
+Structure  178: running
+Structure  179: running
+Structure  180: running
+Structure  181: running
+Structure  182: running
+Structure  183: running
+Structure  184: running
+Structure  185: running
+Structure  186: running
+Structure  187: running
+Structure  188: running
+Structure  189: running
+Structure  190: running
+Structure  191: running
+Structure  192: running
+Structure  193: running
+Structure  194: running
+Structure  195: running
+Structure  196: running
+Structure  197: running
+Structure  198: running
+Structure  199: running
+Structure  200: running
+------------------------------------------------------------
+
+------------------------------------------------------------
+------------------------------------------------------------
+
+    creating file.list in /trinity/home/enmr/csb_webserver/data/runs/haddock24/userrun00188213/run1/structures/it1
+    creating file.nam in /trinity/home/enmr/csb_webserver/data/runs/haddock24/userrun00188213/run1/structures/it1
+    creating file.cns in /trinity/home/enmr/csb_webserver/data/runs/haddock24/userrun00188213/run1/structures/it1
+starting analysis scripts for /trinity/home/enmr/csb_webserver/data/runs/haddock24/userrun00188213/run1/structures/it1
+  calculating average structure and similarity matrices
+      queue command:
+        waiting for the average structure...
+/trinity/home/enmr/software/bin/ssub haddock complex_run1_get_average.job
+Submitted batch job 29292548
+
+  running analysis scripts:
+    analyzing NOEs
+      queue command:
+      /trinity/home/enmr/software/bin/ssub haddock complex_run1_print_noes.job
+Submitted batch job 29292556
+
+    calculating residue-based intermolecular energies
+      queue command:
+      /trinity/home/enmr/software/bin/ssub haddock complex_run1_ene-residue.job
+Submitted batch job 29292558
+
+    calculating energies
+      queue command:
+      /trinity/home/enmr/software/bin/ssub haddock complex_run1_energy.job
+Submitted batch job 29292559
+
+    calculating desolvation energy
+      queue command:
+      /trinity/home/enmr/software/bin/ssub haddock complex_run1_edesolv.job
+Submitted batch job 29292560
+
+    analyzing geometry
+      queue command:
+      /trinity/home/enmr/software/bin/ssub haddock complex_run1_print_geom.job
+Submitted batch job 29292561
+
+    analyzing dihedrals
+      queue command:
+      /trinity/home/enmr/software/bin/ssub haddock complex_run1_print_dih.job
+Submitted batch job 29292562
+
+    analyzing radius of gyration
+      queue command:
+      /trinity/home/enmr/software/bin/ssub haddock complex_run1_print_rg.job
+Submitted batch job 29292563
+
+    analyzing residual dipolar coupling (SANI)
+      queue command:
+      /trinity/home/enmr/software/bin/ssub haddock complex_run1_print_sani.job
+Submitted batch job 29292565
+
+    analyzing residual dipolar coupling (VEAN)
+      queue command:
+      /trinity/home/enmr/software/bin/ssub haddock complex_run1_print_vean.job
+Submitted batch job 29292566
+
+    analyzing residual dipolar coupling (XRDC)
+      queue command:
+      /trinity/home/enmr/software/bin/ssub haddock complex_run1_print_xrdc.job
+Submitted batch job 29292567
+
+    analyzing pseudo contact shifts (XPCS)
+      queue command:
+      /trinity/home/enmr/software/bin/ssub haddock complex_run1_print_xpcs.job
+Submitted batch job 29292569
+
+    analyzing diffusion anisotropy restraints (DANI)
+      queue command:
+      /trinity/home/enmr/software/bin/ssub haddock complex_run1_print_dani.job
+Submitted batch job 29292572
+
+    analyzing intermolecular hydrogen bonds
+      queue command:
+      /trinity/home/enmr/software/bin/ssub haddock complex_run1_print_hbonds.job
+Submitted batch job 29292573
+
+    analyzing intermolecular hydrophobic contacts
+      queue command:
+      /trinity/home/enmr/software/bin/ssub haddock complex_run1_print_nb.job
+Submitted batch job 29292574
+
+    calculating pairwise rmsd matrix
+      queue command:
+      /trinity/home/enmr/software/bin/ssub haddock complex_run1_rmsd.job  waiting for the NOE analysis file...
+
+    checking all distance restraints violations in /trinity/home/enmr/csb_webserver/data/runs/haddock24/userrun00188213/run1/structures/it1/analysis/
+        check ana_dist_viol_all.lis for a listing
+Submitted batch job 29292575
+
+    checking all NOE violations in /trinity/home/enmr/csb_webserver/data/runs/haddock24/userrun00188213/run1/structures/it1/analysis/
+        check ana_noe_viol_all.lis for a listing
+    checking unambiguous NOE violations in /trinity/home/enmr/csb_webserver/data/runs/haddock24/userrun00188213/run1/structures/it1/analysis/
+        check ana_noe_viol_unambig.lis for a listing
+    checking ambiguous NOE violations in /trinity/home/enmr/csb_webserver/data/runs/haddock24/userrun00188213/run1/structures/it1/analysis/
+        check ana_noe_viol_ambig.lis for a listing
+    checking hbonds violations in /trinity/home/enmr/csb_webserver/data/runs/haddock24/userrun00188213/run1/structures/it1/analysis/
+        check ana_hbond_viol.out for a listing
+  waiting for the dihedral analysis file...
+    checking dihedral angle restraints violations in /trinity/home/enmr/csb_webserver/data/runs/haddock24/userrun00188213/run1/structures/it1/analysis/
+        check ana_dihed_viol.lis for a listing
+  waiting for the H-bonds analysis file...
+    checking intermolecular hydrogen bonds /trinity/home/enmr/csb_webserver/data/runs/haddock24/userrun00188213/run1/structures/it1/analysis/
+        check ana_hbonds.lis for a listing
+  waiting for the hydrophobic analysis file...
+    checking intermolecular hydrophobic contacts /trinity/home/enmr/csb_webserver/data/runs/haddock24/userrun00188213/run1/structures/it1/analysis/
+        check ana_nbcontacts.lis for a listing
+    starting water refinement for the 200 best structures regarding energy
+starting DOCKING protocol 
+    calculating structure 1
+    calculating structure 2
+    calculating structure 3
+    calculating structure 4
+    calculating structure 5
+    calculating structure 6
+    calculating structure 7
+    calculating structure 8
+    calculating structure 9
+    calculating structure 10
+      queue command:
+      /home/diracegi/grid/diracsubmit-haddock2.4 packages/package_water_1.tar.gz
+    calculating structure 11
+    calculating structure 12
+    calculating structure 13
+    calculating structure 14
+    calculating structure 15
+    calculating structure 16
+    calculating structure 17
+    calculating structure 18
+    calculating structure 19
+    calculating structure 20
+ 
+      queue command:
+      /home/diracegi/grid/diracsubmit-haddock2.4 packages/package_water_2.tar.gz
+    calculating structure 21
+    calculating structure 22
+    calculating structure 23
+    calculating structure 24
+    calculating structure 25
+    calculating structure 26
+    calculating structure 27
+    calculating structure 28
+    calculating structure 29
+    calculating structure 30
+ 
+      queue command:
+      /home/diracegi/grid/diracsubmit-haddock2.4 packages/package_water_3.tar.gz
+    calculating structure 31
+    calculating structure 32
+    calculating structure 33
+    calculating structure 34
+    calculating structure 35
+    calculating structure 36
+    calculating structure 37
+    calculating structure 38
+    calculating structure 39
+    calculating structure 40
+ 
+      queue command:
+      /home/diracegi/grid/diracsubmit-haddock2.4 packages/package_water_4.tar.gz
+    calculating structure 41
+    calculating structure 42
+    calculating structure 43
+    calculating structure 44
+    calculating structure 45
+    calculating structure 46
+    calculating structure 47
+    calculating structure 48
+    calculating structure 49
+    calculating structure 50
+ 
+      queue command:
+      /home/diracegi/grid/diracsubmit-haddock2.4 packages/package_water_5.tar.gz
+    calculating structure 51
+    calculating structure 52
+    calculating structure 53
+    calculating structure 54
+    calculating structure 55
+    calculating structure 56
+    calculating structure 57
+    calculating structure 58
+    calculating structure 59
+    calculating structure 60
+ 
+      queue command:
+      /home/diracegi/grid/diracsubmit-haddock2.4 packages/package_water_6.tar.gz
+    calculating structure 61
+    calculating structure 62
+    calculating structure 63
+    calculating structure 64
+    calculating structure 65
+    calculating structure 66
+    calculating structure 67
+    calculating structure 68
+    calculating structure 69
+    calculating structure 70
+ 
+      queue command:
+      /home/diracegi/grid/diracsubmit-haddock2.4 packages/package_water_7.tar.gz
+    calculating structure 71
+    calculating structure 72
+    calculating structure 73
+    calculating structure 74
+    calculating structure 75
+    calculating structure 76
+    calculating structure 77
+    calculating structure 78
+    calculating structure 79
+    calculating structure 80
+ 
+      queue command:
+      /home/diracegi/grid/diracsubmit-haddock2.4 packages/package_water_8.tar.gz
+    calculating structure 81
+    calculating structure 82
+    calculating structure 83
+    calculating structure 84
+    calculating structure 85
+    calculating structure 86
+    calculating structure 87
+    calculating structure 88
+    calculating structure 89
+    calculating structure 90
+ 
+      queue command:
+      /home/diracegi/grid/diracsubmit-haddock2.4 packages/package_water_9.tar.gz
+    calculating structure 91
+    calculating structure 92
+    calculating structure 93
+    calculating structure 94
+    calculating structure 95
+    calculating structure 96
+    calculating structure 97
+    calculating structure 98
+    calculating structure 99
+    calculating structure 100
+ 
+      queue command:
+      /home/diracegi/grid/diracsubmit-haddock2.4 packages/package_water_10.tar.gz
+    calculating structure 101
+    calculating structure 102
+    calculating structure 103
+    calculating structure 104
+    calculating structure 105
+    calculating structure 106
+    calculating structure 107
+    calculating structure 108
+    calculating structure 109
+    calculating structure 110
+ 
+      queue command:
+      /home/diracegi/grid/diracsubmit-haddock2.4 packages/package_water_11.tar.gz
+    calculating structure 111
+    calculating structure 112
+    calculating structure 113
+    calculating structure 114
+    calculating structure 115
+    calculating structure 116
+    calculating structure 117
+    calculating structure 118
+    calculating structure 119
+    calculating structure 120
+ 
+      queue command:
+      /home/diracegi/grid/diracsubmit-haddock2.4 packages/package_water_12.tar.gz
+    calculating structure 121
+    calculating structure 122
+    calculating structure 123
+    calculating structure 124
+    calculating structure 125
+    calculating structure 126
+    calculating structure 127
+ 
+    calculating structure 128
+    calculating structure 129
+    calculating structure 130
+      queue command:
+      /home/diracegi/grid/diracsubmit-haddock2.4 packages/package_water_13.tar.gz
+    calculating structure 131
+    calculating structure 132
+    calculating structure 133
+    calculating structure 134
+    calculating structure 135
+    calculating structure 136
+    calculating structure 137
+    calculating structure 138
+    calculating structure 139
+    calculating structure 140
+ 
+      queue command:
+      /home/diracegi/grid/diracsubmit-haddock2.4 packages/package_water_14.tar.gz
+    calculating structure 141
+    calculating structure 142
+    calculating structure 143
+    calculating structure 144
+    calculating structure 145
+    calculating structure 146
+    calculating structure 147
+    calculating structure 148
+    calculating structure 149
+    calculating structure 150
+ 
+      queue command:
+      /home/diracegi/grid/diracsubmit-haddock2.4 packages/package_water_15.tar.gz
+    calculating structure 151
+    calculating structure 152
+    calculating structure 153
+    calculating structure 154
+    calculating structure 155
+    calculating structure 156
+    calculating structure 157
+    calculating structure 158
+    calculating structure 159
+    calculating structure 160
+ 
+      queue command:
+      /home/diracegi/grid/diracsubmit-haddock2.4 packages/package_water_16.tar.gz
+    calculating structure 161
+    calculating structure 162
+    calculating structure 163
+    calculating structure 164
+    calculating structure 165
+    calculating structure 166
+    calculating structure 167
+    calculating structure 168
+    calculating structure 169
+    calculating structure 170
+ 
+      queue command:
+      /home/diracegi/grid/diracsubmit-haddock2.4 packages/package_water_17.tar.gz
+    calculating structure 171
+    calculating structure 172
+    calculating structure 173
+    calculating structure 174
+    calculating structure 175
+    calculating structure 176
+    calculating structure 177
+ 
+    calculating structure 178
+    calculating structure 179
+    calculating structure 180
+      queue command:
+      /home/diracegi/grid/diracsubmit-haddock2.4 packages/package_water_18.tar.gz
+    calculating structure 181
+    calculating structure 182
+    calculating structure 183
+    calculating structure 184
+    calculating structure 185
+    calculating structure 186
+    calculating structure 187
+    calculating structure 188
+    calculating structure 189
+    calculating structure 190
+ 
+      queue command:
+      /home/diracegi/grid/diracsubmit-haddock2.4 packages/package_water_19.tar.gz
+    calculating structure 191
+    calculating structure 192
+    calculating structure 193
+    calculating structure 194
+    calculating structure 195
+    calculating structure 196
+    calculating structure 197
+ 
+    calculating structure 198
+    calculating structure 199
+    calculating structure 200
+      queue command:
+      /home/diracegi/grid/diracsubmit-haddock2.4 packages/package_water_20.tar.gz
+ 
+------------------------------------------------------------
+Structure    1   14: running
+Structure    2  168: running
+Structure    3   68: running
+Structure    4  114: running
+Structure    5  113: running
+Structure    6   13: running
+Structure    7   61: running
+Structure    8  161: running
+Structure    9  166: running
+Structure   10   66: running
+Structure   11  153: running
+Structure   12  182: running
+Structure   13   82: running
+Structure   14   53: running
+Structure   15   85: running
+Structure   16  128: running
+Structure   17   54: running
+Structure   18  154: running
+Structure   19   28: running
+Structure   20  185: running
+Structure   21  126: running
+Structure   22   26: running
+Structure   23   21: running
+Structure   24  121: running
+Structure   25   30: running
+Structure   26  130: running
+Structure   27  137: running
+Structure   28   37: running
+Structure   29   45: running
+Structure   30  139: running
+Structure   31   94: running
+Structure   32  194: running
+Structure   33   39: running
+Structure   34  145: running
+Structure   35  193: running
+Structure   36  142: running
+Structure   37   42: running
+Structure   38   93: running
+Structure   39  177: running
+Structure   40    2: running
+Structure   41   77: running
+Structure   42   70: running
+Structure   43  170: running
+Structure   44    5: running
+Structure   45  102: running
+Structure   46  179: running
+Structure   47  105: running
+Structure   48   79: running
+Structure   49   20: running
+Structure   50  120: running
+Structure   51  127: running
+Structure   52   27: running
+Structure   53   84: running
+Structure   54  129: running
+Structure   55   55: running
+Structure   56  155: running
+Structure   57   29: running
+Structure   58  184: running
+Structure   59  152: running
+Structure   60  183: running
+Structure   61   83: running
+Structure   62   52: running
+Structure   63  167: running
+Structure   64   67: running
+Structure   65   60: running
+Structure   66  160: running
+Structure   67  112: running
+Structure   68   12: running
+Structure   69   15: running
+Structure   70  169: running
+Structure   71   69: running
+Structure   72  115: running
+Structure   73  178: running
+Structure   74  104: running
+Structure   75   78: running
+Structure   76  103: running
+Structure   77   71: running
+Structure   78  171: running
+Structure   79    4: running
+Structure   80  176: running
+Structure   81    3: running
+Structure   82   76: running
+Structure   83  192: running
+Structure   84  143: running
+Structure   85   43: running
+Structure   86   92: running
+Structure   87   44: running
+Structure   88  138: running
+Structure   89   95: running
+Structure   90  195: running
+Structure   91   38: running
+Structure   92  144: running
+Structure   93  136: running
+Structure   94   36: running
+Structure   95   31: running
+Structure   96  131: running
+Structure   97  100: running
+Structure   98    9: running
+Structure   99  107: running
+Structure  100  175: running
+Structure  101  109: running
+Structure  102   75: running
+Structure  103   72: running
+Structure  104  172: running
+Structure  105    7: running
+Structure  106   47: running
+Structure  107   96: running
+Structure  108  196: running
+Structure  109  147: running
+Structure  110  191: running
+Structure  111  140: running
+Structure  112   40: running
+Structure  113   91: running
+Structure  114   32: running
+Structure  115  132: running
+Structure  116   49: running
+Structure  117  135: running
+Structure  118   98: running
+Structure  119  198: running
+Structure  120   35: running
+Structure  121  149: running
+Structure  122   89: running
+Structure  123  124: running
+Structure  124   58: running
+Structure  125  158: running
+Structure  126   24: running
+Structure  127  189: running
+Structure  128   23: running
+Structure  129  123: running
+Structure  130  151: running
+Structure  131  180: running
+Structure  132   80: running
+Structure  133   51: running
+Structure  134   87: running
+Structure  135   56: running
+Structure  136  156: running
+Structure  137  187: running
+Structure  138   63: running
+Structure  139  163: running
+Structure  140   18: running
+Structure  141  164: running
+Structure  142   64: running
+Structure  143  118: running
+Structure  144   16: running
+Structure  145  116: running
+Structure  146  111: running
+Structure  147   11: running
+Structure  148   48: running
+Structure  149  134: running
+Structure  150   99: running
+Structure  151  199: running
+Structure  152   34: running
+Structure  153  148: running
+Structure  154   33: running
+Structure  155  133: running
+Structure  156  190: running
+Structure  157  141: running
+Structure  158   41: running
+Structure  159   90: running
+Structure  160   46: running
+Structure  161   97: running
+Structure  162  197: running
+Structure  163  146: running
+Structure  164   73: running
+Structure  165  173: running
+Structure  166    6: running
+Structure  167  174: running
+Structure  168    1: running
+Structure  169  108: running
+Structure  170   74: running
+Structure  171  106: running
+Structure  172  101: running
+Structure  173    8: running
+Structure  174  110: running
+Structure  175   10: running
+Structure  176   17: running
+Structure  177  200: running
+Structure  178  117: running
+Structure  179   19: running
+Structure  180  165: running
+Structure  181   65: running
+Structure  182  119: running
+Structure  183   62: running
+Structure  184  162: running
+Structure  185   86: running
+Structure  186   57: running
+Structure  187  157: running
+Structure  188  186: running
+Structure  189  150: running
+Structure  190  181: running
+Structure  191   81: running
+Structure  192   50: running
+Structure  193   22: running
+Structure  194  122: running
+Structure  195   88: running
+Structure  196  125: running
+Structure  197   59: running
+Structure  198  159: running
+Structure  199   25: running
+Structure  200  188: running
+------------------------------------------------------------
+
+------------------------------------------------------------
+Structure    1   14: running
+Structure    2  168: running
+Structure    3   68: running
+Structure    4  114: running
+Structure    5  113: running
+Structure    6   13: running
+Structure    7   61: running
+Structure    8  161: running
+Structure    9  166: running
+Structure   10   66: running
+Structure   21  126: running
+Structure   22   26: running
+Structure   23   21: running
+Structure   24  121: running
+Structure   25   30: running
+Structure   26  130: running
+Structure   27  137: running
+Structure   28   37: running
+Structure   29   45: running
+Structure   30  139: running
+Structure   31   94: running
+Structure   32  194: running
+Structure   33   39: running
+Structure   34  145: running
+Structure   35  193: running
+Structure   36  142: running
+Structure   37   42: running
+Structure   38   93: running
+Structure   39  177: running
+Structure   40    2: running
+Structure   41   77: running
+Structure   42   70: running
+Structure   43  170: running
+Structure   44    5: running
+Structure   45  102: running
+Structure   46  179: running
+Structure   47  105: running
+Structure   48   79: running
+Structure   49   20: running
+Structure   50  120: running
+Structure   61   83: running
+Structure   62   52: running
+Structure   63  167: running
+Structure   64   67: running
+Structure   65   60: running
+Structure   66  160: running
+Structure   67  112: running
+Structure   68   12: running
+Structure   69   15: running
+Structure   70  169: running
+Structure   71   69: running
+Structure   72  115: running
+Structure   73  178: running
+Structure   74  104: running
+Structure   75   78: running
+Structure   76  103: running
+Structure   77   71: running
+Structure   78  171: running
+Structure   79    4: running
+Structure   80  176: running
+Structure   81    3: running
+Structure   82   76: running
+Structure   83  192: running
+Structure   84  143: running
+Structure   85   43: running
+Structure   86   92: running
+Structure   87   44: running
+Structure   88  138: running
+Structure   89   95: running
+Structure   90  195: running
+Structure   91   38: running
+Structure   92  144: running
+Structure   93  136: running
+Structure   94   36: running
+Structure   95   31: running
+Structure   96  131: running
+Structure   97  100: running
+Structure   98    9: running
+Structure   99  107: running
+Structure  100  175: running
+Structure  101  109: running
+Structure  102   75: running
+Structure  103   72: running
+Structure  104  172: running
+Structure  105    7: running
+Structure  106   47: running
+Structure  107   96: running
+Structure  108  196: running
+Structure  109  147: running
+Structure  110  191: running
+Structure  121  149: running
+Structure  122   89: running
+Structure  123  124: running
+Structure  124   58: running
+Structure  125  158: running
+Structure  126   24: running
+Structure  127  189: running
+Structure  128   23: running
+Structure  129  123: running
+Structure  130  151: running
+Structure  131  180: running
+Structure  132   80: running
+Structure  133   51: running
+Structure  134   87: running
+Structure  135   56: running
+Structure  136  156: running
+Structure  137  187: running
+Structure  138   63: running
+Structure  139  163: running
+Structure  140   18: running
+Structure  141  164: running
+Structure  142   64: running
+Structure  143  118: running
+Structure  144   16: running
+Structure  145  116: running
+Structure  146  111: running
+Structure  147   11: running
+Structure  148   48: running
+Structure  149  134: running
+Structure  150   99: running
+Structure  151  199: running
+Structure  152   34: running
+Structure  153  148: running
+Structure  154   33: running
+Structure  155  133: running
+Structure  156  190: running
+Structure  157  141: running
+Structure  158   41: running
+Structure  159   90: running
+Structure  160   46: running
+Structure  161   97: running
+Structure  162  197: running
+Structure  163  146: running
+Structure  164   73: running
+Structure  165  173: running
+Structure  166    6: running
+Structure  167  174: running
+Structure  168    1: running
+Structure  169  108: running
+Structure  170   74: running
+Structure  171  106: running
+Structure  172  101: running
+Structure  173    8: running
+Structure  174  110: running
+Structure  175   10: running
+Structure  176   17: running
+Structure  177  200: running
+Structure  178  117: running
+Structure  179   19: running
+Structure  180  165: running
+Structure  181   65: running
+Structure  182  119: running
+Structure  183   62: running
+Structure  184  162: running
+Structure  185   86: running
+Structure  186   57: running
+Structure  187  157: running
+Structure  188  186: running
+Structure  189  150: running
+Structure  190  181: running
+Structure  191   81: running
+Structure  192   50: running
+Structure  193   22: running
+Structure  194  122: running
+Structure  195   88: running
+Structure  196  125: running
+Structure  197   59: running
+Structure  198  159: running
+Structure  199   25: running
+Structure  200  188: running
+------------------------------------------------------------
+
+------------------------------------------------------------
+Structure    1   14: running
+Structure    2  168: running
+Structure    3   68: running
+Structure    4  114: running
+Structure    5  113: running
+Structure    6   13: running
+Structure    7   61: running
+Structure    8  161: running
+Structure    9  166: running
+Structure   10   66: running
+Structure   21  126: running
+Structure   22   26: running
+Structure   23   21: running
+Structure   24  121: running
+Structure   25   30: running
+Structure   26  130: running
+Structure   27  137: running
+Structure   28   37: running
+Structure   29   45: running
+Structure   30  139: running
+Structure   41   77: running
+Structure   42   70: running
+Structure   43  170: running
+Structure   44    5: running
+Structure   45  102: running
+Structure   46  179: running
+Structure   47  105: running
+Structure   48   79: running
+Structure   49   20: running
+Structure   50  120: running
+Structure   61   83: running
+Structure   62   52: running
+Structure   63  167: running
+Structure   64   67: running
+Structure   65   60: running
+Structure   66  160: running
+Structure   67  112: running
+Structure   68   12: running
+Structure   69   15: running
+Structure   70  169: running
+Structure   71   69: running
+Structure   72  115: running
+Structure   73  178: running
+Structure   74  104: running
+Structure   75   78: running
+Structure   76  103: running
+Structure   77   71: running
+Structure   78  171: running
+Structure   79    4: running
+Structure   80  176: running
+Structure   81    3: running
+Structure   82   76: running
+Structure   83  192: running
+Structure   84  143: running
+Structure   85   43: running
+Structure   86   92: running
+Structure   87   44: running
+Structure   88  138: running
+Structure   89   95: running
+Structure   90  195: running
+Structure   91   38: running
+Structure   92  144: running
+Structure   93  136: running
+Structure   94   36: running
+Structure   95   31: running
+Structure   96  131: running
+Structure   97  100: running
+Structure   98    9: running
+Structure   99  107: running
+Structure  100  175: running
+Structure  101  109: running
+Structure  102   75: running
+Structure  103   72: running
+Structure  104  172: running
+Structure  105    7: running
+Structure  106   47: running
+Structure  107   96: running
+Structure  108  196: running
+Structure  109  147: running
+Structure  110  191: running
+Structure  121  149: running
+Structure  122   89: running
+Structure  123  124: running
+Structure  124   58: running
+Structure  125  158: running
+Structure  126   24: running
+Structure  127  189: running
+Structure  128   23: running
+Structure  129  123: running
+Structure  130  151: running
+Structure  131  180: running
+Structure  132   80: running
+Structure  133   51: running
+Structure  134   87: running
+Structure  135   56: running
+Structure  136  156: running
+Structure  137  187: running
+Structure  138   63: running
+Structure  139  163: running
+Structure  140   18: running
+Structure  141  164: running
+Structure  142   64: running
+Structure  143  118: running
+Structure  144   16: running
+Structure  145  116: running
+Structure  146  111: running
+Structure  147   11: running
+Structure  148   48: running
+Structure  149  134: running
+Structure  150   99: running
+Structure  151  199: running
+Structure  152   34: running
+Structure  153  148: running
+Structure  154   33: running
+Structure  155  133: running
+Structure  156  190: running
+Structure  157  141: running
+Structure  158   41: running
+Structure  159   90: running
+Structure  160   46: running
+Structure  171  106: running
+Structure  172  101: running
+Structure  173    8: running
+Structure  174  110: running
+Structure  175   10: running
+Structure  176   17: running
+Structure  177  200: running
+Structure  178  117: running
+Structure  179   19: running
+Structure  180  165: running
+Structure  181   65: running
+Structure  182  119: running
+Structure  183   62: running
+Structure  184  162: running
+Structure  185   86: running
+Structure  186   57: running
+Structure  187  157: running
+Structure  188  186: running
+Structure  189  150: running
+Structure  190  181: running
+Structure  191   81: running
+Structure  192   50: running
+Structure  193   22: running
+Structure  194  122: running
+Structure  195   88: running
+Structure  196  125: running
+Structure  197   59: running
+Structure  198  159: running
+Structure  199   25: running
+Structure  200  188: running
+------------------------------------------------------------
+
+------------------------------------------------------------
+Structure   21  126: running
+Structure   22   26: running
+Structure   23   21: running
+Structure   24  121: running
+Structure   25   30: running
+Structure   26  130: running
+Structure   27  137: running
+Structure   28   37: running
+Structure   29   45: running
+Structure   30  139: running
+Structure   61   83: running
+Structure   62   52: running
+Structure   63  167: running
+Structure   64   67: running
+Structure   65   60: running
+Structure   66  160: running
+Structure   67  112: running
+Structure   68   12: running
+Structure   69   15: running
+Structure   70  169: running
+Structure   81    3: running
+Structure   82   76: running
+Structure   83  192: running
+Structure   84  143: running
+Structure   85   43: running
+Structure   86   92: running
+Structure   87   44: running
+Structure   88  138: running
+Structure   89   95: running
+Structure   90  195: running
+Structure   91   38: running
+Structure   92  144: running
+Structure   93  136: running
+Structure   94   36: running
+Structure   95   31: running
+Structure   96  131: running
+Structure   97  100: running
+Structure   98    9: running
+Structure   99  107: running
+Structure  100  175: running
+Structure  101  109: running
+Structure  102   75: running
+Structure  103   72: running
+Structure  104  172: running
+Structure  105    7: running
+Structure  106   47: running
+Structure  107   96: running
+Structure  108  196: running
+Structure  109  147: running
+Structure  110  191: running
+Structure  121  149: running
+Structure  122   89: running
+Structure  123  124: running
+Structure  124   58: running
+Structure  125  158: running
+Structure  126   24: running
+Structure  127  189: running
+Structure  128   23: running
+Structure  129  123: running
+Structure  130  151: running
+Structure  141  164: running
+Structure  142   64: running
+Structure  143  118: running
+Structure  144   16: running
+Structure  145  116: running
+Structure  146  111: running
+Structure  147   11: running
+Structure  148   48: running
+Structure  149  134: running
+Structure  150   99: running
+Structure  151  199: running
+Structure  152   34: running
+Structure  153  148: running
+Structure  154   33: running
+Structure  155  133: running
+Structure  156  190: running
+Structure  157  141: running
+Structure  158   41: running
+Structure  159   90: running
+Structure  160   46: running
+Structure  171  106: running
+Structure  172  101: running
+Structure  173    8: running
+Structure  174  110: running
+Structure  175   10: running
+Structure  176   17: running
+Structure  177  200: running
+Structure  178  117: running
+Structure  179   19: running
+Structure  180  165: running
+------------------------------------------------------------
+
+------------------------------------------------------------
+Structure   61   83: running
+Structure   62   52: running
+Structure   63  167: running
+Structure   64   67: running
+Structure   65   60: running
+Structure   66  160: running
+Structure   67  112: running
+Structure   68   12: running
+Structure   69   15: running
+Structure   70  169: running
+------------------------------------------------------------
+
+------------------------------------------------------------
+------------------------------------------------------------
+
+Cleaning up HADDOCK run directory
+Only  files for structure #1 will be kept...
+    creating file.list in /trinity/home/enmr/csb_webserver/data/runs/haddock24/userrun00188213/run1/structures/it1/water
+    creating file.nam in /trinity/home/enmr/csb_webserver/data/runs/haddock24/userrun00188213/run1/structures/it1/water
+    creating file.cns in /trinity/home/enmr/csb_webserver/data/runs/haddock24/userrun00188213/run1/structures/it1/water
+starting analysis scripts for /trinity/home/enmr/csb_webserver/data/runs/haddock24/userrun00188213/run1/structures/it1/water
+  calculating average structure and similarity matrices
+      queue command:
+      /trinity/home/enmr/software/bin/ssub haddock complex_run1_get_average.job
+   waiting for the average structure...
+Submitted batch job 29293220
+
+  running analysis scripts:
+    analyzing NOEs
+      queue command:
+      /trinity/home/enmr/software/bin/ssub haddock complex_run1_print_noes-water.job
+Submitted batch job 29293230
+
+    calculating residue-based intermolecular energies
+      queue command:
+      /trinity/home/enmr/software/bin/ssub haddock complex_run1_ene-residue-water.job
+Submitted batch job 29293231
+
+    calculating energies
+      queue command:
+      /trinity/home/enmr/software/bin/ssub haddock complex_run1_energy-water.job
+Submitted batch job 29293232
+
+    calculating desolvation energy
+      queue command:
+      /trinity/home/enmr/software/bin/ssub haddock complex_run1_edesolv-water.job
+Submitted batch job 29293233
+
+    analyzing geometry
+      queue command:
+      /trinity/home/enmr/software/bin/ssub haddock complex_run1_print_geom-water.job
+Submitted batch job 29293238
+
+    analyzing dihedrals
+      queue command:
+      /trinity/home/enmr/software/bin/ssub haddock complex_run1_print_dih-water.job
+Submitted batch job 29293239
+
+    analyzing radius of gyration
+      queue command:
+      /trinity/home/enmr/software/bin/ssub haddock complex_run1_print_rg-water.job
+Submitted batch job 29293240
+
+    analyzing residual dipolar coupling (SANI)
+      queue command:
+      /trinity/home/enmr/software/bin/ssub haddock complex_run1_print_sani-water.job
+Submitted batch job 29293241
+
+    analyzing residual dipolar coupling (VEAN)
+      queue command:
+      /trinity/home/enmr/software/bin/ssub haddock complex_run1_print_vean-water.job
+Submitted batch job 29293242
+
+    analyzing residual dipolar coupling (XRDC)
+      queue command:
+      /trinity/home/enmr/software/bin/ssub haddock complex_run1_print_xrdc-water.job
+Submitted batch job 29293243
+
+    analyzing pseudo contact shifts (XPCS)
+      queue command:
+      /trinity/home/enmr/software/bin/ssub haddock complex_run1_print_xpcs-water.job
+Submitted batch job 29293244
+
+    analyzing diffusion anisotropy restraints (DANI)
+      queue command:
+      /trinity/home/enmr/software/bin/ssub haddock complex_run1_print_dani-water.job
+Submitted batch job 29293246
+
+    analyzing intermolecular hydrogen bonds
+      queue command:
+      /trinity/home/enmr/software/bin/ssub haddock complex_run1_print_hbonds-water.job
+Submitted batch job 29293247
+
+    analyzing intermolecular hydrophobic contacts
+      queue command:
+      /trinity/home/enmr/software/bin/ssub haddock complex_run1_print_nb-water.job
+Submitted batch job 29293248
+
+    calculating pairwise rmsd matrix
+      queue command:
+      /trinity/home/enmr/software/bin/ssub haddock complex_run1_rmsd-water.job
+  waiting for the NOE analysis file...
+    checking all distance restraints violations in /trinity/home/enmr/csb_webserver/data/runs/haddock24/userrun00188213/run1/structures/it1/water/analysis/
+        check ana_dist_viol_all.lis for a listing
+Submitted batch job 29293249
+
+    checking all NOE violations in /trinity/home/enmr/csb_webserver/data/runs/haddock24/userrun00188213/run1/structures/it1/water/analysis/
+        check ana_noe_viol_all.lis for a listing
+    checking unambiguous NOE violations in /trinity/home/enmr/csb_webserver/data/runs/haddock24/userrun00188213/run1/structures/it1/water/analysis/
+        check ana_noe_viol_unambig.lis for a listing
+    checking ambiguous NOE violations in /trinity/home/enmr/csb_webserver/data/runs/haddock24/userrun00188213/run1/structures/it1/water/analysis/
+        check ana_noe_viol_ambig.lis for a listing
+    checking hbonds violations in /trinity/home/enmr/csb_webserver/data/runs/haddock24/userrun00188213/run1/structures/it1/water/analysis/
+        check ana_hbond_viol.out for a listing
+  waiting for the dihedral analysis file...
+    checking dihedral angle restraints violations in /trinity/home/enmr/csb_webserver/data/runs/haddock24/userrun00188213/run1/structures/it1/water/analysis/
+        check ana_dihed_viol.lis for a listing
+  waiting for the H-bonds analysis file...
+    checking intermolecular hydrogen bonds /trinity/home/enmr/csb_webserver/data/runs/haddock24/userrun00188213/run1/structures/it1/water/analysis/
+        check ana_hbonds.lis for a listing
+  waiting for the hydrophobic analysis file...
+    checking intermolecular hydrophobic contacts /trinity/home/enmr/csb_webserver/data/runs/haddock24/userrun00188213/run1/structures/it1/water/analysis/
+        check ana_nbcontacts.lis for a listing
+  waiting for the matrix file in it1/analysis...
+  matrix file in it1/analysis is found
+  running clustering for it1/
+  Clustering in  /trinity/home/enmr/csb_webserver/data/runs/haddock24/userrun00188213/run1/structures/it1/analysis  DONE
+  Check file  /trinity/home/enmr/csb_webserver/data/runs/haddock24/userrun00188213/run1/structures/it1/analysis /cluster.out
+  waiting for the ene-residue file in it1/analysis...
+  ene-residue file in it1/analysis is found
+  waiting for the matrix file in water/analysis...
+  matrix file in water/analysis is found
+  running clustering for it1/water
+  Clustering in  /trinity/home/enmr/csb_webserver/data/runs/haddock24/userrun00188213/run1/structures/it1/water/analysis  DONE
+  Check file  /trinity/home/enmr/csb_webserver/data/runs/haddock24/userrun00188213/run1/structures/it1/water/analysis /cluster.out
+  waiting for the ene-residue file in it1/water/analysis...
+  ene-residue file in it1/water/analysis is found
+  Now compressing the output files...
+  Cleaning up the run directory ... 
+##############################################################################
+Finishing HADDOCK on:  2022-11-02 01:36:47
+Au revoir.
+Tot ziens.
+Bye bye.
+
+##############################################################################
+#                                                                            #
+# Starting HADDOCK2.4                                                        #
+#                                                                            #
+#         N-components version of HADDOCK (current maximum is 20)            #
+#                                                                            #
+#   Copyright 2003-2020 Alexandre Bonvin, Utrecht University.                #
+#   Originally adapted from Aria 1.2 from Nilges and Linge, EMBL.            #
+#   All rights reserved.                                                     #
+#   This code is part of the HADDOCK software and governed by its            #
+#   license. Please see the LICENSE file that should have been included      #
+#   as part of this package.                                                 #
+#                                                                            #
+##############################################################################
+    
+Starting HADDOCK on: 2022-11-02 01:36:47
+ 
+HADDOCK version:   2.4 - August 2022
+Python version: 2.7.15 (default, May  3 2018, 08:55:22) 
+[GCC 4.8.5 20150623 (Red Hat 4.8.5-16)]
+Cleaning up HADDOCK run directory
+Only  files for structure #1 will be kept...
+parsing run.cns file
+parsing run.param in /trinity/home/enmr/csb_webserver/data/runs/haddock24/userrun00188213/run1/data
+reading parameters from the file /trinity/home/enmr/csb_webserver/data/runs/haddock24/userrun00188213/run1/data/run.param
+  setting some variables:
+  N_COMP set to: 2
+  UNAMBIG_TBL set to: unambig.tbl
+  HADDOCK_DIR set to: /home/enmr/software/haddock2.4
+  RUN_NUMBER set to: 1
+  PROT_SEGID_2 set to: B
+  PROT_SEGID_1 set to: A
+  PDB_FILE1 set to: protein1.pdb
+  PDB_FILE2 set to: protein2.pdb
+  PROJECT_DIR set to: /home/enmr/csb_webserver/data/runs/haddock24/userrun00188213
+N_COMP 2
+UNAMBIG_TBL unambig.tbl
+HADDOCK_DIR /home/enmr/software/haddock2.4
+RUN_NUMBER 1
+PROT_SEGID_2 B
+PROT_SEGID_1 A
+PDB_FILE1 protein1.pdb
+PDB_FILE2 protein2.pdb
+PROJECT_DIR /home/enmr/csb_webserver/data/runs/haddock24/userrun00188213
+looking for existing files
+waterdock false
+  waiting for the psf files...
+looking for iteration 0
+file.list exists => iteration 0 finished.
+looking for iteration 1
+file.list exists => iteration 1 finished.
+CNS analysis files in it1/analysis already exist.
+To rerun the analysis delete the "DONE" file in the analysis directory.
+file it1/water/file.list already exists => water refinement done.
+CNS analysis files of the water refined structures already exist.
+To rerun the analysis delete the "DONE" file in the analysis directory.
+Cluster file in it1/analysis already exist.
+To rerun the clustering delete the "CLUST_DONE" file in the analysis directory.
+  waiting for the ene-residue file in it1/analysis...
+  ene-residue file in it1/analysis is found
+Cluster file in it1/water/analysis already exist.
+To rerun the clustering delete the "CLUST_DONE" file in the analysis directory.
+  waiting for the ene-residue file in it1/water/analysis...
+  ene-residue file in it1/water/analysis is found
+  Now compressing the output files...
+  Cleaning up the run directory ... 
+##############################################################################
+Finishing HADDOCK on:  2022-11-02 01:37:08
+Au revoir.
+Tot ziens.
+Bye bye.
+Cleaning up HADDOCK run directory
+Only  files for structure #1 will be kept...
++ BEGIN: Wed Nov  2 01:37:49 2022
++ Parsing 201 contact files
++ Calculating Matrix
++ Writing matrix to <stdout>
++ END: Wed Nov  2 01:37:49 2022 [  0.01 seconds elapsed]
+mv: No match.
+/trinity/home/enmr/csb_webserver/data/results/haddock24/7999758290/188213-HES1_refinement-h24_dr_unambg/structures/it1/water/CAPRI_analysis/../analysis//RMSD_Calc.sh: line 58: [: ==: unary operator expected
+/trinity/home/enmr/csb_webserver/data/results/haddock24/7999758290/188213-HES1_refinement-h24_dr_unambg/structures/it1/water/CAPRI_analysis/../analysis//RMSD_Calc.sh: line 192: [: missing `]'
+/trinity/home/enmr/csb_webserver/data/results/haddock24/7999758290/188213-HES1_refinement-h24_dr_unambg/structures/it1/water/CAPRI_analysis/../analysis//RMSD_Calc.sh: line 58: [: ==: unary operator expected
+/trinity/home/enmr/csb_webserver/data/results/haddock24/7999758290/188213-HES1_refinement-h24_dr_unambg/structures/it1/water/CAPRI_analysis/../analysis//RMSD_Calc.sh: line 192: [: missing `]'
+rm: No match.
+/usr/bin/ls: write error: Broken pipe

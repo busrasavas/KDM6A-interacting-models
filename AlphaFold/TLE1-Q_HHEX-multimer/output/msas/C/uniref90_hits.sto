@@ -1,0 +1,711 @@
+# STOCKHOLM 1.0
+
+#=GS UniRef90_UPI0013620371/1-98    DE [subseq from] hematopoietically-expressed homeobox protein HHEX n=1 Tax=Hylobates moloch TaxID=81572 RepID=UPI0013620371
+#=GS UniRef90_A0A5F8A839/1-98       DE [subseq from] Hematopoietically expressed homeobox n=1 Tax=Macaca mulatta TaxID=9544 RepID=A0A5F8A839_MACMU
+#=GS UniRef90_F7HNF7/1-98           DE [subseq from] Hematopoietically expressed homeobox n=15 Tax=Boreoeutheria TaxID=1437010 RepID=F7HNF7_MACMU
+#=GS UniRef90_Q03014/1-98           DE [subseq from] Hematopoietically-expressed homeobox protein HHEX n=12 Tax=Simiiformes TaxID=314293 RepID=HHEX_HUMAN
+#=GS UniRef90_A0A2K5RXB9/1-98       DE [subseq from] Homeobox domain-containing protein n=2 Tax=Simiiformes TaxID=314293 RepID=A0A2K5RXB9_CEBIM
+#=GS UniRef90_A0A8C7C3W8/1-100      DE [subseq from] Hematopoietically expressed homeobox n=3 Tax=Boreoeutheria TaxID=1437010 RepID=A0A8C7C3W8_NEOVI
+#=GS UniRef90_A0A4X1UY77/1-98       DE [subseq from] Hematopoietically expressed homeobox n=4 Tax=Sus scrofa TaxID=9823 RepID=A0A4X1UY77_PIG
+#=GS UniRef90_M3WU79/1-99           DE [subseq from] Hematopoietically expressed homeobox n=52 Tax=Eutheria TaxID=9347 RepID=M3WU79_FELCA
+#=GS UniRef90_A7YWK1/1-100          DE [subseq from] HHEX protein n=18 Tax=Artiodactyla TaxID=91561 RepID=A7YWK1_BOVIN
+#=GS UniRef90_G1TC79/1-98           DE [subseq from] Homeobox domain-containing protein n=4 Tax=Lagomorpha TaxID=9975 RepID=G1TC79_RABIT
+#=GS UniRef90_L7P7I0/1-100          DE [subseq from] Hematopoietically expressed homeobox (Fragment) n=3 Tax=Eutheria TaxID=9347 RepID=L7P7I0_TUPBE
+#=GS UniRef90_A0A452DS46/1-100      DE [subseq from] Hematopoietically expressed homeobox n=3 Tax=Artiodactyla TaxID=91561 RepID=A0A452DS46_CAPHI
+#=GS UniRef90_I3M7I6/1-100          DE [subseq from] Hematopoietically expressed homeobox n=6 Tax=Rodentia TaxID=9989 RepID=I3M7I6_ICTTR
+#=GS UniRef90_A0A8D2HMQ3/1-100      DE [subseq from] Homeobox domain-containing protein n=1 Tax=Urocitellus parryii TaxID=9999 RepID=A0A8D2HMQ3_UROPR
+#=GS UniRef90_H0XCS4/2-99           DE [subseq from] Hematopoietically expressed homeobox n=2 Tax=Otolemur garnettii TaxID=30611 RepID=H0XCS4_OTOGA
+#=GS UniRef90_A0A2Y9D8P8/1-100      DE [subseq from] hematopoietically-expressed homeobox protein HHEX n=6 Tax=Eutheria TaxID=9347 RepID=A0A2Y9D8P8_TRIMA
+#=GS UniRef90_A0A7J7E741/1-99       DE [subseq from] Homeobox domain-containing protein n=5 Tax=Laurasiatheria TaxID=314145 RepID=A0A7J7E741_DICBM
+#=GS UniRef90_P43120/1-99           DE [subseq from] Hematopoietically-expressed homeobox protein Hhex n=21 Tax=Tetrapoda TaxID=32523 RepID=HHEX_MOUSE
+#=GS UniRef90_A0A6P3F8Z8/1-96       DE [subseq from] hematopoietically-expressed homeobox protein HHEX n=5 Tax=Hystricomorpha TaxID=33550 RepID=A0A6P3F8Z8_OCTDE
+#=GS UniRef90_A0A6I9IUT6/1-104      DE [subseq from] hematopoietically-expressed homeobox protein HHEX n=2 Tax=Eutheria TaxID=9347 RepID=A0A6I9IUT6_CHRAS
+#=GS UniRef90_A0A1S2ZBK4/1-97       DE [subseq from] hematopoietically-expressed homeobox protein HHEX n=12 Tax=Boreoeutheria TaxID=1437010 RepID=A0A1S2ZBK4_ERIEU
+#=GS UniRef90_A0A7N5KAA8/1-85       DE [subseq from] Hematopoietically expressed homeobox n=4 Tax=Caniformia TaxID=379584 RepID=A0A7N5KAA8_AILME
+#=GS UniRef90_UPI0006D90F6F/197-279 DE [subseq from] hematopoietically-expressed homeobox protein HHEX n=1 Tax=Bos mutus TaxID=72004 RepID=UPI0006D90F6F
+#=GS UniRef90_F7EGI1/1-104          DE [subseq from] Homeobox domain-containing protein n=7 Tax=Metatheria TaxID=9263 RepID=F7EGI1_MONDO
+#=GS UniRef90_A0A212CPC0/184-273    DE [subseq from] HHEX (Fragment) n=1 Tax=Cervus elaphus hippelaphus TaxID=46360 RepID=A0A212CPC0_CEREH
+#=GS UniRef90_A0A8C4XN91/1-104      DE [subseq from] Homeobox domain-containing protein n=2 Tax=Neognathae TaxID=8825 RepID=A0A8C4XN91_FALTI
+#=GS UniRef90_W5MJH4/1-98           DE [subseq from] Hematopoietically expressed homeobox n=3 Tax=Lepisosteidae TaxID=7915 RepID=W5MJH4_LEPOC
+#=GS UniRef90_A0A672V9P9/1-104      DE [subseq from] Hematopoietically expressed homeobox n=15 Tax=Neognathae TaxID=8825 RepID=A0A672V9P9_STRHB
+#=GS UniRef90_UPI00074FF424/1-95    DE [subseq from] hematopoietically-expressed homeobox protein HHEX n=1 Tax=Gekko japonicus TaxID=146911 RepID=UPI00074FF424
+#=GS UniRef90_A0A6I9YVY4/1-97       DE [subseq from] hematopoietically-expressed homeobox protein HHEX n=1 Tax=Thamnophis sirtalis TaxID=35019 RepID=A0A6I9YVY4_9SAUR
+#=GS UniRef90_A0A674H9W6/1-104      DE [subseq from] Homeobox domain-containing protein n=2 Tax=Passeriformes TaxID=9126 RepID=A0A674H9W6_TAEGU
+#=GS UniRef90_A0A674GU14/1-104      DE [subseq from] Homeobox domain-containing protein n=7 Tax=Neognathae TaxID=8825 RepID=A0A674GU14_TAEGU
+#=GS UniRef90_H0ZF24/1-104          DE [subseq from] Homeobox domain-containing protein n=23 Tax=Neognathae TaxID=8825 RepID=H0ZF24_TAEGU
+#=GS UniRef90_UPI001863B4ED/1-95    DE [subseq from] hematopoietically-expressed homeobox protein hhex n=2 Tax=Elopomorpha TaxID=32521 RepID=UPI001863B4ED
+#=GS UniRef90_A0A6F9C6S6/1-94       DE [subseq from] Homeobox domain-containing protein n=5 Tax=Coregonus TaxID=27772 RepID=A0A6F9C6S6_9TELE
+#=GS UniRef90_A0A493TDR1/1-105      DE [subseq from] Homeobox domain-containing protein n=1 Tax=Anas platyrhynchos platyrhynchos TaxID=8840 RepID=A0A493TDR1_ANAPP
+#=GS UniRef90_A0A8B9ZKG9/1-105      DE [subseq from] Hematopoietically expressed homeobox n=4 Tax=Anatidae TaxID=8830 RepID=A0A8B9ZKG9_ANAPL
+#=GS UniRef90_UPI0008544AF8/1-98    DE [subseq from] hematopoietically-expressed homeobox protein HHEX n=2 Tax=Ranoidea TaxID=30352 RepID=UPI0008544AF8
+#=GS UniRef90_Q05502/1-105          DE [subseq from] Hematopoietically-expressed homeobox protein HHEX n=10 Tax=Galliformes TaxID=8976 RepID=HHEX_CHICK
+#=GS UniRef90_C1BKT0/1-97           DE [subseq from] Homeobox protein PRH n=2 Tax=Osmeridae TaxID=8012 RepID=C1BKT0_OSMMO
+#=GS UniRef90_A0A6P7Y7Z6/1-101      DE [subseq from] hematopoietically-expressed homeobox protein HHEX n=2 Tax=Gymnophiona TaxID=8445 RepID=A0A6P7Y7Z6_9AMPH
+#=GS UniRef90_UPI00112FD381/1-97    DE [subseq from] LOW QUALITY PROTEIN: hematopoietically-expressed homeobox protein HHEX n=1 Tax=Oncorhynchus nerka TaxID=8023 RepID=UPI00112FD381
+#=GS UniRef90_UPI0011264935/7-110   DE [subseq from] hematopoietically-expressed homeobox protein HHEX n=1 Tax=Rhinatrema bivittatum TaxID=194408 RepID=UPI0011264935
+#=GS UniRef90_UPI0015A6B5A2/1-105   DE [subseq from] hematopoietically-expressed homeobox protein HHEX n=2 Tax=Anatidae TaxID=8830 RepID=UPI0015A6B5A2
+#=GS UniRef90_A0A493STJ0/1-105      DE [subseq from] Homeobox domain-containing protein n=1 Tax=Anas platyrhynchos platyrhynchos TaxID=8840 RepID=A0A493STJ0_ANAPP
+#=GS UniRef90_A0A3Q2U008/1-105      DE [subseq from] Hematopoietically-expressed homeobox protein HHEX n=2 Tax=Gallus gallus TaxID=9031 RepID=A0A3Q2U008_CHICK
+#=GS UniRef90_A0A6H1NPV3/1-110      DE [subseq from] Hematopoietically-expressed homeobox protein HHEX n=19 Tax=Archelosauria TaxID=1329799 RepID=A0A6H1NPV3_ALLSI
+#=GS UniRef90_UPI001CF9E2FE/1-98    DE [subseq from] hematopoietically-expressed homeobox protein HHEX n=1 Tax=Protopterus annectens TaxID=7888 RepID=UPI001CF9E2FE
+#=GS UniRef90_A0A8D0GD36/1-108      DE [subseq from] Homeobox domain-containing protein n=1 Tax=Sphenodon punctatus TaxID=8508 RepID=A0A8D0GD36_SPHPU
+#=GS UniRef90_UPI00145BC076/1-99    DE [subseq from] hematopoietically-expressed homeobox protein hhex-like n=4 Tax=Acipenseroidei TaxID=186622 RepID=UPI00145BC076
+#=GS UniRef90_A0A671V0S2/44-92      DE [subseq from] Hematopoietically expressed homeobox n=4 Tax=Eupercaria TaxID=1489922 RepID=A0A671V0S2_SPAAU
+#=GS UniRef90_A0A671V0S2/98-152     DE [subseq from] Hematopoietically expressed homeobox n=4 Tax=Eupercaria TaxID=1489922 RepID=A0A671V0S2_SPAAU
+#=GS UniRef90_A0A3Q3J837/3-60       DE [subseq from] Hematopoietically expressed homeobox n=2 Tax=Monopterus albus TaxID=43700 RepID=A0A3Q3J837_MONAL
+#=GS UniRef90_A0A3Q3J837/62-111     DE [subseq from] Hematopoietically expressed homeobox n=2 Tax=Monopterus albus TaxID=43700 RepID=A0A3Q3J837_MONAL
+#=GS UniRef90_B5X167/1-98           DE [subseq from] Hematopoietically-expressed Homeobox protein HHEX n=16 Tax=Salmoninae TaxID=504568 RepID=B5X167_SALSA
+#=GS UniRef90_A0A670I5U4/7-88       DE [subseq from] Hematopoietically expressed homeobox n=5 Tax=Lacertinae TaxID=162266 RepID=A0A670I5U4_PODMU
+#=GS UniRef90_A0A8D0C8K7/1-95       DE [subseq from] Homeobox domain-containing protein n=1 Tax=Salvator merianae TaxID=96440 RepID=A0A8D0C8K7_9SAUR
+#=GS UniRef90_A0A8C5PDE4/20-120     DE [subseq from] Hematopoietically expressed homeobox n=1 Tax=Leptobrachium leishanense TaxID=445787 RepID=A0A8C5PDE4_9ANUR
+#=GS UniRef90_A0A8C4REY8/1-97       DE [subseq from] Hematopoietically expressed homeobox n=2 Tax=Polypteridae TaxID=8289 RepID=A0A8C4REY8_ERPCA
+#=GS UniRef90_UPI001CF67B47/2-59    DE [subseq from] hematopoietically-expressed homeobox protein hhex n=3 Tax=Percomorphaceae TaxID=1489872 RepID=UPI001CF67B47
+#=GS UniRef90_UPI001CF67B47/56-105  DE [subseq from] hematopoietically-expressed homeobox protein hhex n=3 Tax=Percomorphaceae TaxID=1489872 RepID=UPI001CF67B47
+#=GS UniRef90_A0A8D2IQ99/1-95       DE [subseq from] Hematopoietically expressed homeobox n=1 Tax=Varanus komodoensis TaxID=61221 RepID=A0A8D2IQ99_VARKO
+#=GS UniRef90_A0A8C3CA08/337-442    DE [subseq from] Hematopoietically expressed homeobox n=3 Tax=Anatinae TaxID=2068716 RepID=A0A8C3CA08_CAIMO
+#=GS UniRef90_A0A6J2VBP7/1-95       DE [subseq from] hematopoietically-expressed homeobox protein HHEX n=1 Tax=Chanos chanos TaxID=29144 RepID=A0A6J2VBP7_CHACN
+#=GS UniRef90_A0A4W3JY80/1-98       DE [subseq from] Homeobox domain-containing protein n=2 Tax=Callorhinchus milii TaxID=7868 RepID=A0A4W3JY80_CALMI
+#=GS UniRef90_A0A822AWR3/2-94       DE [subseq from] (mimic poison frog) hypothetical protein n=4 Tax=Hyloidea TaxID=8417 RepID=A0A822AWR3_9NEOB
+#=GS UniRef90_A0A670YM60/6-91       DE [subseq from] Hematopoietically expressed homeobox n=9 Tax=Serpentes TaxID=8570 RepID=A0A670YM60_PSETE
+#=GS UniRef90_A0A667XRH0/6-52       DE [subseq from] Hematopoietically expressed homeobox n=1 Tax=Myripristis murdjan TaxID=586833 RepID=A0A667XRH0_9TELE
+#=GS UniRef90_A0A667XRH0/56-105     DE [subseq from] Hematopoietically expressed homeobox n=1 Tax=Myripristis murdjan TaxID=586833 RepID=A0A667XRH0_9TELE
+#=GS UniRef90_UPI001CE03F72/2-52    DE [subseq from] hematopoietically-expressed homeobox protein hhex n=3 Tax=Centrarchoidei TaxID=1545897 RepID=UPI001CE03F72
+#=GS UniRef90_UPI001CE03F72/52-102  DE [subseq from] hematopoietically-expressed homeobox protein hhex n=3 Tax=Centrarchoidei TaxID=1545897 RepID=UPI001CE03F72
+#=GS UniRef90_H3B2G7/1-98           DE [subseq from] Homeobox domain-containing protein n=1 Tax=Latimeria chalumnae TaxID=7897 RepID=H3B2G7_LATCH
+#=GS UniRef90_A0A3B3R6I7/1-95       DE [subseq from] Hematopoietically expressed homeobox n=2 Tax=Paramormyrops kingsleyae TaxID=1676925 RepID=A0A3B3R6I7_9TELE
+#=GS UniRef90_A0A8C2SCP5/203-264    DE [subseq from] Homeobox domain-containing protein n=1 Tax=Capra hircus TaxID=9925 RepID=A0A8C2SCP5_CAPHI
+#=GS UniRef90_A0A8C7EHL4/1-104      DE [subseq from] Hematopoietically expressed homeobox n=1 Tax=Nothoprocta perdicaria TaxID=30464 RepID=A0A8C7EHL4_NOTPE
+#=GS UniRef90_UPI0012EE9FAB/2-46    DE [subseq from] hematopoietically-expressed homeobox protein HHEX n=2 Tax=Cottioidei TaxID=8100 RepID=UPI0012EE9FAB
+#=GS UniRef90_UPI0012EE9FAB/49-100  DE [subseq from] hematopoietically-expressed homeobox protein HHEX n=2 Tax=Cottioidei TaxID=8100 RepID=UPI0012EE9FAB
+#=GS UniRef90_A0A6J2RQ02/2-41       DE [subseq from] hematopoietically-expressed homeobox protein HHEX n=1 Tax=Cottoperca gobio TaxID=56716 RepID=A0A6J2RQ02_COTGO
+#=GS UniRef90_A0A6J2RQ02/48-97      DE [subseq from] hematopoietically-expressed homeobox protein HHEX n=1 Tax=Cottoperca gobio TaxID=56716 RepID=A0A6J2RQ02_COTGO
+#=GS UniRef90_A0A6I9NTI0/2-38       DE [subseq from] hematopoietically-expressed homeobox protein HHEX-like n=1 Tax=Notothenia coriiceps TaxID=8208 RepID=A0A6I9NTI0_9TELE
+#=GS UniRef90_A0A6I9NTI0/46-96      DE [subseq from] hematopoietically-expressed homeobox protein HHEX-like n=1 Tax=Notothenia coriiceps TaxID=8208 RepID=A0A6I9NTI0_9TELE
+#=GS UniRef90_O13023/1-95           DE [subseq from] Hematopoietically-expressed homeobox protein hhex n=5 Tax=Xenopus TaxID=8353 RepID=HHEX_XENLA
+#=GS UniRef90_A0A4W4F930/1-96       DE [subseq from] Homeobox domain-containing protein n=1 Tax=Electrophorus electricus TaxID=8005 RepID=A0A4W4F930_ELEEL
+#=GS UniRef90_A0A6P3VF94/1-94       DE [subseq from] hematopoietically-expressed homeobox protein hhex n=1 Tax=Clupea harengus TaxID=7950 RepID=A0A6P3VF94_CLUHA
+#=GS UniRef90_UPI001BECB0DF/2-57    DE [subseq from] hematopoietically-expressed homeobox protein hhex n=3 Tax=Eupercaria TaxID=1489922 RepID=UPI001BECB0DF
+#=GS UniRef90_UPI001BECB0DF/59-109  DE [subseq from] hematopoietically-expressed homeobox protein hhex n=3 Tax=Eupercaria TaxID=1489922 RepID=UPI001BECB0DF
+#=GS UniRef90_UPI001C0A1B03/1-96    DE [subseq from] hematopoietically-expressed homeobox protein hhex n=1 Tax=Alosa sapidissima TaxID=34773 RepID=UPI001C0A1B03
+#=GS UniRef90_A0A484CBH7/2-54       DE [subseq from] Homeobox domain-containing protein n=6 Tax=Percidae TaxID=8165 RepID=A0A484CBH7_PERFV
+#=GS UniRef90_A0A484CBH7/56-105     DE [subseq from] Homeobox domain-containing protein n=6 Tax=Percidae TaxID=8165 RepID=A0A484CBH7_PERFV
+#=GS UniRef90_A0A3P8VW75/2-45       DE [subseq from] Hematopoietically expressed homeobox n=1 Tax=Cynoglossus semilaevis TaxID=244447 RepID=A0A3P8VW75_CYNSE
+#=GS UniRef90_A0A3P8VW75/52-101     DE [subseq from] Hematopoietically expressed homeobox n=1 Tax=Cynoglossus semilaevis TaxID=244447 RepID=A0A3P8VW75_CYNSE
+#=GS UniRef90_UPI0014033A44/1-97    DE [subseq from] hematopoietically-expressed homeobox protein HHEX n=1 Tax=Amblyraja radiata TaxID=386614 RepID=UPI0014033A44
+#=GS UniRef90_K7GC88/3-92           DE [subseq from] Homeobox domain-containing protein n=2 Tax=Pelodiscus sinensis TaxID=13735 RepID=K7GC88_PELSI
+#=GS UniRef90_A0A3Q3N2X1/2-42       DE [subseq from] Hematopoietically expressed homeobox n=1 Tax=Mastacembelus armatus TaxID=205130 RepID=A0A3Q3N2X1_9TELE
+#=GS UniRef90_A0A3Q3N2X1/48-101     DE [subseq from] Hematopoietically expressed homeobox n=1 Tax=Mastacembelus armatus TaxID=205130 RepID=A0A3Q3N2X1_9TELE
+#=GS UniRef90_UPI001BD592D8/2-46    DE [subseq from] hematopoietically-expressed homeobox protein hhex n=1 Tax=Cheilinus undulatus TaxID=241271 RepID=UPI001BD592D8
+#=GS UniRef90_UPI001BD592D8/49-102  DE [subseq from] hematopoietically-expressed homeobox protein hhex n=1 Tax=Cheilinus undulatus TaxID=241271 RepID=UPI001BD592D8
+#=GS UniRef90_UPI00148F4534/2-43    DE [subseq from] hematopoietically-expressed homeobox protein hhex n=1 Tax=Notolabrus celidotus TaxID=1203425 RepID=UPI00148F4534
+#=GS UniRef90_UPI00148F4534/49-96   DE [subseq from] hematopoietically-expressed homeobox protein hhex n=1 Tax=Notolabrus celidotus TaxID=1203425 RepID=UPI00148F4534
+#=GS UniRef90_A0A3B4UVU5/11-62      DE [subseq from] Hematopoietically expressed homeobox n=8 Tax=Carangaria TaxID=1489904 RepID=A0A3B4UVU5_SERDU
+#=GS UniRef90_A0A3B4UVU5/69-118     DE [subseq from] Hematopoietically expressed homeobox n=8 Tax=Carangaria TaxID=1489904 RepID=A0A3B4UVU5_SERDU
+#=GS UniRef90_A0A3Q3GY43/9-54       DE [subseq from] Hematopoietically-expressed homeobox protein hhex-like n=2 Tax=Labrus bergylta TaxID=56723 RepID=A0A3Q3GY43_9LABR
+#=GS UniRef90_A0A3Q3GY43/58-103     DE [subseq from] Hematopoietically-expressed homeobox protein hhex-like n=2 Tax=Labrus bergylta TaxID=56723 RepID=A0A3Q3GY43_9LABR
+#=GS UniRef90_A0A3B5MW89/11-96      DE [subseq from] Homeobox domain-containing protein n=1 Tax=Xiphophorus couchianus TaxID=32473 RepID=A0A3B5MW89_9TELE
+#=GS UniRef90_A0A8C4HLQ9/2-49       DE [subseq from] Homeobox domain-containing protein n=1 Tax=Dicentrarchus labrax TaxID=13489 RepID=A0A8C4HLQ9_DICLA
+#=GS UniRef90_A0A8C4HLQ9/65-109     DE [subseq from] Homeobox domain-containing protein n=1 Tax=Dicentrarchus labrax TaxID=13489 RepID=A0A8C4HLQ9_DICLA
+#=GS UniRef90_UPI001C422209/2-54    DE [subseq from] hematopoietically-expressed homeobox protein hhex n=1 Tax=Solea senegalensis TaxID=28829 RepID=UPI001C422209
+#=GS UniRef90_UPI001C422209/55-104  DE [subseq from] hematopoietically-expressed homeobox protein hhex n=1 Tax=Solea senegalensis TaxID=28829 RepID=UPI001C422209
+#=GS UniRef90_A0A3Q1JSF0/2-44       DE [subseq from] Hematopoietically expressed homeobox n=1 Tax=Anabas testudineus TaxID=64144 RepID=A0A3Q1JSF0_ANATE
+#=GS UniRef90_A0A3Q1JSF0/49-98      DE [subseq from] Hematopoietically expressed homeobox n=1 Tax=Anabas testudineus TaxID=64144 RepID=A0A3Q1JSF0_ANATE
+#=GS UniRef90_A0A315UPR4/13-60      DE [subseq from] Uncharacterized protein n=1 Tax=Gambusia affinis TaxID=33528 RepID=A0A315UPR4_GAMAF
+#=GS UniRef90_A0A315UPR4/65-115     DE [subseq from] Uncharacterized protein n=1 Tax=Gambusia affinis TaxID=33528 RepID=A0A315UPR4_GAMAF
+#=GS UniRef90_A0A4Z2G9Q8/2-96       DE [subseq from] Hematopoietically-expressed homeobox protein hhex n=1 Tax=Liparis tanakae TaxID=230148 RepID=A0A4Z2G9Q8_9TELE
+#=GS UniRef90_A0A3P8TBH1/2-95       DE [subseq from] Homeobox domain-containing protein n=6 Tax=Pomacentridae TaxID=30863 RepID=A0A3P8TBH1_AMPPE
+#=GS UniRef90_A0A6G1PN79/2-44       DE [subseq from] Hematopoietically-expressed homeobox protein hhex n=1 Tax=Channa argus TaxID=215402 RepID=A0A6G1PN79_9TELE
+#=GS UniRef90_A0A6G1PN79/50-102     DE [subseq from] Hematopoietically-expressed homeobox protein hhex n=1 Tax=Channa argus TaxID=215402 RepID=A0A6G1PN79_9TELE
+#=GS UniRef90_A0A6P7KHU2/2-52       DE [subseq from] hematopoietically-expressed homeobox protein HHEX n=1 Tax=Parambassis ranga TaxID=210632 RepID=A0A6P7KHU2_9TELE
+#=GS UniRef90_A0A6P7KHU2/53-100     DE [subseq from] hematopoietically-expressed homeobox protein HHEX n=1 Tax=Parambassis ranga TaxID=210632 RepID=A0A6P7KHU2_9TELE
+#=GS UniRef90_M4AJS1/7-89           DE [subseq from] Homeobox domain-containing protein n=10 Tax=Cyprinodontoidei TaxID=8087 RepID=M4AJS1_XIPMA
+#=GS UniRef90_A0A4W6FLA2/2-45       DE [subseq from] Homeobox domain-containing protein n=1 Tax=Lates calcarifer TaxID=8187 RepID=A0A4W6FLA2_LATCA
+#=GS UniRef90_A0A4W6FLA2/49-102     DE [subseq from] Homeobox domain-containing protein n=1 Tax=Lates calcarifer TaxID=8187 RepID=A0A4W6FLA2_LATCA
+#=GS UniRef90_A0A6A4RY53/2-45       DE [subseq from] Homeobox domain-containing protein n=3 Tax=Scophthalmus maximus TaxID=52904 RepID=A0A6A4RY53_SCOMX
+#=GS UniRef90_A0A6A4RY53/52-102     DE [subseq from] Homeobox domain-containing protein n=3 Tax=Scophthalmus maximus TaxID=52904 RepID=A0A6A4RY53_SCOMX
+#=GS UniRef90_I3JJU3/2-47           DE [subseq from] Homeobox domain-containing protein n=11 Tax=Cichlidae TaxID=8113 RepID=I3JJU3_ORENI
+#=GS UniRef90_I3JJU3/53-100         DE [subseq from] Homeobox domain-containing protein n=11 Tax=Cichlidae TaxID=8113 RepID=I3JJU3_ORENI
+#=GS UniRef90_A0A3B5MJE5/7-53       DE [subseq from] Homeobox domain-containing protein n=1 Tax=Xiphophorus couchianus TaxID=32473 RepID=A0A3B5MJE5_9TELE
+#=GS UniRef90_A0A3B5MJE5/59-105     DE [subseq from] Homeobox domain-containing protein n=1 Tax=Xiphophorus couchianus TaxID=32473 RepID=A0A3B5MJE5_9TELE
+#=GS UniRef90_A0A6P7L8T4/2-53       DE [subseq from] hematopoietically-expressed homeobox protein hhex n=1 Tax=Betta splendens TaxID=158456 RepID=A0A6P7L8T4_BETSP
+#=GS UniRef90_A0A6P7L8T4/55-104     DE [subseq from] hematopoietically-expressed homeobox protein hhex n=1 Tax=Betta splendens TaxID=158456 RepID=A0A6P7L8T4_BETSP
+#=GS UniRef90_A0A8C9T3F1/1-96       DE [subseq from] Hematopoietically expressed homeobox n=1 Tax=Scleropages formosus TaxID=113540 RepID=A0A8C9T3F1_SCLFO
+#=GS UniRef90_A0A0P7V9N7/1-96       DE [subseq from] Homeobox domain-containing protein n=1 Tax=Scleropages formosus TaxID=113540 RepID=A0A0P7V9N7_SCLFO
+#=GS UniRef90_A0A401RW03/2-97       DE [subseq from] Homeobox domain-containing protein n=5 Tax=Galeoidea TaxID=119195 RepID=A0A401RW03_CHIPU
+#=GS UniRef90_A0A3Q3GWC2/2-44       DE [subseq from] Hematopoietically-expressed homeobox protein hhex-like n=1 Tax=Labrus bergylta TaxID=56723 RepID=A0A3Q3GWC2_9LABR
+#=GS UniRef90_A0A3Q3GWC2/48-87      DE [subseq from] Hematopoietically-expressed homeobox protein hhex-like n=1 Tax=Labrus bergylta TaxID=56723 RepID=A0A3Q3GWC2_9LABR
+#=GS UniRef90_A0A3P9A9I1/4-78       DE [subseq from] Hematopoietically expressed homeobox n=3 Tax=Esox lucius TaxID=8010 RepID=A0A3P9A9I1_ESOLU
+#=GS UniRef90_A0A665XBD5/2-45       DE [subseq from] Hematopoietically expressed homeobox n=1 Tax=Echeneis naucrates TaxID=173247 RepID=A0A665XBD5_ECHNA
+#=GS UniRef90_A0A665XBD5/51-100     DE [subseq from] Hematopoietically expressed homeobox n=1 Tax=Echeneis naucrates TaxID=173247 RepID=A0A665XBD5_ECHNA
+#=GS UniRef90_A0A3Q2GFC9/2-95       DE [subseq from] Hematopoietically-expressed homeobox protein HHEX-like n=3 Tax=Cyprinodon TaxID=28741 RepID=A0A3Q2GFC9_CYPVA
+#=GS UniRef90_G3PRQ0/2-91           DE [subseq from] Homeobox domain-containing protein n=2 Tax=Gasterosteus aculeatus TaxID=69293 RepID=G3PRQ0_GASAC
+#=GS UniRef90_A0A8C4BES9/8-88       DE [subseq from] Hematopoietically expressed homeobox n=2 Tax=Denticeps clupeoides TaxID=299321 RepID=A0A8C4BES9_9TELE
+#=GS UniRef90_A0A3Q3VYS4/3-95       DE [subseq from] Homeobox domain-containing protein n=1 Tax=Mola mola TaxID=94237 RepID=A0A3Q3VYS4_MOLML
+#=GS UniRef90_A0A6J0SUL8/5-51       DE [subseq from] hematopoietically-expressed homeobox protein HHEX isoform X1 n=3 Tax=Pogona vitticeps TaxID=103695 RepID=A0A6J0SUL8_9SAUR
+#=GS UniRef90_A0A6J0SUL8/50-105     DE [subseq from] hematopoietically-expressed homeobox protein HHEX isoform X1 n=3 Tax=Pogona vitticeps TaxID=103695 RepID=A0A6J0SUL8_9SAUR
+#=GS UniRef90_A0A5A9PVC2/7-85       DE [subseq from] Hematopoietically-expressed homeobox protein hhex n=1 Tax=Triplophysa tibetana TaxID=1572043 RepID=A0A5A9PVC2_9TELE
+#=GS UniRef90_UPI00097DBB70/2-45    DE [subseq from] hematopoietically-expressed homeobox protein HHEX-like n=1 Tax=Paralichthys olivaceus TaxID=8255 RepID=UPI00097DBB70
+#=GS UniRef90_UPI00097DBB70/53-102  DE [subseq from] hematopoietically-expressed homeobox protein HHEX-like n=1 Tax=Paralichthys olivaceus TaxID=8255 RepID=UPI00097DBB70
+#=GS UniRef90_A0A6P8T5D6/2-41       DE [subseq from] LOW QUALITY PROTEIN: hematopoietically-expressed homeobox protein hhex n=3 Tax=Notothenioidei TaxID=8205 RepID=A0A6P8T5D6_GYMAC
+#=GS UniRef90_A0A6P8T5D6/47-95      DE [subseq from] LOW QUALITY PROTEIN: hematopoietically-expressed homeobox protein hhex n=3 Tax=Notothenioidei TaxID=8205 RepID=A0A6P8T5D6_GYMAC
+#=GS UniRef90_UPI00148C823A/2-47    DE [subseq from] hematopoietically-expressed homeobox protein hhex n=1 Tax=Hippoglossus hippoglossus TaxID=8267 RepID=UPI00148C823A
+#=GS UniRef90_UPI00148C823A/53-102  DE [subseq from] hematopoietically-expressed homeobox protein hhex n=1 Tax=Hippoglossus hippoglossus TaxID=8267 RepID=UPI00148C823A
+#=GS UniRef90_A0A3N0XP76/8-84       DE [subseq from] Hematopoietically-expressed homeobox protein hhex n=2 Tax=Cyprinoidei TaxID=30727 RepID=A0A3N0XP76_ANAGA
+#=GS UniRef90_A0A673AQU1/2-48       DE [subseq from] Homeobox domain-containing protein n=1 Tax=Sphaeramia orbicularis TaxID=375764 RepID=A0A673AQU1_9TELE
+#=GS UniRef90_A0A673AQU1/52-103     DE [subseq from] Homeobox domain-containing protein n=1 Tax=Sphaeramia orbicularis TaxID=375764 RepID=A0A673AQU1_9TELE
+#=GS UniRef90_A0A6I8NA26/23-106     DE [subseq from] Hematopoietically expressed homeobox n=1 Tax=Ornithorhynchus anatinus TaxID=9258 RepID=A0A6I8NA26_ORNAN
+#=GS UniRef90_A0A3B5MRR6/3-42       DE [subseq from] Homeobox domain-containing protein n=1 Tax=Xiphophorus couchianus TaxID=32473 RepID=A0A3B5MRR6_9TELE
+#=GS UniRef90_A0A3B5MRR6/48-86      DE [subseq from] Homeobox domain-containing protein n=1 Tax=Xiphophorus couchianus TaxID=32473 RepID=A0A3B5MRR6_9TELE
+#=GS UniRef90_A0A3P9L4T8/191-248    DE [subseq from] Homeobox domain-containing protein n=2 Tax=Oryzias latipes TaxID=8090 RepID=A0A3P9L4T8_ORYLA
+#=GS UniRef90_A0A3P9L4T8/249-295    DE [subseq from] Homeobox domain-containing protein n=2 Tax=Oryzias latipes TaxID=8090 RepID=A0A3P9L4T8_ORYLA
+#=GS UniRef90_A0A672GUF6/2-50       DE [subseq from] Homeobox domain-containing protein n=1 Tax=Salarias fasciatus TaxID=181472 RepID=A0A672GUF6_SALFA
+#=GS UniRef90_A0A672GUF6/55-106     DE [subseq from] Homeobox domain-containing protein n=1 Tax=Salarias fasciatus TaxID=181472 RepID=A0A672GUF6_SALFA
+#=GS UniRef90_UPI001C03B423/2-43    DE [subseq from] LOW QUALITY PROTEIN: hematopoietically-expressed homeobox protein hhex n=1 Tax=Melanotaenia boesemani TaxID=1250792 RepID=UPI001C03B423
+#=GS UniRef90_UPI001C03B423/48-94   DE [subseq from] LOW QUALITY PROTEIN: hematopoietically-expressed homeobox protein hhex n=1 Tax=Melanotaenia boesemani TaxID=1250792 RepID=UPI001C03B423
+#=GS UniRef90_A0A444UMC3/1123-1202  DE [subseq from] Kinesin-like protein KIF11-B n=1 Tax=Acipenser ruthenus TaxID=7906 RepID=A0A444UMC3_ACIRT
+#=GS UniRef90_A0A1A8C1P7/2-45       DE [subseq from] Hematopoietically expressed homeobox n=11 Tax=Nothobranchius TaxID=28779 RepID=A0A1A8C1P7_9TELE
+#=GS UniRef90_A0A1A8C1P7/49-83      DE [subseq from] Hematopoietically expressed homeobox n=11 Tax=Nothobranchius TaxID=28779 RepID=A0A1A8C1P7_9TELE
+#=GS UniRef90_M3Z0J9/21-68          DE [subseq from] Hematopoietically expressed homeobox n=2 Tax=Mustelidae TaxID=9655 RepID=M3Z0J9_MUSPF
+#=GS UniRef90_A0A3B4YY04/2-76       DE [subseq from] Hematopoietically expressed homeobox n=2 Tax=Stegastes partitus TaxID=144197 RepID=A0A3B4YY04_9TELE
+#=GS UniRef90_A0A3Q2YLW8/9-64       DE [subseq from] Hematopoietically expressed homeobox n=2 Tax=Hippocampus comes TaxID=109280 RepID=A0A3Q2YLW8_HIPCM
+#=GS UniRef90_A0A3Q2YLW8/71-120     DE [subseq from] Hematopoietically expressed homeobox n=2 Tax=Hippocampus comes TaxID=109280 RepID=A0A3Q2YLW8_HIPCM
+#=GS UniRef90_A0A662YZL8/1019-1098  DE [subseq from] Kinesin-like protein KIF11 n=5 Tax=Acipenseroidei TaxID=186622 RepID=A0A662YZL8_ACIRT
+#=GS UniRef90_UPI0018F6885D/19-100  DE [subseq from] LOW QUALITY PROTEIN: hematopoietically-expressed homeobox protein HHEX n=1 Tax=Tachyglossus aculeatus TaxID=9261 RepID=UPI0018F6885D
+#=GS UniRef90_A0A437CBD3/2-52       DE [subseq from] Homeobox domain-containing protein n=6 Tax=Oryzias TaxID=8089 RepID=A0A437CBD3_ORYJA
+#=GS UniRef90_A0A437CBD3/53-100     DE [subseq from] Homeobox domain-containing protein n=6 Tax=Oryzias TaxID=8089 RepID=A0A437CBD3_ORYJA
+#=GS UniRef90_A0A672PYB9/9-86       DE [subseq from] Hematopoietically-expressed homeobox protein hhex-like n=1 Tax=Sinocyclocheilus grahami TaxID=75366 RepID=A0A672PYB9_SINGR
+#=GS UniRef90_A0A672PWQ4/9-86       DE [subseq from] Hematopoietically-expressed homeobox protein hhex-like n=1 Tax=Sinocyclocheilus grahami TaxID=75366 RepID=A0A672PWQ4_SINGR
+#=GS UniRef90_A0A672Q3W3/9-86       DE [subseq from] Hematopoietically-expressed homeobox protein hhex-like n=2 Tax=Sinocyclocheilus grahami TaxID=75366 RepID=A0A672Q3W3_SINGR
+#=GS UniRef90_A0A0G2KXR6/8-77       DE [subseq from] Hematopoietically-expressed homeobox protein hhex n=1 Tax=Danio rerio TaxID=7955 RepID=A0A0G2KXR6_DANRE
+#=GS UniRef90_A0A7J6CGM3/19-94      DE [subseq from] Homeobox domain-containing protein n=8 Tax=Cyprinidae TaxID=7953 RepID=A0A7J6CGM3_9TELE
+#=GS UniRef90_UPI00188600FC/2-99    DE [subseq from] hematopoietically-expressed homeobox protein hhex n=1 Tax=Syngnathus acus TaxID=161584 RepID=UPI00188600FC
+#=GS UniRef90_A0A1A7WG99/2-43       DE [subseq from] Hematopoietically expressed homeobox n=2 Tax=Iconisemion striatum TaxID=60296 RepID=A0A1A7WG99_9TELE
+#=GS UniRef90_A0A1A7WG99/49-82      DE [subseq from] Hematopoietically expressed homeobox n=2 Tax=Iconisemion striatum TaxID=60296 RepID=A0A1A7WG99_9TELE
+#=GS UniRef90_A0A8C5C5U0/8-57       DE [subseq from] Hematopoietically expressed homeobox n=2 Tax=Gadus morhua TaxID=8049 RepID=A0A8C5C5U0_GADMO
+#=GS UniRef90_A0A8C5C5U0/61-108     DE [subseq from] Hematopoietically expressed homeobox n=2 Tax=Gadus morhua TaxID=8049 RepID=A0A8C5C5U0_GADMO
+#=GS UniRef90_A0A3B3HNN3/162-218    DE [subseq from] Hematopoietically expressed homeobox n=2 Tax=Oryzias latipes TaxID=8090 RepID=A0A3B3HNN3_ORYLA
+#=GS UniRef90_A0A3B3HNN3/219-265    DE [subseq from] Hematopoietically expressed homeobox n=2 Tax=Oryzias latipes TaxID=8090 RepID=A0A3B3HNN3_ORYLA
+#=GS UniRef90_UPI000CE190E2/162-218 DE [subseq from] hematopoietically-expressed homeobox protein HHEX isoform X2 n=1 Tax=Oryzias latipes TaxID=8090 RepID=UPI000CE190E2
+#=GS UniRef90_UPI000CE190E2/219-265 DE [subseq from] hematopoietically-expressed homeobox protein HHEX isoform X2 n=1 Tax=Oryzias latipes TaxID=8090 RepID=UPI000CE190E2
+#=GS UniRef90_A0A671Q6N1/9-85       DE [subseq from] Hematopoietically-expressed homeobox protein hhex-like n=7 Tax=Cyprinidae TaxID=7953 RepID=A0A671Q6N1_9TELE
+#=GS UniRef90_A0A8C2EGI7/8-83       DE [subseq from] Homeobox domain-containing protein n=1 Tax=Cyprinus carpio TaxID=7962 RepID=A0A8C2EGI7_CYPCA
+#=GS UniRef90_Q9IAV3/8-79           DE [subseq from] Hematopoietically-expressed homeobox protein hhex n=2 Tax=Danio rerio TaxID=7955 RepID=HHEX_DANRE
+#=GS UniRef90_A0A3P9JFM9/2-52       DE [subseq from] Homeobox domain-containing protein n=1 Tax=Oryzias latipes TaxID=8090 RepID=A0A3P9JFM9_ORYLA
+#=GS UniRef90_A0A3P9JFM9/53-99      DE [subseq from] Homeobox domain-containing protein n=1 Tax=Oryzias latipes TaxID=8090 RepID=A0A3P9JFM9_ORYLA
+#=GS UniRef90_H3C6A1/9-104          DE [subseq from] Homeobox domain-containing protein n=3 Tax=Tetraodon nigroviridis TaxID=99883 RepID=H3C6A1_TETNG
+#=GS UniRef90_UPI001471AE68/2-72    DE [subseq from] hematopoietically-expressed homeobox protein hhex n=1 Tax=Thalassophryne amazonica TaxID=390379 RepID=UPI001471AE68
+#=GS UniRef90_A0A8C8HNE8/1-73       DE [subseq from] Homeobox domain-containing protein n=1 Tax=Oncorhynchus tshawytscha TaxID=74940 RepID=A0A8C8HNE8_ONCTS
+#=GS UniRef90_UPI0015FD73FC/1-89    DE [subseq from] LOW QUALITY PROTEIN: hematopoietically-expressed homeobox protein hhex n=1 Tax=Oncorhynchus keta TaxID=8018 RepID=UPI0015FD73FC
+#=GS UniRef90_A0A6G1BE69/1-44       DE [subseq from] KIF11 protein (Fragment) n=1 Tax=Crocuta crocuta TaxID=9678 RepID=A0A6G1BE69_CROCR
+#=GS UniRef90_A0A674PHK2/2-33       DE [subseq from] Homeobox domain-containing protein n=3 Tax=Takifugu TaxID=31032 RepID=A0A674PHK2_TAKRU
+#=GS UniRef90_A0A674PHK2/48-91      DE [subseq from] Homeobox domain-containing protein n=3 Tax=Takifugu TaxID=31032 RepID=A0A674PHK2_TAKRU
+#=GS UniRef90_A0A556TWU4/7-48       DE [subseq from] Hematopoietically-expressed homeobox protein hhex n=1 Tax=Bagarius yarrelli TaxID=175774 RepID=A0A556TWU4_BAGYA
+#=GS UniRef90_A0A556TWU4/53-107     DE [subseq from] Hematopoietically-expressed homeobox protein hhex n=1 Tax=Bagarius yarrelli TaxID=175774 RepID=A0A556TWU4_BAGYA
+#=GS UniRef90_A0A8D0PJW4/104-147    DE [subseq from] Homeobox domain-containing protein n=1 Tax=Sus scrofa TaxID=9823 RepID=A0A8D0PJW4_PIG
+#=GS UniRef90_A0A2I4AII7/2-72       DE [subseq from] hematopoietically-expressed homeobox protein hhex-like n=3 Tax=Rivulidae TaxID=28771 RepID=A0A2I4AII7_9TELE
+#=GS UniRef90_B8XI88/1-32           DE [subseq from] Hematopoietically expressed homeobox (Fragment) n=1 Tax=Oryzias melastigma TaxID=30732 RepID=B8XI88_ORYME
+#=GS UniRef90_B8XI88/37-84          DE [subseq from] Hematopoietically expressed homeobox (Fragment) n=1 Tax=Oryzias melastigma TaxID=30732 RepID=B8XI88_ORYME
+#=GS UniRef90_L5JNK1/16-54          DE [subseq from] Hematopoietically-expressed homeobox protein HHEX n=1 Tax=Pteropus alecto TaxID=9402 RepID=L5JNK1_PTEAL
+#=GS UniRef90_UPI00189F9ABC/2-50    DE [subseq from] hematopoietically-expressed homeobox protein hhex n=1 Tax=Sebastes umbrosus TaxID=72105 RepID=UPI00189F9ABC
+#=GS UniRef90_UPI00189F9ABC/51-101  DE [subseq from] hematopoietically-expressed homeobox protein hhex n=1 Tax=Sebastes umbrosus TaxID=72105 RepID=UPI00189F9ABC
+#=GS UniRef90_A0A553RQN9/4-63       DE [subseq from] Homeobox domain-containing protein n=1 Tax=Danionella translucida TaxID=623744 RepID=A0A553RQN9_9TELE
+#=GS UniRef90_UPI000523110E/218-260 DE [subseq from] hematopoietically-expressed homeobox protein HHEX n=1 Tax=Chaetura pelagica TaxID=8897 RepID=UPI000523110E
+#=GS UniRef90_UPI00111C4A3F/18-62   DE [subseq from] hematopoietically-expressed homeobox protein HHEX isoform X2 n=1 Tax=Nannospalax galili TaxID=1026970 RepID=UPI00111C4A3F
+#=GS UniRef90_A0A8C5EX85/2-83       DE [subseq from] Hematopoietically expressed homeobox n=1 Tax=Gouania willdenowi TaxID=441366 RepID=A0A8C5EX85_9TELE
+#=GS UniRef90_UPI00092FD629/71-126  DE [subseq from] hematopoietically-expressed homeobox protein HHEX n=1 Tax=Gavialis gangeticus TaxID=94835 RepID=UPI00092FD629
+#=GS UniRef90_A0A8B9HHG1/1-90       DE [subseq from] Homeobox domain-containing protein n=1 Tax=Astyanax mexicanus TaxID=7994 RepID=A0A8B9HHG1_ASTMX
+#=GS UniRef90_A0A2D0SBD1/7-105      DE [subseq from] hematopoietically-expressed homeobox protein HHEX n=2 Tax=Siluroidei TaxID=1489793 RepID=A0A2D0SBD1_ICTPU
+#=GS UniRef90_A0A3B4E9C5/1-82       DE [subseq from] Hematopoietically expressed homeobox n=3 Tax=Serrasalmidae TaxID=42495 RepID=A0A3B4E9C5_PYGNA
+#=GS UniRef90_A0A7J5YXE9/65-103     DE [subseq from] Homeobox domain-containing protein n=1 Tax=Dissostichus mawsoni TaxID=36200 RepID=A0A7J5YXE9_DISMA
+#=GS UniRef90_A0A7J5YXE9/111-139    DE [subseq from] Homeobox domain-containing protein n=1 Tax=Dissostichus mawsoni TaxID=36200 RepID=A0A7J5YXE9_DISMA
+#=GS UniRef90_G1QCH8/1-103          DE [subseq from] Homeobox domain-containing protein n=2 Tax=Myotis lucifugus TaxID=59463 RepID=G1QCH8_MYOLU
+#=GS UniRef90_A0A7J6ARS4/7-106      DE [subseq from] Homeobox domain-containing protein n=4 Tax=Siluroidei TaxID=1489793 RepID=A0A7J6ARS4_AMEME
+#=GS UniRef90_A0A093IET9/1-41       DE [subseq from] Hematopoietically-expressed homeobox protein HHEX (Fragment) n=3 Tax=Neognathae TaxID=8825 RepID=A0A093IET9_DRYPU
+#=GS UniRef90_A0A834BJG4/122-171    DE [subseq from] Hematopoietically-expressed homeobox protein hhex n=1 Tax=Oryzias melastigma TaxID=30732 RepID=A0A834BJG4_ORYME
+#=GS UniRef90_UPI000E1EDE5A/1-39    DE [subseq from] hematopoietically-expressed homeobox protein HHEX n=1 Tax=Dromaius novaehollandiae TaxID=8790 RepID=UPI000E1EDE5A
+#=GS UniRef90_A0A8C6EUA2/70-99      DE [subseq from] Hematopoietically expressed homeobox n=1 Tax=Marmota marmota marmota TaxID=9994 RepID=A0A8C6EUA2_MARMA
+#=GS UniRef90_A0A3B3Z653/2-42       DE [subseq from] Homeobox domain-containing protein n=1 Tax=Periophthalmus magnuspinnatus TaxID=409849 RepID=A0A3B3Z653_9GOBI
+#=GS UniRef90_A0A3B3Z653/44-83      DE [subseq from] Homeobox domain-containing protein n=1 Tax=Periophthalmus magnuspinnatus TaxID=409849 RepID=A0A3B3Z653_9GOBI
+#=GS UniRef90_A0A1U7SCN9/29-79      DE [subseq from] hematopoietically-expressed homeobox protein HHEX n=2 Tax=Alligator TaxID=8495 RepID=A0A1U7SCN9_ALLSI
+#=GS UniRef90_UPI001C4C0D17/57-120  DE [subseq from] hematopoietically-expressed homeobox protein HHEX n=1 Tax=Sceloporus undulatus TaxID=8520 RepID=UPI001C4C0D17
+#=GS UniRef90_UPI000A1C7437/2-42    DE [subseq from] hematopoietically-expressed homeobox protein hhex-like n=1 Tax=Boleophthalmus pectinirostris TaxID=150288 RepID=UPI000A1C7437
+#=GS UniRef90_UPI000A1C7437/42-81   DE [subseq from] hematopoietically-expressed homeobox protein hhex-like n=1 Tax=Boleophthalmus pectinirostris TaxID=150288 RepID=UPI000A1C7437
+#=GS UniRef90_U3JZQ6/24-78          DE [subseq from] Hematopoietically expressed homeobox n=2 Tax=Passeriformes TaxID=9126 RepID=U3JZQ6_FICAL
+#=GS UniRef90_A0A7M4F8S6/69-103     DE [subseq from] Hematopoietically expressed homeobox n=1 Tax=Crocodylus porosus TaxID=8502 RepID=A0A7M4F8S6_CROPO
+#=GS UniRef90_UPI00145B1174/2-83    DE [subseq from] LOW QUALITY PROTEIN: hematopoietically-expressed homeobox protein hhex n=1 Tax=Periophthalmus magnuspinnatus TaxID=409849 RepID=UPI00145B1174
+#=GS UniRef90_S4RYU2/3-92           DE [subseq from] Homeobox domain-containing protein n=3 Tax=Petromyzontidae TaxID=7746 RepID=S4RYU2_PETMA
+
+chain_C                                MQY-P-H--P-G--P--A---A-G--A---VG-V--P-LYAPTP-LLQPAHPTPFYIEDILGR--------G-----------P----------A--------------A-----------P-------T--------P---A---------P--TL-PSPN--SSFTSL-VS----------PY-R-TPVYE-PTPI-H
+UniRef90_UPI0013620371/1-98            MQY-P-H--P-G--P--A---A-G--A---VG-V--P-LYAPTP-LLQPAHPTPFYIEDILGR--------G-----------P----------A--------------A-----------P-------T--------P---T---------P--TL-PSPN--SSFTSL-VS----------PY-R-TPVYE-PTPI-H
+UniRef90_A0A5F8A839/1-98               MQY-P-H--P-G--P--A---A-G--A---VG-V--P-LYAPTP-LLQPAHPTPFYIEDILGR--------G-----------P----------A--------------A-----------P-------T--------P---A---------P--TL-PSPN--SSFTSL-VS----------PY-R-TPVYE-PTPI-H
+UniRef90_F7HNF7/1-98                   MQY-P-H--P-G--P--A---A-G--A---VG-V--P-LYAPTP-LLQPAHPTPFYIEDILGR--------G-----------P----------A--------------A-----------P-------T--------P---A---------P--TL-PSPN--SSFTSL-VS----------PY-R-TPVYE-PTPI-H
+UniRef90_Q03014/1-98                   MQY-P-H--P-G--P--A---A-G--A---VG-V--P-LYAPTP-LLQPAHPTPFYIEDILGR--------G-----------P----------A--------------A-----------P-------T--------P---A---------P--TL-PSPN--SSFTSL-VS----------PY-R-TPVYE-PTPI-H
+UniRef90_A0A2K5RXB9/1-98               MQY-P-H--P-G--P--A---A-G--A---VG-V--P-LYAPTP-LLQPAHPTPFYIEDILGR--------G-----------P----------A--------------A-----------P-------T--------P---A---------P--TL-PSPN--SSFTSL-VS----------PY-R-TPVYE-PTPI-H
+UniRef90_A0A8C7C3W8/1-100              MQY-P-H--P-G--P--AA-AA-G--A---VG-V--P-LYAPTP-LLQPAHPTPFYIEDILGR--------G-----------P----------A--------------A-----------P-------T--------P---A---------P--TL-PSPN--SSFTSL-VS----------SY-R-TPVYE-PTPI-H
+UniRef90_A0A4X1UY77/1-98               MQY-P-H--P-G--P--P---A-G--A---VG-V--P-LYAPTP-LLQPAHPTPFYIEDILGR--------G-----------P----------A--------------A-----------P-------T--------P---T---------P--TL-PSPN--SSFTSL-VS----------SY-R-TPVYE-PTPI-H
+UniRef90_M3WU79/1-99                   MQY-P-H--P-G--P--A--AA-G--A---VG-V--P-LYAPTP-LLQPAHPTPFYIEDILGR--------G-----------P----------A--------------A-----------P-------T--------P---A---------P--TL-PSPN--SSFTSL-VS----------SY-R-TPVYE-PTPI-H
+UniRef90_A7YWK1/1-100                  MQY-P-H--P-G--P--AT-AA-G--A---VG-V--P-LYAPTP-LLQPAHPTPFYIEDILGR--------G-----------P----------A--------------A-----------P-------T--------P---T---------P--TL-PSPN--SSFTSL-VS----------SY-R-APVYE-PTPI-H
+UniRef90_G1TC79/1-98                   MQY-P-H--P-G--P--A---A-A--A---AG-V--P-LYAPTP-LLQPAHPTPFYIEDILGR--------A-----------P----------A--------------A-----------P-------T--------P---T---------P--TL-PSPN--SSFTSL-VS----------SY-R-TPVYE-PTPI-H
+UniRef90_L7P7I0/1-100                  MQY-P-H--P-G--A--AA-AA-G--A---VG-V--P-LYAPTP-LLQPAHPTPFYIEDILGR--------G-----------P----------A--------------A-----------P-------A--------P---T---------P--TL-PSPN--SSFTSL-VS----------SY-R-TPVYE-PTPI-H
+UniRef90_A0A452DS46/1-100              MQY-P-H--P-G--P--AT-AA-G--A---VG-V--P-LYAPTP-LLQPAHPTPFYIEDILGR--------G-----------P----------A--------------A-----------P-------T--------P---T---------P--TL-PSPN--SSFTSL-VS----------SY-R-APVYE-PTPI-H
+UniRef90_I3M7I6/1-100                  MQY-P-H--P-G--PPAA---A-G--A---VG-V--P-LYAPTP-LLQPAHPTPFYIEDILGR--------G-----------P----------A--------------A-----------P-------T--------P---T---------P--TL-PSPN--SSFTSL-VS----------SY-R-TPVYE-PTPI-H
+UniRef90_A0A8D2HMQ3/1-100              MQY-P-H--P-G--PPAA---A-G--A---VG-V--P-LYAPTP-LLQPAHPTPFYIEDILGR--------G-----------P----------A--------------A-----------P-------T--------P---T---------P--TL-PSPN--SSFTSL-VS----------SY-R-TPVYE-PTPI-H
+UniRef90_H0XCS4/2-99                   -QY-P-H--P-G--P-PP---A-G--A---VG-V--P-LYAPTP-LLQPAHPTPFYIEDILGR--------G-----------P----------A--------------T-----------P-------T--------P---T---------P--TL-PSPN--SSFTSL-VS----------SY-R-TPVYE-PTPI-H
+UniRef90_A0A2Y9D8P8/1-100              MQY-P-H--P-G--PGAA---A-P--A---VG-V--P-LYAPTP-LLQPAHPTPFYIEDILGR--------G-----------P----------A--------------A-----------P-------T--------P---T---------P--TL-PSPN--SSFTSL-VS----------SY-R-TPVYE-PTPI-H
+UniRef90_A0A7J7E741/1-99               MQY-P-H--P-G--P--A--AA-G--A---VG-V--P-LYAPTP-LLQPAHPTPFYIXXXXGR--------G-----------P----------A--------------A-----------P-------T--------P---T---------P--TL-PSPN--SSFTSL-VS----------SY-R-TPVYE-PTPI-H
+UniRef90_P43120/1-99                   MQF-P-H--P-G--P--A---A-A-PA---VG-V--P-LYAPTP-LLQPAHPTPFYIDDILGR--------G-----------P----------A--------------A-----------P-------T--------P---T---------P--TL-PSPN--SSFTSL-VS----------SY-R-TPVYE-PTPV-H
+UniRef90_A0A6P3F8Z8/1-96               MQY-P-H--P-G--P--A---A--------AG-V--P-LYAPTP-LLQPAHPTPFYIEDILGR--------G-----------P----------A--------------T-----------P-------T--------P---A---------P--TL-PSPN--SSFTSL-VS----------SY-R-TPVYE-PTPI-H
+UniRef90_A0A6I9IUT6/1-104              MQY-P-H--P-G--PGVA---A-P--A---VG-V--P-LYAPTP-LLQPAHPTPFYIEDILGR--------G-----------P----------V--------------A-----------PAP---TPT--------P---T---------P--TL-PSPN--SSFTSL-VS----------SY-R-TPVYE-PTPI-H
+UniRef90_A0A1S2ZBK4/1-97               MQF-P-H--P-G--S--A--AA-S--A---VG-V--P-LYAPTP-LLQPAHPTPFYIDDILGR--------G-----------P----------A--------------A-----------P-------T--------P---A---------P--TL-PSPN--SSFTSL-VS----------SY-R-TPVYE-PTPL-H
+UniRef90_A0A7N5KAA8/1-85               -------------------------------G-V--P-LYAPTP-LLQPAHPTRFYIEDILGR--------G-----------P----------A--------------A-----------P-------T--------P---A---------P--TL-PSPN--SSFTSL-VS----------SY-R-TPVYE-PTPI-H
+UniRef90_UPI0006D90F6F/197-279         --------------------------S---ER-V--P-LYAPTP-LLQPAHPTPFYIEDILGR--------G-----------P----------A--------------A-----------P-------T--------P---T---------P--TL-PSPN--SSFTSL-VS----------SY-R-APVYE-PTPI-H
+UniRef90_F7EGI1/1-104                  MQY-P-H--P-G--P--G---A----A---VG-V--P-LYAPTP-LLQPVHPTPFYIEDILGR--------G-----------P----------G--------------APLPP---AAPTP-------T--------P---T---------P--TL-PSPN--SSFTSL-VS----------TY-R-TPIYE-PTPI-H
+UniRef90_A0A212CPC0/184-273            --------------A--A---A-G--H---RG-A--G-C-AEAA-SKRAPHPTPFYIEDILGR--------G-----------P----------A--------------A-----------P-------T--------P---T---------P--TL-PSPN--SSFTSL-VS----------SY-R-APVYE-PTPI-H
+UniRef90_A0A8C4XN91/1-104              MQY-Q-P--P-GAAP--A---A-L--S---VG-V--P-LYAPTP-LLQPAHPTPFYIEDILGR--------G-----------P----------A--------------A----------AP-------APHS-LPAPP---P---------P--TL-PSPN--SSFTSL-VS----------PY-R-TPIYE-PTPI-H
+UniRef90_W5MJH4/1-98                   MQY-Q-H--P-T--S--S---A-M--S---VS-V--P-LYAPTP-V-QPVHPTPFYIEDILGR--------NV---------TP----------T--------------S-----------T-------TV------VP---T---------P--TL-PSPN--SSFTSL-VA----------PY-R-TPIYE-PTPI-H
+UniRef90_A0A672V9P9/1-104              MQY-Q-P--P-GAAP--A---A-L--G---VG-V--P-LYAPTP-LLQPAHPTPFYIEDILGR--------G-----------P----------A--------------A----------AP-------APHS-LPAPP---P---------P--TL-PSPN--SSFTSL-VS----------PY-R-TPIYE-PTPI-H
+UniRef90_UPI00074FF424/1-95            MQY-Q-P--A-G--P--P---A--------AG-P--P-LYAPTP-LLQPVHPTPFYIEDILGR--------G-----------A----------P--------------G-----------P-------P--------P---P---------P--SL-PSPN--SSFTSL-VA----------SY-R-SPVYE-PTPL-H
+UniRef90_A0A6I9YVY4/1-97               MQY-H-Q--P-S-----G---S-G--S---L--P--P-LYAPTP-LLQPVHPTPFYIEDILGR--------G-----------P----------P--------------G-----------P-------P--------P---P---------P--TL-PSPN--SSFTSL-VA----------SY-R-TPIYE-PTPI-H
+UniRef90_A0A674H9W6/1-104              MQY-Q-P--P-GAAP--A---A-L--G---VG-V--P-LYAPTP-LLQPAHPTPFYIEDILGR--------G-----------P----------A--------------A----------AP-------APHS-LPAPP---P---------P--TL-PSPN--SSFTSL-VS----------PY-R-TPIYE-PTPV-H
+UniRef90_A0A674GU14/1-104              MQY-Q-P--P-GAAP--A---A-L--G---VG-V--P-LYAPTP-LLQPAHPTPFYIEDILGR--------G-----------P----------A--------------A----------AP-------APHS-LPAPP---P---------P--TL-PSPN--SSFTSL-VS----------PY-R-TPIYE-PTPV-H
+UniRef90_H0ZF24/1-104                  MQY-Q-P--P-GAAP--A---A-L--G---VG-V--P-LYAPTP-LLQPAHPTPFYIEDILGR--------G-----------P----------A--------------A----------AP-------APHS-LPAPP---P---------P--TL-PSPN--SSFTSL-VS----------PY-R-TPIYE-PTPV-H
+UniRef90_UPI001863B4ED/1-95            MQY-Q-H--P-------V---S-S--A---MS-V--P-LYAPTP-I-QPVHPTPFYIEDILGR--------NVT-------TTS----------S--------------A-----------V-------A--------P---T---------P--TL-PSPN--SSFTSL-VP----------PY-R-TPIYE-PTPI-H
+UniRef90_A0A6F9C6S6/1-94               MQY-Q-H--S-T--P--S--------A---MG-V--P-LYAPTP-I-QPVHPTPFYIEDILGR--------NE---------TP----------AQ-----------SSA-----------V-------V--------P---T---------P--TL-PSPN--SSFTSL-VS----------PY-R-TPIYE-PTPI-H
+UniRef90_A0A493TDR1/1-105              MQY-Q-P--P-G--A--APTAA-L--G---VG-V--P-LYAPTP-LLQPAHPTPFYIEDILGR--------G-----------P----------A--------------A----------AP-------APHS-LPAPP---P---------P--TL-PSPN--SSFTSL-VA----------PY-R-TPVYE-PTPV-H
+UniRef90_A0A8B9ZKG9/1-105              MQY-Q-P--P-G--A--APTAA-L--G---VG-V--P-LYAPTP-LLQPAHPTPFYIEDILGR--------G-----------P----------A--------------A----------AP-------APHS-LPAPP---P---------P--TL-PSPN--SSFTSL-VA----------PY-R-TPVYE-PTPV-H
+UniRef90_UPI0008544AF8/1-98            MQY-Q-H--S-S--S--S---A-M--G---LS-V--P-LYAPTP-L-QPVHPTPFYIDDILGR--------N-----------A----------A--------------S-----------H------GT--------S---AM------MTP--TL-PSPN--SSFTSL-VA----------TY-R-TPIYE-PTPI-H
+UniRef90_Q05502/1-105                  MQY-Q-A--P-GAAP--A---A-A-LG---VG-V--P-LYAPTP-LLQPAHPTPFYIEDILGR--------G-----------P----------A--------------A----------AP-------APHS-LPAPP---P---------P--TL-PSPN--SSFTSL-VA----------PY-R-TPVYE-PTPI-H
+UniRef90_C1BKT0/1-97                   MQY-Q-H--A-S--P--A---P----T---VS-V--P-LYAPTP-I-QPVHPTPFYIEDILGR--------NG---------SP----------A--------------S-----------S-------TL------FP---M---------P--TL-PSPN--SSFTSL-VS----------PY-R-TPIYE-PTPI-H
+UniRef90_A0A6P7Y7Z6/1-101              MQY-Q-H--P-S--S--S--AA-L--G---VS-V--Q-VYAPTP-L-QPAHPTPFYIEDILGR--------G-----------A----------APS---------GSTP-----------P-------L--------P---A---------P--TL-PSPN--SSFTSL-VS----------AY-R-TPIYE-PTPI-H
+UniRef90_UPI00112FD381/1-97            MQY-Q-H--S-A--P--S--------A---MG-V--P-LYAPTP-I-QPVHPTPFYIEDILGR--------N-----------ETL-----TQSS--------------A-----------V-------V--------S---T---------P--NL-PSPN--SSFTSL-VS----------PY-R-TPIYE-PTPI-H
+UniRef90_UPI0011264935/7-110           MQY-Q-H--P-G--P--S---A-A-LG---VS-L--P-VYAPSP-L-QPAHPTPFYIEDILGR--------G-----------A----------AGAEP------SGSAP-----------P-------L--------P---T---------P--TL-PSPN--SSFTSL-VS----------AY-R-TPIYE-PTPI-H
+UniRef90_UPI0015A6B5A2/1-105           MQY-Q-P--P-G--A--APTAA-L--G---VG-V--P-LYAPTP-LLQPAHPTPFYIEDILGR--------G-----------P----------A--------------A----------AP-------APHS-LPAPP---P---------P--TL-PSPN--SSFTSL-VA----------PY-R-TPVYE-PTPV-H
+UniRef90_A0A493STJ0/1-105              MQY-Q-P--P-G--A--APTAA-L--G---VG-V--P-LYAPTP-LLQPAHPTPFYIEDILGR--------G-----------P----------A--------------A----------AP-------APHS-LPAPP---P---------P--TL-PSPN--SSFTSL-VA----------PY-R-TPVYE-PTPV-H
+UniRef90_A0A3Q2U008/1-105              MQY-Q-A--P-GAAP--A---A-A-LG---VG-V--P-LYAPTP-LLQPAHPTSFYIEDILGR--------G-----------P----------A--------------A----------AP-------APHS-LPAPP---P---------P--TL-PSPN--SSFTSL-VA----------PY-R-TPVYE-PTPI-H
+UniRef90_A0A6H1NPV3/1-110              MQY-Q-HAAP-A--P--A---A-A--AM-PVS-V--P-LYAPTP-VLQPVHPTPFYIEDILGR--------G-----------A----------A--------------A-----------PPGPHPLPS--------P---A--------PP--TL-PSPN--SSFTSL-VS----------AY-R-TPIYE-PTPI-H
+UniRef90_UPI001CF9E2FE/1-98            MQY-Q-H--P-T--S--S---A-V--S---MS-V--P-LYAPTP-L-QPVHPTPFYIDDILGRTT----SSG-----------S----------T--------------P-----------A-------I--------P---T---------P--TL-PSPN--SSFTSF-VS----------AY-R-TPIYE-PTPI-H
+UniRef90_A0A8D0GD36/1-108              MQY-Q-P--A-A--P--A--LA-G--P---LG-VSLP-LYAPTP-LLQPVHPTPFYIEDILGR--------A-----------PHP------MPA-------------PP-----------P-------L--------P---P---------P--TL-PSPN--SSFTSL-VS----------TY-R-TPIYE-PTPI-H
+UniRef90_UPI00145BC076/1-99            MQY-Q-H--P-M--S--S---A-M--S---VS-V--P-LYAPTP-I-QPVHPTPFYIDDILGR--------N-----------V----------T--------------S-----------T------STP-----LMP---T---------P--AL-PSAN--SSFTSL-VS----------PY-R-TPIYE-PTPI-H
+UniRef90_A0A671V0S2/44-92              --------------T--A---K-G--T---MS-V--P-LYAPTP-I-QPAHPTPFYIEDILGR--------N----------------------A--------------T-----------T-------T--------S---S---------P--SS-SSSS--SSS---------------------------------
+UniRef90_A0A671V0S2/98-152             ---------------------------------------------------------------------------------------------------------------------------------I--------P---T---------P--TL-PSPN--SSFTSL-IS----------PY-R-TPIYE-PTPI-H
+UniRef90_A0A3Q3J837/3-60               --L-P-H--P-G--A--A---T-N--S--TMS-V--P-LYAPTP-I-QPAHPTPFYIEDILGR--------T----------------------A--------------T-----------T-------T--------T---S---------P--SS-TSSS--SSCSTP------------------------------
+UniRef90_A0A3Q3J837/62-111             ---------------------------------------------------------------------------------------------------------------------------------I--------P---T---------P--TF-PSPN--SSFTSL-IS----------PY-R-TPIYE-PTPI-H
+UniRef90_B5X167/1-98                   MQY-Q-H--S-A--P--S--------A---MG-V--P-LYAPTP-I-QPVHPTPFYIEDILGR--------N-----------DTM-----AQSS--------------A-----------V-------V--------S---T---------P--NL-PSPN--SSFTSL-VS----------PY-R-TPIYE-PTPIHH
+UniRef90_A0A670I5U4/7-88               ------------------------------------A-LYAPTP-LLQPVHPTPFYIEDILGR--------A-----------A----------A--------------A-----------P-------P--------P---P---------P--TL-PSPN--SSFTSL-VAG--------ASY-R-TPIYE-PTPI-H
+UniRef90_A0A8D0C8K7/1-95               MQY-Q-P--P-G--P--A---A-L---------P--P-LYAPTP-LLQPVHPTPFYIDDILGR--------GT--------SGP----------P--------------P-----------P-------P--------P---P---------P--TL-PSPN--SSFTSL-VT----------SY-R-TPIYE-PTPI-H
+UniRef90_A0A8C5PDE4/20-120             --Y-L-H--P-G--H--S---A-M--S---LG-L--P-LYAPSP-L-QPVHPTPFYIEDILGR--------NAVP-----HGSP----------A--------------M-----------P------GA--------T---A---------P--TL-PSPN--SSFTSF-IT----------SY-K-APVYE-PTPI-H
+UniRef90_A0A8C4REY8/1-97               MQY-Q-H--P-S--S--S---A-M--S---MN-V--P-LYAPTP-V-QPVHPTPFYIDDILGR--------S-----------AS-------SSS--------------A-----------P------VV--------P---T---------P--TL-PSPN--SSFTSL-VS----------PY-R-TPIYE-PTPI-H
+UniRef90_UPI001CF67B47/2-59            -------------------------------S-V--P-LYAPTP-I-QPAHPTPFYIEDILGR--------T-----------G----------T--------------T-------------------T--------T---S---------S--SS-PSSS--SSCASS-SS----------SC-S-TPVI--PTP---
+UniRef90_UPI001CF67B47/56-105          ---------------------------------------------------------------------------------------------------------------------------------I--------P---T---------P--TL-PSPN--SSFTSL-IS----------PY-R-TPIYE-PTPI-H
+UniRef90_A0A8D2IQ99/1-95               MQY-Q-P--P-A--P--A---A-L---------P--P-LYAPTP-LLQPVHPTPFYIDDILAR--------G----------AP----------V--------------P-----------P-------P--------P---P---------P--AV-PSPN--SSFTSL-VA----------SY-R-TPIYE-PTPI-H
+UniRef90_A0A8C3CA08/337-442            MQY-Q-P--P-G--A--APTAA-L--G---VG-V--P-LYAPTP-LLQPAHPTPFYIEDILGR--------G-----------S----------A--------------A-----------A-------A--------P---APHSLPAPPPP--TL-PSPN--SSFTSL-VA----------PY-R-TPVYE-PTPV-H
+UniRef90_A0A6J2VBP7/1-95               MQY-Q-H--P-------A---Q-S--T---MN-A--P-LYAPTP-V-QPVHPTPFYIEDILGR--------NS---------TP----------S--------------T-----------S-------TV------VP---T---------P--TL-PSPN--SSFTSL-VP----------PY-R-TPIYE-PTPI-H
+UniRef90_A0A4W3JY80/1-98               MQY-Q-H--P-T--S--S---G-A--S---VN-L--P-LYAPTP-M-QPVHPTPFYIDDILGR-------NG-----------T----------V--------------H-----------PTT---VVT--------P---S---------P--TL-PSPN--SSFTSI-AS----------PY-R-TPIYE-PTPI-H
+UniRef90_A0A822AWR3/2-94               -QY-Q-Q--H-P--P-----------A---LS-V--P-LYAPTP-L-PAVHPTPFYIDDILGR--------N-----------A----------AST----------GTA-----------A-------L--------P---A---------P--TL-PSPN--SSFTSL-VT----------TY-R-TPVYE-PTPI-H
+UniRef90_A0A670YM60/6-91               ---------------------S-G--S---AS-L--PALYAPTP-MLQPVHPTPFYIEDILGR--------G-----------V----------P--------------G-----------P-------P--------P---P---------P--TL-PSPN--SSFTSL-VA----------SY-R-TPIYE-PTPI-H
+UniRef90_A0A667XRH0/6-52               -----------------A---A-A--A---MS-V--P-LYAPTP-I-QPPHPTPFYIEDILGR--------N-----------G----------A--------------T-----------T-------T--------S---S---------S--SS-S--S--SSS---------------------------------
+UniRef90_A0A667XRH0/56-105             ---------------------------------------------------------------------------------------------------------------------------------V--------P---T---------P--TL-PSLN--SSFTSL-IS----------PY-R-TPIYE-PTPI-H
+UniRef90_UPI001CE03F72/2-52            -------------------------------S-V--P-LYAPTP-I-QPTHPTPFYIEDILGR--------T-------------------------------------A-----------T-------T--------S----------------ST-SSPS--SSFSSA-SS----------SC-S-APV---------
+UniRef90_UPI001CE03F72/52-102          -------------------------------------------------------------------------------------------------------------------------V-------I--------P---T---------P--TL-PSPN--SSFTSL-IS----------PY-R-TPIYE-PTPI-H
+UniRef90_H3B2G7/1-98                   MQY-Q-H--P-T--S--S---T-M--S---VS-V--P-IYAPTP-I-QPVHPTPFYIDDILGR--------S-----------A----------T--------------S-----------T-------STS----VAP---T---------P--AL-PSPN--SSFTSL-VS----------SY-R-TPIYE-PTPI-H
+UniRef90_A0A3B3R6I7/1-95               MQY-Q-H--P-V--S--S---A-M--N---AN-V--P-LYAPTP-I-QPVHPTPFYIDDILGR--------SGT-------PTP----------N--------------A-----------A-------V--------S---A---------P--TL-PSPN--SSFTSL-VS----------PY-R-APIYE-PTPI-H
+UniRef90_A0A8C2SCP5/203-264            -----------------------------------------------------------XLGR--------G-----------P----------A--------------A-----------P-------T--------P---T---------P--TL-PSPN--SSFTSL-VS----------SY-R-APVYE-PTPI-H
+UniRef90_A0A8C7EHL4/1-104              MQY-Q-A--A-G--A--A--PA-A--A---LG-V--P-LYAPTP-LLQPAHPTPFYIEDILGR--------G-----------A----------A--------------AAPPP--HALPAP-------P--------P---P---------P--TL-PSPN--SSFTSL-VA----------PY-R-TPVYE-PTPV-H
+UniRef90_UPI0012EE9FAB/2-46            -------------------------------S-V--P-LYAPTP-I-QPAHPTPFYIEDILGR--------T-----------A----------T--------------A-----------N-------T--------S---S---------P--SS-SSSS--CCST--------------------------------
+UniRef90_UPI0012EE9FAB/49-100          ---------------------------------------------------------------------------------------------------------------------------------V--------P---T---------P--TL-PSPN--SSFTSL-IS----------PY-R-TPIYE-PTPI-H
+UniRef90_A0A6J2RQ02/2-41               -------------------------------S-V--P-LYAPTP-I-QPAHPTPFYIEDILGR--------T-----------A----------A--------------------------T-------T--------T---S---------P--SS-SSSS--------------------------------------
+UniRef90_A0A6J2RQ02/48-97              ---------------------------------------------------------------------------------------------------------------------------------I--------P---T---------P--TL-PSPN--SSFTSL-IS----------PY-R-TPIYE-PTPI-H
+UniRef90_A0A6I9NTI0/2-38               -------------------------------S-V--P-LYAPTP-I-QPAHPTPFYIEDILGR--------T-----------A----------S--------------T-----------T-------S--------P---S---------S--SS-------------------------------------------
+UniRef90_A0A6I9NTI0/46-96              ---------------------------------------------------------------------------------------------------------------------------------M--------P---T---------P--TL-PSPN--SSFTSL-IS----------PY-R-TPIYE-PTPI-H
+UniRef90_O13023/1-95                   MQY-Q-H--P-S--S--S---A-L--G---LS-V--P-LFAPTP-L---QHPTPFYIDDILGR--------N-----------S----------A--------------SN--------GTP------AL--------P---T---------P--TL-PSPN--SSFTSL-VA----------TY-R-TPIYE-PTPI-H
+UniRef90_A0A4W4F930/1-96               MQY-Q-H--A-A--P--A---A-S--A------V--P-LYAPTP-V-QPVHPTPFYIDDILGR-------NG-----------T----------S--------------AS---------SP------VV--------P---T---------P--TL-PSPN--SSFTSL-VP----------PY-R-TPIYE-PTPI-H
+UniRef90_A0A6P3VF94/1-94               MQY-Q-Y-------P--V---T-S--A---MN-V--P-LYAPTP-I-QPVHPTPFYIEDILGRH------GN-----------P----------G--------------S-----------P-------V-------LS---A---------P--TL-PSPN--SSFTSL-IS----------PY-R-SSICE-PTPI-H
+UniRef90_UPI001BECB0DF/2-57            -------------------------------S-V--P-LYAPTP-I-QPAHPTPFYIEDILGR--------T-----------A----------T--------------T-----------T-------S--------S---S---------P--SS-SSSSSPSSSSSS-YS----------SC-S-TP----------
+UniRef90_UPI001BECB0DF/59-109          ---------------------------------------------------------------------------------------------------------------------------------I--------P---T---------P--TL-PSPN--SSFTSL-IS----------PY-R-TPIYE-PTPI-H
+UniRef90_UPI001C0A1B03/1-96            MQY-Q-Y-------P--V---T-S--A---MN-V--P-LYAPTP-I-QHVHPTPFYIEDILGR--------NG---------TP----------A--------------S-----------T-------TV------IS---A---------P--TL-PSPN--SSFTSL-IS----------PY-R-SSICE-PTPI-H
+UniRef90_A0A484CBH7/2-54               -------------------------------S-V--P-LYAPTP-I-QPAHPTPFYIEDILGR--------T-----------A----------T--------------S-----------T-------I--------I---S------------SP-CSSS--SSSSSS-SS----------SC-S-TP----------
+UniRef90_A0A484CBH7/56-105             ---------------------------------------------------------------------------------------------------------------------------------I--------P---T---------P--TL-PSPN--SSFTTL-IS----------PY-R-TQIYE-PTPI-H
+UniRef90_A0A3P8VW75/2-45               -------------------------------S-V--P-LYAPTP-I-QPTHPTPFYIEDILGR--------T-----------P----------S--------------S-----------S-------N--------T---F---------S--SA-SSSS--SSP---------------------------------
+UniRef90_A0A3P8VW75/52-101             ---------------------------------------------------------------------------------------------------------------------------------I--------P---T---------P--TI-ASPN--SSFTSL-IS----------PY-R-TPIYE-PTPI-H
+UniRef90_UPI0014033A44/1-97            MQY-Q-H--P-G--P--S---A-M--S---VN-L--P-LYAPTP-M-QAVHPTPFYIDDILGR--------N-----------GT-------SHV--------------A-----------P------VT--------L---G---------P--AL-PSPN--SSFTTI-AS----------PY-R-TPIYE-PTPI-H
+UniRef90_K7GC88/3-92                   --P-P-A--S-A--P--A---L-G------VS-V--P-LYAPTP-LLQPAHPTPFYIEDILGR--------G-----------A----------A--------------A-----------P----------------P---A---------P--PA-LSPG--SPS-----S----------SY-R-TPIYE-PTPI-H
+UniRef90_A0A3Q3N2X1/2-42               -------------------------------S-V--P-VYAPTP-I-QPTHPTPFYIEDILGR--------T-----------A----------A--------------T-----------A-------S----------------------S--TS-SSSI--SS----------------------------------
+UniRef90_A0A3Q3N2X1/48-101             -------------------------------------------------------------------------------------------------------------------------V-------V--------P---T---------P--TL-PSSN--SSFTSL-IS----------PY-R-TPIYE-PTPI-H
+UniRef90_UPI001BD592D8/2-46            -------------------------------S-V--P-LYAPTP-I-QPAHPTPFFIEDILGR--------T-----------S----------T--------------S-----------T-------S--------P---S---------S--SS-SSTS--SCST--------------------------------
+UniRef90_UPI001BD592D8/49-102          ---------------------------------------------------------------------------------------------------------------------------------I--------P---T---------P--TL-PSPN--SSFTSF-IS----------PY-R-TPIYE-PTPI-H
+UniRef90_UPI00148F4534/2-43            -------------------------------S-V--P-LYAPTP-I-QPAHPTPFYIEDILGR--------T-----------V----------T--------------T-----------S-------S--------P---S---------S--SS-STSS--S-----------------------------------
+UniRef90_UPI00148F4534/49-96           ---------------------------------------------------------------------------------------------------------------------------------I--------P---T---------P--TL-PSPN--SSFTSF-IS----------PY-R-TPIYE-PTPI-H
+UniRef90_A0A3B4UVU5/11-62              -----------A--T--A---N-G--T---MS-V--P-LYAPTP-I-QPAHPTPFYIEDILGR--------T----------------------A--------------S-----------T-------T--------F---S---------P--SS-SSSS--AAS----SS---------------------------
+UniRef90_A0A3B4UVU5/69-118             ---------------------------------------------------------------------------------------------------------------------------------I--------P---T---------P--TL-ASPN--SSFTSL-IS----------PY-R-TPIYE-PTPI-H
+UniRef90_A0A3Q3GY43/9-54               -----------------------D--S---TV-V--P-LYAPTP-I-QPAHPTPFYIEDILGR--------T-----------V----------T--------------S-----------V-------S--------P---S---------S--TS-PTS----SCS--------------------------------
+UniRef90_A0A3Q3GY43/58-103             ---------------------------------------------------------------------------------------------------------------------------------I--------P---T---------P--TL-PSPN--SSFTSF-IS----------PY-R-TPIYE-PTPI-H
+UniRef90_A0A3B5MW89/11-96              --------------P--A---A-H--T---MS-V--P-LYAPTP-I-QPAHPTPFYIEDILGR--------T-----------G----------S--------------AA---------IS-------S--------P---S---------S--SS-SSSN--SSFTSL-IS----------PY-R-TPIYE-PTPI-H
+UniRef90_A0A8C4HLQ9/2-49               -------------------------------S-V--P-LYAPTP-I-QPAHPTPFYIEDILGR--------T-----------A----------T--------------T-----------T-------T--------S---S---------P--SS-SSSS--SSSSSS-F----------------------------
+UniRef90_A0A8C4HLQ9/65-109             ---------------------------------------------------------------------------------------------------------------------------------I--------P---T---------P--TL-PSPN--SSFTSL-IS----------PY-R-TPIYE-PTPI-H
+UniRef90_UPI001C422209/2-54            -------------------------------S-V--P-LYAPTP-I-QAAHPTPFYIEDILGR--------S----------------------A--------------T-----------S-------T--------F---S---------P--SS-SSSS--SSVSSS--S----------SS-T-TPV---------
+UniRef90_UPI001C422209/55-104          ---------------------------------------------------------------------------------------------------------------------------------I--------P---T---------P--TL-ASPN--SSFTSL-IS----------PY-R-TPIYE-PTPI-H
+UniRef90_A0A3Q1JSF0/2-44               -------------------------------S-V--P-LYAPTP-I-QPAHPTPFYIEDILGR--------T-----------A----------T--------------T-----------S-------S--------S---S---------S--ST-SSSS--SC----------------------------------
+UniRef90_A0A3Q1JSF0/49-98              ---------------------------------------------------------------------------------------------------------------------------------I--------P---T---------P--TL-PSPN--SSFTSL-IS----------PY-R-TPIYE-PTPI-H
+UniRef90_A0A315UPR4/13-60              -----------------A---V-H--T---MS-V--P-LYAPTP-I-QPAHPTPFYIEDILGR--------T-----------G----------S--------------A-----------T-------I--------S---S---------S--SS-SSSS--SC----------------------------------
+UniRef90_A0A315UPR4/65-115             ---------------------------------------------------------------------------------------------------------------------------------I--------P---T---------P--TL-PSAN--SSFTSL-IS----------PY-R-TPIYE-PTPI-H
+UniRef90_A0A4Z2G9Q8/2-96               -------------------------------S-V--P-LYAPTP-I-QAAHPTPFYIEDILGRTA---TTSS-----------P----------S--------------S-----------SSSS-CCSTP-----VVP---T---------P--TL-PSAN--SSFTSL-IS----------PY-R-TPIYE-PTPI-H
+UniRef90_A0A3P8TBH1/2-95               -------------------------------S-V--P-LYAPTP-I-QPAHPTPFYIEDILGRTATNTSSSS-------------------------------------ASSS-----SSCS-------TP-----VIP---T---------P--TL-PSPN--SSFTSL-IS----------PY-R-TPIYE-PTPI-H
+UniRef90_A0A6G1PN79/2-44               -------------------------------S-V--P-LYAPTP-I-QPSHPTPFYIEDILGR--------N-----------A----------T--------------T-----------A-------SS------SS---S---------S--TS-SSPS--------------------------------------
+UniRef90_A0A6G1PN79/50-102             ---------------------------------------------------------------------------------------------------------------------------------I--------P---T---------P--TL-PSPN--SSFTSL-IA----------PY-R-TPIYE-PTPI-H
+UniRef90_A0A6P7KHU2/2-52               -------------------------------S-V--P-LYAPTP-I-QPAHPTPFYIEDILGR--------T----------------------A--------------T-----------T-------S--------S---S---------P--TS-S-----SSSTSS-SS----------SC-S-TPV---------
+UniRef90_A0A6P7KHU2/53-100             ---------------------------------------------------------------------------------------------------------------------------------I--------P---L---------P--TL-PSPN--SSFTSL-IS----------PY-R-TPIYE-PTPI-H
+UniRef90_M4AJS1/7-89                   -----------------------G--P---VF-V--P-LYAPTP-I-QPAHPTPFYIEDILGR--------T-----------G----------S--------------AA---------IS-------S--------P---S---------S--SS-SSSN--SSFTSL-IS----------PY-R-TPIYE-PTPI-H
+UniRef90_A0A4W6FLA2/2-45               -------------------------------S-T--P-LYAPTP-I-QPAHPTPFYIEDILGR--------S----------------------A--------------S-----------T-------T--------F---S---------P--SS-SSSS--ASSS--------------------------------
+UniRef90_A0A4W6FLA2/49-102             -----------------------------------------------------------------------------------P----------A--------------P-----------V-------I--------P---T---------P--TL-ASPN--SSFTSL-IS----------PY-R-TPIYE-PTPI-H
+UniRef90_A0A6A4RY53/2-45               -------------------------------S-V--P-LYAPTP-I-QPAHPTPFYIEDILGR--------T-----------T----------S--------------T-----------T------FS--------P---S---------P--SS-SSAS--SS----------------------------------
+UniRef90_A0A6A4RY53/52-102             -------------------------------------------------------------------------------------------------------------------------L-------V--------P---T---------P--TL-ASPN--SSFTSL-IS----------PY-R-TPIYE-PTPI-H
+UniRef90_I3JJU3/2-47                   -------------------------------S-V--P-LYAPTP-I-QPAHPTPFYIEDILGR--------T-----------S----------T--------------T-----------T-------S--------T---S---------P--SY-SSSP--TSSSS-------------------------------
+UniRef90_I3JJU3/53-100                 ---------------------------------------------------------------------------------------------------------------------------------I--------P---T---------P--TL-PSPN--SSFKSL-IS----------PY-R-TPIYE-PTPI-H
+UniRef90_A0A3B5MJE5/7-53               --------------A--A---A-H--T---MS-V--P-LYAPTP-I-QPAHPTPFYIEDILGR--------T-----------G----------S--------------A-----------A-------I--------S---S---------P--SS-SSSS--------------------------------------
+UniRef90_A0A3B5MJE5/59-105             ---------------------------------------------------------------------------------------------------------------------------------I--------P---T---------P--TL-PSAN--SSFTSL-IS----------PY-R-TPIYE-PTPI-H
+UniRef90_A0A6P7L8T4/2-53               -------------------------------S-V--P-LYAPTP-V-QPAHPTPFYIEDILGR--------T-----------A----------A----------------------------------T--------T---A---------S--SH-SSSL--SAASSS-SS----------SS-S-TP----------
+UniRef90_A0A6P7L8T4/55-104             ---------------------------------------------------------------------------------------------------------------------------------I--------P---T---------P--TL-PSPN--SSFSSF-IS----------PY-R-TPIYE-PTPI-H
+UniRef90_A0A8C9T3F1/1-96               MQY-QHH--Q-G--P--A---A-M--G---VN-VNAP-LYAPTP-V-QPVHPTPFYIEDILGR--------SG---------SP----------G--------------S-----------P-------AV------LS---A---------P--TL-PSPN--SSFTTL-VS----------GY-R-TPIYE-PTPI-H
+UniRef90_A0A0P7V9N7/1-96               MQY-QHH--Q-G--P--A---A-M--G---VN-VNAP-LYAPTP-V-QPVHPTPFYIEDILGR--------SG---------SP----------G--------------S-----------P-------AV------LS---A---------P--TL-PSPN--SSFTTL-VS----------GY-R-TPIYE-PTPI-H
+UniRef90_A0A401RW03/2-97               -QYQQ-H--P-S--S--S---A-M--S---AN-L--P-LYAPTP-M-QAVHPTPFYIDDILGR--------NGA-------PHP----------T--------------S-----------V-------A--------P---G---------P--AL-PSPN--SSFTSI-AS----------PY-R-TPIYE-PTPI-H
+UniRef90_A0A3Q3GWC2/2-44               -------------------------------S-V--P-LYAPTP-I-QPAHPTPFYIEDILGR--------T-----------V----------T--------------S-----------V-------S--------P---S---------S--TS-PTS----SCS--------------------------------
+UniRef90_A0A3Q3GWC2/48-87              ---------------------------------------------------------------------------------------------------------------------------------I--------P---T---------P--TL-PSPN--SSFTSF-IS----------PY-R-TPIYE-PTPI-H
+UniRef90_A0A3P9A9I1/4-78               -----------------------------------------------MPVHPTPFYIEDILGR--------NGT-------PTP----------S--------------A-----------A-------I--------P---T---------P--TL-PSPN--SSFTSL-VS----------PY-R-TPIYE-PTPI-H
+UniRef90_A0A665XBD5/2-45               -------------------------------S-V--P-LYAPTP-I-QPAQPTPFYIEDILGR--------T----------------------A--------------S-----------T-------T--------F---S---------P--SS-SSGS--SS-SS-------------------------------
+UniRef90_A0A665XBD5/51-100             ---------------------------------------------------------------------------------------------------------------------------------I--------P---T---------P--TI-ASPN--SSFTSL-IS----------PY-R-TPIYE-PTAI-H
+UniRef90_A0A3Q2GFC9/2-95               -------------------------------S-L--P-LYAPTP-I-QPAHPTPFYIEDILGR--------T-----------A----------S--------------ATVTSSSSSCSAP------AV--------P---T---------P--TL-PSAN--SSFTSL-IS----------PY-R-TPIYE-PTPI-H
+UniRef90_G3PRQ0/2-91                   -------------------------------S-V--P-LYAPTP-I-QPAHPTPFYIEDILGR--------T-----------A----------A--------------TS---------SPLT--TPIV--------P---T---------P--TL-PSPN--SSFTSL-VS----------SY-R-TPIYE-PTPI-H
+UniRef90_A0A8C4BES9/8-88               ---------------------------------V--P-LYAPTP-I-QPVHPTPFYIEDILGR-------TG-----------T----------S--------------A-----------P-------ST-----ALP---A---------P--TL-PSPN--SSFTSL-VA----------PY-R-TPIYE-PTPV-H
+UniRef90_A0A3Q3VYS4/3-95               --F-P-H--H-G--C--A---A-T--AKFIMS-V--P-LYAPTP-I-QPAHPTPFYIEDILGR--------T-----------S----------T--------------T-----------A-------T--------F---S------------SS-PSS---SSSCSL-IS----------PY-R-TPIYE-PTPL-H
+UniRef90_A0A6J0SUL8/5-51               -----------------A---S-G--S---ASLP--P-MYAPSP-VLQPVHPTPFYIEDILAR--------G-----------G----------P--------------V-----------P-------P--------P---P---------P--PP-PPP---------------------------------------
+UniRef90_A0A6J0SUL8/50-105             -----------------------------------------------------------------------------------P----------P--------------A-----------P-------A--------P---L--------PP--TL-PSPN--SSFTSL-VA----------SY-R-TPIYE-PTPI-H
+UniRef90_A0A5A9PVC2/7-85               -------------------------------S-A--P-LYAPTP-V-PPVHPTPFYIEDILGR--------N-----------G----------ST------------SC-----------P------VM--------P---A---------P--TL-PSPN--SSFTSL-IP----------SY-R-TPIYE-PTPI-H
+UniRef90_UPI00097DBB70/2-45            -------------------------------S-V--P-LFAPTP-I-QPAHPTPFYIEDILGR--------T----------------------A--------------S-----------T-------T--------Y---S---------P--SS-SSSS--ASSS--------------------------------
+UniRef90_UPI00097DBB70/53-102          ---------------------------------------------------------------------------------------------------------------------------------I--------P---T---------P--TL-ASPN--SSFTSV-IS----------PY-R-APMYE-STPI-H
+UniRef90_A0A6P8T5D6/2-41               -------------------------------S-V--P-LYAPTP-I-QPAHPTPFYIEDILGR--------T-----------A----------S--------------T-----------T--------------------S---------P--SS-SSXS--S-----------------------------------
+UniRef90_A0A6P8T5D6/47-95              ---------------------------------------------------------------------------------------------------------------------------------M--------P---T---------P--TL-PSPN--SSFTSL-IS----------PY-R-TPIYX-PTPI-H
+UniRef90_UPI00148C823A/2-47            -------------------------------S-V--P-LFAPTP-I-QPAHPTPFYIEDILGT--------T----------------------A--------------S-----------T-------T--------Y---S---------P--SS-SSSS--ASSSSS------------------------------
+UniRef90_UPI00148C823A/53-102          ---------------------------------------------------------------------------------------------------------------------------------I--------P---T---------P--TL-ASPN--SSFTSV-IS----------PY-R-APIYE-PTPI-H
+UniRef90_A0A3N0XP76/8-84               ---------------------------------A--P-LYAPTP-A-PPVHPTPFYIEDILGR--------S-----------T----------S--------------G-----------P------LA--------P---T---------P--TL-PSPN--SSFTSL-IP----------SY-R-TPIYE-PTPI-H
+UniRef90_A0A673AQU1/2-48               -------------------------------S-V--P-LYAPTP-L-QPAHLTPFYIDDILGR--------T-----------G----------T--------------------------S-------T--------G---T---------T--TS-SSSS--SSSSSC-S----------------------------
+UniRef90_A0A673AQU1/52-103             ---------------------------------------------------------------------------------------------------------------------------------I--------P---T---------P--TL-PSPN--SSFSSF-IS----------PY-R-APIYE-PTPI-H
+UniRef90_A0A6I8NA26/23-106             ------H--P-G-HP--G---H-P--A---LG-V--P-LYAPTP-LLQPAHPTPFYIEDILGR--------G-----------T----------P--------------A-------------------A--------P---A---------P--SL-PSPN--SSFTSL-PA----------AY-R-PPVLE-PPAL-H
+UniRef90_A0A3B5MRR6/3-42               ---------------------------------V--P-LYAPTP-I-QPAHPTPFYIEDILGR--------T-----------G----------S--------------A-----------A-------I--------S---S---------P--SS-SSSS--------------------------------------
+UniRef90_A0A3B5MRR6/48-86              ---------------------------------------------------------------------------------------------------------------------------------I--------P---T---------P--TL-PSAN--SSFTSL-IS----------PY-R-TPIYE-PTPI-H
+UniRef90_A0A3P9L4T8/191-248            -----------G--I--Q---H-G--T---MS-V--P-LYAPTP-IQAP-QPTPFYIDDILGR--------T-----------A----------S-------------------------------------------S---A---------P---V-SSPS--SFSTSL-SS----------SC-S-TPL---------
+UniRef90_A0A3P9L4T8/249-295            ---------------------------------------------------------------------------------------------------------------------------------A--------P---I---------P--TL-PSPN--SSFTSL-VS----------PY-R-TPIYE-PTPI-H
+UniRef90_A0A672GUF6/2-50               -------------------------------S-L--P-LYAPTP-VP-RAQPTPFYIEDILGR--------S-----------A----------S--------------T-----------S-------T--------S---T---------S-SSH-CSPS--SSSSSS-C----------------------------
+UniRef90_A0A672GUF6/55-106             ---------------------------------------------------------------------------------------------------------------------------------V--------P---T---------P--TL-PSPN--SSFTSL-IS----------PY-R-VPIYE-PTPI-H
+UniRef90_UPI001C03B423/2-43            -------------------------------S-V--P-LYAPTP-V-QAAHPTPFYIEDILGR--------N-----------T----------T--------------S---------------------------------------------TI-SSSS--SSISSS------------------------------
+UniRef90_UPI001C03B423/48-94           ---------------------------------------------------------------------------------------------------------------------------------L--------P---I---------P--TL-PSPN--SSFTSL-IT----------QY-R-TPIYE-PTPI-H
+UniRef90_A0A444UMC3/1123-1202          ------------------------------------------AP-FFTPVHPTPFYIDDILGR--------N-----------V----------T--------------S-----------T------STP-----LMP---T---------P--AL-PSAN--SSFTSL-VS----------PY-R-TPIYE-PTPI-H
+UniRef90_A0A1A8C1P7/2-45               -------------------------------S-V--P-LYAPTP-V-QPAHPTPFYIEDILGR--------T-------------------------------------S-----------T-------T--------A---A---------L--TS-PSPS--SSSCS-------------------------------
+UniRef90_A0A1A8C1P7/49-83              ---------------------------------------------------------------------------------------------------------------------------------I--------P---T---------P--TL-PSPN--SSFTSL-MA----------PY-R-TPIYE-PTPI-H
+UniRef90_M3Z0J9/21-68                  ------------------------------------------------------------------------------------------------------------------------------------------------------------X-PSPN--SSFTSL-VS----------SY-R-TPVYE-PTPI-H
+UniRef90_A0A3B4YY04/2-76               -------------------------------S-V--P-LYAPTP-I-QPAHPTPFYIEDILGR--------T-----------T----------T--------------N------------------------------------------T--SS-SSSS--ASSSSL-IS----------PY-R-TPIYE-PTPI-H
+UniRef90_A0A3Q2YLW8/9-64               ------N--P-F--Q--A---PPA--S---MS-V--P-LYAPTA-I-QQSHPTPFYIEDILGR--------T-----------D----------H--------------T-----------T-------S--------N-------------S--SS-TSPS--TSTASS------------------------------
+UniRef90_A0A3Q2YLW8/71-120             ---------------------------------------------------------------------------------------------------------------------------------I--------P---T---------P--TF-PSPN--SSFTNF-IS----------TY-R-TPIYE-PTPI-H
+UniRef90_A0A662YZL8/1019-1098          ------------------------------------------AP-FFSPVHPTPFYIDDILGR--------N-----------V----------T--------------S-----------T------STP-----LMP---T---------P--TL-PSAN--SSFTSL-VP----------PY-R-TPIYE-PTPI-H
+UniRef90_UPI0018F6885D/19-100          --------------A--A---A-A--A---LG-V--P-LYAPTP-VLQPAHPTPFYIEDILGR--------G-----------P----------P--------------A-------------------A--------P---A---------P--SL-PSAN--SSFTSL-PV----------AY-R-APAFE-P-----
+UniRef90_A0A437CBD3/2-52               -------------------------------S-V--P-LYAPTP-IQAP-QPTPFYIDDILGR--------T----------AS----------S--------------A-----------P-------V--------S---S---------P--SS-FSTS--SSSSSC-SA----------P----------------
+UniRef90_A0A437CBD3/53-100             -------------------------------------------------------------------------------------------------------------------------L-------V--------P---I---------P--TL-PSPN--SSFTSL-VS----------PY-R-TPIYE-PTPI-H
+UniRef90_A0A672PYB9/9-86               ------------------------------------A-LYAPTP-A-PPAHPTPFYIEDILGR--------N-----------A----------S--------------A-----------S-------G--------P--VA---------PTLTL-PSPN--SSFTSL-IP----------SY-R-TPIYE-PTPI-H
+UniRef90_A0A672PWQ4/9-86               ------------------------------------A-LYAPTP-A-PPAHPTPFYIEDILGR--------N-----------A----------S--------------A-----------S-------G--------P--VA---------PTLTL-PSPN--SSFTSL-IP----------SY-R-TPIYE-PTPI-H
+UniRef90_A0A672Q3W3/9-86               ------------------------------------A-LYAPTP-A-PPAHPTPFYIEDILGR--------N-----------A----------S--------------A-----------S-------G--------P--VA---------PTLTL-PSPN--SSFTSL-IP----------SY-R-TPIYE-PTPI-H
+UniRef90_A0A0G2KXR6/8-77               ---------------------------------A--P-LYAPTP-A-PPAHPTPFYIEDILGR--------T-----------G----------S--------------SS---------GP------VV--------P---T---------P--TL-PSPN--SSFTSL-IP----------SY-R-TPIYE-PTPI-H
+UniRef90_A0A7J6CGM3/19-94              ---------------------------------A--P-FYAPTP-A-PPAHPTPFYIEDILGR--------N-----------A----------S--------------A-----------PG----PVA--------P---T---------P--TL-PSPN--SSFTSL-IP----------SY-R-TPIYE-PTPI-H
+UniRef90_UPI00188600FC/2-99            -------------------------------S-V--P-LYAPTA--IQQAHPTPFYIEDILGR--------T-----------T----------SNSSS-----SSFSTS-------------------TTSSSTPIIP---T---------P--TF-PSPN--SSFTNF-IS----------PY-R-TPIYE-PTPI-H
+UniRef90_A0A1A7WG99/2-43               -------------------------------S-V--P-LYAPTP-V-QPAHPTPFYIEDILGR--------T-------------------------------------A-----------T-------T--------A---A---------L--SS-PSSS--SSS---------------------------------
+UniRef90_A0A1A7WG99/49-82              ---------------------------------------------------------------------------------------------------------------------------------I--------P---T---------P--TL-PSPN--SSFTSL-VA----------PY-R-TPIYE-PTPI-H
+UniRef90_A0A8C5C5U0/8-57               ---------------------S-T--T---MS-A--P-LYAPTP-V-HLTPPTPFYIEDILGR--------S-----------G----------A--------------P-----------P-------A--------A---S---------H--SA-SAPG--SSSTA-------------------------------
+UniRef90_A0A8C5C5U0/61-108             ---------------------------------------------------------------------------------------------------------------------------------V--------P---T---------P--TL-PSPN--SSFTSL-IT----------AY-R-TPIYE-PTPL-H
+UniRef90_A0A3B3HNN3/162-218            --------------I--Q---H-G--T---MS-V--P-LYAPTP-IQAP-QPTPFYIDDILGR--------T-----------A----------S-------------------------------------------S---A---------P---V-SSPS--SFSTSL-SS----------SC-S-TPL---------
+UniRef90_A0A3B3HNN3/219-265            ---------------------------------------------------------------------------------------------------------------------------------A--------P---I---------P--TL-PSPN--SSFTSL-VS----------PY-R-TPIYE-PTPI-H
+UniRef90_UPI000CE190E2/162-218         --------------I--Q---H-G--T---MS-V--P-LYAPTP-IQAP-QPTPFYIDDILGR--------T-----------A----------S-------------------------------------------S---A---------P---V-SSPS--SFSTSL-SS----------SC-S-TPL---------
+UniRef90_UPI000CE190E2/219-265         ---------------------------------------------------------------------------------------------------------------------------------A--------P---I---------P--TL-PSPN--SSFTSL-VS----------PY-R-TPIYE-PTPI-H
+UniRef90_A0A671Q6N1/9-85               ------------------------------------A-LYAPTP-A-PPAHPTPFYIEDILGR--------N-----------A----------S--------------A-----------S-------G--------P--VA---------PTLTL-PSPN--SSFTSL-IP----------SY-R-SPIYE-PTPI-H
+UniRef90_A0A8C2EGI7/8-83               ---------------------------------A--P-FYAPTP-A-PPAHPTPFYIEDILGR--------N-----------A----------S--------------AT---------GP------VV--------P---T---------P--TL-PSPN--SSFTSL-IP----------SY-R-TPIYE-PTPI-H
+UniRef90_Q9IAV3/8-79                   ---------------------------------A--P-LYAPAP-A-PPAHPTPFYIEDILGR--------T-----------G----------S--------------SS---------GP------VV--------P---T---------P--TL-PSPN--SSFTSL-IP----------SY-R-TPIYE-LTPI-H
+UniRef90_A0A3P9JFM9/2-52               -------------------------------S-V--P-LYAPTP-IQAP-QPTPFYIDDILGR--------T-----------A----------S-------------------------------------------S---A---------P---V-SSPS--SFSTSL-SS----------SC-S-TPL---------
+UniRef90_A0A3P9JFM9/53-99              ---------------------------------------------------------------------------------------------------------------------------------A--------P---I---------P--TL-PSPN--SSFTSL-VS----------PY-R-TPIYE-PTPI-H
+UniRef90_H3C6A1/9-104                  -----------------A---E-S--T---MS-V--P-LYAPTP-I-QPAQPTSFYIEDILGR--------T-----------S----------ATVSSTSSRSSSVCSA-----------P------II--------P---T---------P--TL-PSPA--FSFASL-IS----------PY-R-TPIYE-PTPI-H
+UniRef90_UPI001471AE68/2-72            -------------------------------S-V--P-LYAPTP-LQAP-QPTPFFIEDILGR--------SG--------ASS----------A--------------A-----------P------VA--------P---T---------P--TL-PSPN--SSFSRL-LP----------PY-R-TPIYE-PTPI-H
+UniRef90_A0A8C8HNE8/1-73               MQY-Q-H--S-A--P--S---A--------MA-V--P-LYAPTP-I-QPVHPTPFYIEDILGR--------N-----------ETL-----TQSS--------------A-----------V-------V--------S---T---------P--NL-PSPN--SSFTSL-VS----------PY-R-TPSMN-------
+UniRef90_UPI0015FD73FC/1-89            ------------------------------MG-V--P-LYRRPP--IQPVHPTPFYIEDILGEMR---PRPS-----------P----------S--------------A-----------V-------V--------S---T---------P--NL-PSPN--SSFTSFGLS----------PY-R-TPIYE-PTPI-H
+UniRef90_A0A6G1BE69/1-44               -----------------------------------------------------------------------------------------------------------------------------------------------------------------N--STITSL-VS----------SY-R-TPVYE-PTPI-H
+UniRef90_A0A674PHK2/2-33               -------------------------------S-V--P-LYAPTP-I-QPAHPTPFYIENILGR--------T-----------S----------A--------------A-----------T-------S----------------------------------------------------------------------
+UniRef90_A0A674PHK2/48-91              ---------------------------------------------------------------------------------------------------------------------------------I--------P---T---------P--TI-PSPA--FSFTSL-IS----------PY-R-TTIYE-PSPI-H
+UniRef90_A0A556TWU4/7-48               --------------------------A---RP-V--P-LYAPTP-V-QPAHPTPFYIEDILGR--------N-----------D----------G--------------T-----------P-------S--------A---C---------P--PL-ASA---------------------------------------
+UniRef90_A0A556TWU4/53-107             -------------------------------------------------------------------------------------------------------------------------H-------A--------S---A---------P--AL-PSPN--SSFTSW-VP----------PY-R-SAVYE-PTPI-H
+UniRef90_A0A8D0PJW4/104-147            -----------------------------------------------------------------------------------------------------------------------------------------------------------------X--SSFTSL-VS----------SY-R-TPVYE-PTPI-H
+UniRef90_A0A2I4AII7/2-72               -------------------------------S-V--P-LYAPTP-V-QPAHPTPFYIEDILRP--------S-----------S----------SS-----------CSS-----------P------VV--------P---T---------P--TL-PSPN--SSF-SL-IS----------PY-R-TPIYE-PTPI-H
+UniRef90_B8XI88/1-32                   ---------------------------------------------------PTPFYIDDILGR--------T----------AS----------S--------------A-----------P-------V--------S---S---------P--SF-STSS--SS-SS-------------------------------
+UniRef90_B8XI88/37-84                  -------------------------------------------------------------------------------------------------------------------------L-------V--------P---I---------P--TL-PSPN--SSFTSL-VS----------PY-R-TPIYE-PTPI-H
+UniRef90_L5JNK1/16-54                  ------------------------------------------------------------------------------------------------------------------------------------------------------------------------CL-VS----------SY-R-TPVYE-PTPI-H
+UniRef90_UPI00189F9ABC/2-50            -------------------------------S-V--P-LYAPTP-I---QHPTPFYIEDILGR--------T-----------S----------T--------------T-----------T-------T--------------------------T-ISPS--SSSSSS-SS----------SC-S-TPI---------
+UniRef90_UPI00189F9ABC/51-101          ---------------------------------------------------------------------------------------------------------------------------------I--------P---T---------P--TL-PSPN--SSFTSL-IS---------SPYNR-TPIYE-PTPI-H
+UniRef90_A0A553RQN9/4-63               -----------------------------------------------QHHHPTPFSIEDILSR--------G-----------S----------G--------------S-----------S-------L--------P---V---------P--LM-PSPN--SSFTSL-IP----------FH-R-TPIYE-PTPI-H
+UniRef90_UPI000523110E/218-260         ----------------------------------------------------------------------------------------------------------------------------------------------A---------Q--TL-PSPN--SSFTSL-VS----------PY-R-TPIYE-PTPI-H
+UniRef90_UPI00111C4A3F/18-62           ---------------------------------------------------------------------------------------------------------------------------------------------------------------SPE---SPQSL-VS----------SY-R-PPVYE-PTPI-H
+UniRef90_A0A8C5EX85/2-83               -------------------------------N-V--P-LYAPTP-V-HRAHPTPFDIDSILGR-------HG-----------S----------S-------------SP-----------P-------S--------S---T---------P--LI-PTAN--SSFTSL-IP----------PY-R-IPVYE-PTPL-P
+UniRef90_UPI00092FD629/71-126          -------------------------------------------------------------------------------------------------------------L-----------P-------S--------P---A--------PP--TL-PSPN--SSFTSL-VS----------AY-R-TPIYE-PTPI-H
+UniRef90_A0A8B9HHG1/1-90               MQY-P-H--A-V--R----------------P-A--P-LYARTP-L-QPAHPTPFYIDDILGR--------G-----------P----------A--------------P-----------PA----AAA--------P---P---------P--AL-PSPH--SSFTAV-HA----------PP-P-PCAYRSPAYG-D
+UniRef90_A0A2D0SBD1/7-105              --------------------------A---RP-V--P-LYAPTP-V-QPAHPTPFYIEDILGR--------SDGTTSACSPLVP----------AP-----------APV-----------P-------A--------P---A---------P--AL-PSPN--SSFTSW-VP----------PY-R-SAVYE-PTPI-H
+UniRef90_A0A3B4E9C5/1-82               MQY-P-H--A-V--R----------------P-A--P-LYAPTP-L-QPAHPTPFYIDDILGR--------S-----------P----------A--------------P-----------P-------AA------AP---P---------P--AL-PSPH--SSFTAV-HA----------PS-H-A-----C--T-D
+UniRef90_A0A7J5YXE9/65-103             --------------------------T---MS-V--P-LYAPTP-I-QPAHPTPFYIEDILGT--------T-----------A----------S----------------------------------T--------T---S---------P--SS-SS----------------------------------------
+UniRef90_A0A7J5YXE9/111-139            ---------------------------------------------------------------------------------------------------------------------------------M--------P---T---------P--TL-PSPN--SSFTSL-IS----------PY-R-TPIYEHPD----
+UniRef90_G1QCH8/1-103                  MQY-P-H--PAG--P--A---R-RRPR---GG-C--R-FYVPTARWLQPGWGNPRGPGGPAGA--------T-----------P----------N--------------H-----------K-------V--------T---V---------P--QM-PSPN--SSFTSL-VS----------SY-R-TPVYE-PRCT-S
+UniRef90_A0A7J6ARS4/7-106              --------------------------A---RP-V--P-MYGPTP-V-QPAHPTPFYIEDILGR--------SDGTASACSPLVP----------AP-----------APV-----------P-------A--------P---A---------P--AL-PSPN--SSFTSW-VP----------PY-R-SAVYE-PTPI-H
+UniRef90_A0A093IET9/1-41               ----------------------------------------------------------------------------------------------------------------------------------------------------------------PT--SSFTSL-VS----------PY-R-TPIYE-PTPI-H
+UniRef90_A0A834BJG4/122-171            ----------------------------------------------------------------------------------------------A--------------P-----------L-------V--------P---I---------P--TL-PSPN--SSFTSL-VS----------PY-R-TPIYE-PTPI-H
+UniRef90_UPI000E1EDE5A/1-39            --------------------------------------------------------------------------------------------------------------------------------------------------------------------SSFTSL-VA----------PY-R-TPVYE-PTPV-H
+UniRef90_A0A8C6EUA2/70-99              ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------XYE-PTPI-H
+UniRef90_A0A3B3Z653/2-42               -------------------------------S-L--P-VYAAMT-TQPSAQRTPFSIEDILSR-------SG-----------P----------G--------------A-----------S-------V--------P---C---------G--SP-PS----------------------------------------
+UniRef90_A0A3B3Z653/44-83              -----------------------------------------------------------------------------------P----------A--------------P-----------L-------T--------H---V---------P--SV-PSVH--SSFTSL-VS----------QY-R-THIYE-PTPL-H
+UniRef90_A0A1U7SCN9/29-79              ----------------------------------------------------------------------------------------------------------------------------------------------G---------P--GL-RRER--SSWRTA-AR----------RR-R-TPIYE-PTPI-H
+UniRef90_UPI001C4C0D17/57-120          -----------------------------------------------------------------------------------P----------S--------------M-----------P-------L--------P---P---------P--SL-PSPN--SSFTAL-VSSSSSSCSSSSSY-R-TPIYE-PTPL-H
+UniRef90_UPI000A1C7437/2-42            -------------------------------S-V--P-VYAATQ---PPAQRTPFSIEDILSR-------SG-----------P----------G--------------A-----------S-------V--------P---C---------G--SP-PSCP--------------------------------------
+UniRef90_UPI000A1C7437/42-81           -----------------------------------------------------------------------------------P----------A--------------P-----------L-------T--------H---V---------P--TV-PSIH--SSFTSL-VS----------QY-R-THIYE-PTPL-H
+UniRef90_U3JZQ6/24-78                  --------------------------------------------------------------P--------P-----------P----------L--------------P-----------A-------P--------P---P---------P--TL-PSPN--SSFTSL-VS----------PY-R-TPIYE-PTPV-H
+UniRef90_A0A7M4F8S6/69-103             ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------RR-R-TPIYE-PTPI-H
+UniRef90_UPI00145B1174/2-83            -------------------------------S-L--P-VYAAMT-TQPSAQRTPFLIEDILSR-------SG-----------P----------G--------------ASVPCG-SPPSCP-------A--------PLTHV---------P--SV-PSVH--SFFTSL-VS----------QY-R-THIYE-PTPL-H
+UniRef90_S4RYU2/3-92                   MQF-P-H--A-S--P--P---P-A--P---LR-V--P-LYAPTP-V-QVAHPTPFFIEDILRR-------DG-----------PPLPPLQTSPPG--------------A----------PP-------A--------A---A---------A--TLHPSPN--SSFTSV-TP----------GY-RGAPVTY-PSHG-Q
+#=GC RF                                xxx.x.x..x.x..x..x...x.x..x...xx.x..x.xxxxxx.xxxxxxxxxxxxxxxxxx........x...........x..........x..............x...........x.......x........x...x.........x..xx.xxxx..xxxxxx.xx..........xx.x.xxxxx.xxxx.x
+
+chain_C                                -P-A---FS--------H-H-----SAA--A--L-AAA--YG-P-GG-FGG
+UniRef90_UPI0013620371/1-98            -P-A---FS--------H-H-----SAA--A--L-AAA--YG-P-GG-FGG
+UniRef90_A0A5F8A839/1-98               -P-A---FS--------H-H-----SAA--A--L-AAA--YG-P-GG-FGG
+UniRef90_F7HNF7/1-98                   -P-A---FS--------H-H-----SAA--A--L-AAA--YG-P-GG-FGG
+UniRef90_Q03014/1-98                   -P-A---FS--------H-H-----SAA--A--L-AAA--YG-P-GG-FGG
+UniRef90_A0A2K5RXB9/1-98               -P-A---FS--------H-H-----SAA--A--L-AAA--YG-P-GG-FGG
+UniRef90_A0A8C7C3W8/1-100              -P-A---FS--------H-H-----SAA--A--L-AAA--YG-P-GG-FGG
+UniRef90_A0A4X1UY77/1-98               -P-A---FS--------H-H-----SAA--A--L-AAA--YG-P-SG-FGG
+UniRef90_M3WU79/1-99                   -P-A---FS--------H-H-----SAA--A--L-AAA--YG-S-SG-FGG
+UniRef90_A7YWK1/1-100                  -P-A---FS--------H-H-----SAA--A--L-AAA--YG-P-GG-FGG
+UniRef90_G1TC79/1-98                   -P-A---FS--------H-H-----SAA--A--L-AAA--YG-P-SG-FGG
+UniRef90_L7P7I0/1-100                  -P-A---FS--------H-H-----SAA--A--L-AAA--YG-P-GG-FGG
+UniRef90_A0A452DS46/1-100              -P-A---FS--------H-H-----SAA--A--L-AAA--YG-P-SG-FGG
+UniRef90_I3M7I6/1-100                  -P-A---FS--------H-H-----PAA--A--L-AAA--YG-P-GG-FGG
+UniRef90_A0A8D2HMQ3/1-100              -P-A---FS--------H-H-----PAA--A--L-AAA--YG-P-GG-FGG
+UniRef90_H0XCS4/2-99                   -P-A---FS--------H-H-----SAA--A--L-AAA--YG-P-GG-FGG
+UniRef90_A0A2Y9D8P8/1-100              -P-A---FS--------H-H-----STA--A--L-AAA--YG-P-GG-FGG
+UniRef90_A0A7J7E741/1-99               -P-A---FS--------H-H-----SAA--A--L-AAA--YG-P-GG-FGG
+UniRef90_P43120/1-99                   -P-A---FS--------H-H-----PAA--A--L-AAA--YG-P-SG-FGG
+UniRef90_A0A6P3F8Z8/1-96               -P-A---FS--------H-H-----PAT--A--L-AAA--YG-P-GG-LGG
+UniRef90_A0A6I9IUT6/1-104              -P-A---FS--------H-H-----SAA--A--L-AAA--YG-P-SG-FGG
+UniRef90_A0A1S2ZBK4/1-97               -P-A---FS--------H-P-----LAA-------AAA--YG-P-GG-FGG
+UniRef90_A0A7N5KAA8/1-85               -P-A---FS--------H-H-----SAA--A--L-AAA--YG-P-GG-FGG
+UniRef90_UPI0006D90F6F/197-279         -P-A---FS--------H-H-----SAA--A--L-AAG--GQ-R-G-----
+UniRef90_F7EGI1/1-104                  -P-A---FS--------H-H-----PA---A--L-AAT--YG-A-GT-FAG
+UniRef90_A0A212CPC0/184-273            -P-A---FS--------H-H-----SAA--A--L-AAA--YG-P-GG-FGG
+UniRef90_A0A8C4XN91/1-104              -P-A---FS--------H-H-------------L-AAT--YG-T-GA-YAG
+UniRef90_W5MJH4/1-98                   -P-A---FS--------H-H-----A----A--L-TTT--YG-T-GA-FA-
+UniRef90_A0A672V9P9/1-104              -P-A---FS--------H-H-------------L-AAT--YG-T-GA-YAG
+UniRef90_UPI00074FF424/1-95            -P-A---FS--------H-H-----HLA--A--A-AAA--YG-A-AS-YG-
+UniRef90_A0A6I9YVY4/1-97               -P-A---FS--------H-P-----LAA--AAAA-AAT--YG-S-GP-YG-
+UniRef90_A0A674H9W6/1-104              -P-A---FS--------H-H-------------L-AST--YG-T-GA-YAG
+UniRef90_A0A674GU14/1-104              -P-A---FS--------H-H-------------L-AST--YG-T-GA-YAG
+UniRef90_H0ZF24/1-104                  -P-A---FS--------H-H-------------L-AST--YG-T-GA-YAG
+UniRef90_UPI001863B4ED/1-95            -P-A---FS--------H-H-------A--A--L-TAT--YG-S-GA-F--
+UniRef90_A0A6F9C6S6/1-94               -P-A---FS--------H-H-----A----A--L-TAS--YA-S-G-----
+UniRef90_A0A493TDR1/1-105              -P-A---FS--------H-H-----LA---------AT--YG-A-GA-YAG
+UniRef90_A0A8B9ZKG9/1-105              -P-A---FS--------H-H-----L---------AAT--YG-A-GA-YAG
+UniRef90_UPI0008544AF8/1-98            -P-A---FS--------H-H-----PA---A--L-AAS--YG-S-ST-F--
+UniRef90_Q05502/1-105                  -P-A---FS--------H-H-------------L-AAT--YG-T-GA-YAG
+UniRef90_C1BKT0/1-97                   -P-A---LS--------H-H-----A----A--L-TAT--YA-S-GA-FA-
+UniRef90_A0A6P7Y7Z6/1-101              -P-A---FT--------H-P-------A--A--L-AAT--YG-V-SS-FHG
+UniRef90_UPI00112FD381/1-97            -P-A---FS--------H-T-------A--A--L-TAT--YA-S-GA-FA-
+UniRef90_UPI0011264935/7-110           -P-A---FT--------H-P-------A--A--L-AAT--YG-V-GT-FHG
+UniRef90_UPI0015A6B5A2/1-105           -P-A---FS--------H-H-----L---------AAT--YG-A-GA-YAG
+UniRef90_A0A493STJ0/1-105              -P-A---FS--------H-H-----LA---------AT--YG-A-GA-YAG
+UniRef90_A0A3Q2U008/1-105              -P-A---FS--------H-H-------------L-AAT--YG-T-GA-YAG
+UniRef90_A0A6H1NPV3/1-110              -P-A---FS--------P-H-----PAA--A--L-AAT--YG-S-ST-YAG
+UniRef90_UPI001CF9E2FE/1-98            -P-A---FT--------H-P-------A--A--L-AST--YG-P-SA-FA-
+UniRef90_A0A8D0GD36/1-108              -P-A---FS--------H-HH--HHPAA--A--L-AAS--YG-S-SA-YP-
+UniRef90_UPI00145BC076/1-99            -P-A---FS--------H-P-------A--A--V-TAT--YN-T-GA-FAG
+UniRef90_A0A671V0S2/44-92              ---------------------------------------------------
+UniRef90_A0A671V0S2/98-152             -P-A---LS--------H-H-----AAA--A--L-TAA-TYA-SAGT-FGG
+UniRef90_A0A3Q3J837/3-60               ---------------------------------------------------
+UniRef90_A0A3Q3J837/62-111             -P-A---LS--------H-H-----AAA--A--L-TAT--YA-S-TG----
+UniRef90_B5X167/1-98                   -P-A---LS--------H-H-------A--A--L-TAT--YA-P-GA-FA-
+UniRef90_A0A670I5U4/7-88               -P-A---FS--------H-H-----LAA--A-----AT--YG-A-GP-YG-
+UniRef90_A0A8D0C8K7/1-95               -P-A---FS--------H-H-----LAA--A-----AT--YG-T-SP-YG-
+UniRef90_A0A8C5PDE4/20-120             -P-A---FT--------H-------PAA--A--L-AAS--YG-A-GG-FPG
+UniRef90_A0A8C4REY8/1-97               -P-A---FS--------H-P-------A--A--L-TAP--YS-N-SA-F--
+UniRef90_UPI001CF67B47/2-59            ---------------------------------------------------
+UniRef90_UPI001CF67B47/56-105          -P-A---LS--------H-H-----AAA--A--L-TAT--YA-S-AG----
+UniRef90_A0A8D2IQ99/1-95               -P-A---FP--------H-H-----HLA--A--A-AAA--YG-T-GP-YG-
+UniRef90_A0A8C3CA08/337-442            -P-A---FS--------H-H-----L---------AAT--YG-A-GA-YAG
+UniRef90_A0A6J2VBP7/1-95               -P-A---LS--------H-H-----A----A--L-TAT--YA-S-GA-F--
+UniRef90_A0A4W3JY80/1-98               -P-G---FS--------H-S-----A-------L--TH--YG-G-GA-FNG
+UniRef90_A0A822AWR3/2-94               -P-A---FS--------H-P-------A--A--L-AAS--YG-A-GG-F--
+UniRef90_A0A670YM60/6-91               -P-A---FS--------H-P-----LAA--A------T--YG-S-GP-YG-
+UniRef90_A0A667XRH0/6-52               ---------------------------------------------------
+UniRef90_A0A667XRH0/56-105             -P-A---LS--------H-H-----AAA--A--L-TAT--YA-S-TG----
+UniRef90_UPI001CE03F72/2-52            ---------------------------------------------------
+UniRef90_UPI001CE03F72/52-102          -P-A---LS--------H-H-----AAA--A--L-TAT--YA-S-AG----
+UniRef90_H3B2G7/1-98                   -P-A---FP--------H-P-------V--A--L-AAT--YG-A-SA-FA-
+UniRef90_A0A3B3R6I7/1-95               -P-A---FS--------H-P-------A--A--L-TAT--YP-S-G-----
+UniRef90_A0A8C2SCP5/203-264            -P-A---FS--------H-H-----SAA--A--L-AAA--YG-P-SG-FGG
+UniRef90_A0A8C7EHL4/1-104              -A-A---FP--------H-H-----LA---------AP--YG-A-GA-YAG
+UniRef90_UPI0012EE9FAB/2-46            ---------------------------------------------------
+UniRef90_UPI0012EE9FAB/49-100          -P-A---LS--------H-H-----AAA-----L-TAT--YASA-GA-FA-
+UniRef90_A0A6J2RQ02/2-41               ---------------------------------------------------
+UniRef90_A0A6J2RQ02/48-97              -P-A---LS--------H-H-----AAA--A--F-TAT--YA-S-AG----
+UniRef90_A0A6I9NTI0/2-38               ---------------------------------------------------
+UniRef90_A0A6I9NTI0/46-96              -P-A---LS--------H-H-----AAA--A--F-TYA--S--A-GA-FA-
+UniRef90_O13023/1-95                   -P-A---FT--------H-P------GA--A--L-AAS--YG-A-ST----
+UniRef90_A0A4W4F930/1-96               -P-A---LP--------H-P-------A--A--L-AAT--YA-S-TA-FG-
+UniRef90_A0A6P3VF94/1-94               -P-A---LS--------H-H-----A----A--L-AGP--YA-T-GA-F--
+UniRef90_UPI001BECB0DF/2-57            ---------------------------------------------------
+UniRef90_UPI001BECB0DF/59-109          -P-A---LS--------H-H-----AAA--A--L-TAA-TYA-S-AG----
+UniRef90_UPI001C0A1B03/1-96            -P-A---MS--------H-H-----SA------L-ATP--YS-T-GA-FS-
+UniRef90_A0A484CBH7/2-54               ---------------------------------------------------
+UniRef90_A0A484CBH7/56-105             -P-A---LS--------H-H-----AAA--A--L-SAT--YA-S-AG----
+UniRef90_A0A3P8VW75/2-45               ---------------------------------------------------
+UniRef90_A0A3P8VW75/52-101             -P-A---LS--------H-H-----TAA--A--F-TTT--YG-P-AG----
+UniRef90_UPI0014033A44/1-97            -A-A---FH----------H-----PAL--------AP--YG-S-NA-FSG
+UniRef90_K7GC88/3-92                   -P-A---FS--------H-H-----PAA--A--L-AAS--YG-G-SA-YAG
+UniRef90_A0A3Q3N2X1/2-42               ---------------------------------------------------
+UniRef90_A0A3Q3N2X1/48-101             -P-A---LS--------H-H-----AAA--A--L-TAT--YA-STGA-FS-
+UniRef90_UPI001BD592D8/2-46            ---------------------------------------------------
+UniRef90_UPI001BD592D8/49-102          -P-A---LS--------H-H-----ATA--A--L-TAT--YASP-GT-FPG
+UniRef90_UPI00148F4534/2-43            ---------------------------------------------------
+UniRef90_UPI00148F4534/49-96           -P-A---LS--------H-H-----AAA--A--L-TAT--YA-S-------
+UniRef90_A0A3B4UVU5/11-62              ---------------------------------------------------
+UniRef90_A0A3B4UVU5/69-118             -P-A---LP--------H-H-----AAA--T--L-TAT--YA-S-AG----
+UniRef90_A0A3Q3GY43/9-54               ---------------------------------------------------
+UniRef90_A0A3Q3GY43/58-103             -P-A---LS--------H-H-----AAA--A--L-TYA--S----------
+UniRef90_A0A3B5MW89/11-96              -P-V---LS--------H---------A--A--L-TAT--YG-P-VG----
+UniRef90_A0A8C4HLQ9/2-49               ---------------------------------------------------
+UniRef90_A0A8C4HLQ9/65-109             -P-A---LS--------H-H-----AAL--T--Y-ASA-------------
+UniRef90_UPI001C422209/2-54            ---------------------------------------------------
+UniRef90_UPI001C422209/55-104          -P-A---LT--------H-H-----GAA--T--L-ATT--YA-S-AG----
+UniRef90_A0A3Q1JSF0/2-44               ---------------------------------------------------
+UniRef90_A0A3Q1JSF0/49-98              -P-A---LS--------H-H-----AAA--A--L-TAT--YA-S-TG----
+UniRef90_A0A315UPR4/13-60              ---------------------------------------------------
+UniRef90_A0A315UPR4/65-115             -P-V---LS--------H---------A--A--L-TAT--YG-PVGA-FGG
+UniRef90_A0A4Z2G9Q8/2-96               -P-A---LS--------H-H-----HHA--A--L-TAT--YA-S-AG----
+UniRef90_A0A3P8TBH1/2-95               -P-A---LS--------H-H-----A----A--L-TAT--YA-S-AG----
+UniRef90_A0A6G1PN79/2-44               ---------------------------------------------------
+UniRef90_A0A6G1PN79/50-102             -P-A---LS--------H-H-----TAT--L--T-ATY--AS-S-GA-FAG
+UniRef90_A0A6P7KHU2/2-52               ---------------------------------------------------
+UniRef90_A0A6P7KHU2/53-100             -P-A---LS--------H-H-----A----T--L-TAT--YA-S-AG----
+UniRef90_M4AJS1/7-89                   -P-V---LS--------H---------A--A--L-TAT--YG-P-VG----
+UniRef90_A0A4W6FLA2/2-45               ---------------------------------------------------
+UniRef90_A0A4W6FLA2/49-102             -P-A---LS--------H-H-----AAS--T--L-TAT--YA-A-TG----
+UniRef90_A0A6A4RY53/2-45               ---------------------------------------------------
+UniRef90_A0A6A4RY53/52-102             -P-A---LS--------H-H-----AAG--T--L-TTT--YA-S-AG----
+UniRef90_I3JJU3/2-47                   ---------------------------------------------------
+UniRef90_I3JJU3/53-100                 -P-A---LS--------H-H-----A----A--L-TAT--YA-S-AG----
+UniRef90_A0A3B5MJE5/7-53               ---------------------------------------------------
+UniRef90_A0A3B5MJE5/59-105             -P-V---LS--------H---------A--A--L-TAT--YG-P-VG----
+UniRef90_A0A6P7L8T4/2-53               ---------------------------------------------------
+UniRef90_A0A6P7L8T4/55-104             -P-A---LS--------H-H-----AAA--A--L-TAT--YA-S-SG----
+UniRef90_A0A8C9T3F1/1-96               -P-A---IS--------F-----------------AAT--YP-P-GA-F--
+UniRef90_A0A0P7V9N7/1-96               -P-A---IS--------F-----------------AAT--YP-P-GA-F--
+UniRef90_A0A401RW03/2-97               -P-A---FH--------H-------PAL--------TP--YG-S-NA-FS-
+UniRef90_A0A3Q3GWC2/2-44               ---------------------------------------------------
+UniRef90_A0A3Q3GWC2/48-87              -P-A---LS--------H-H-----AAH-----------------------
+UniRef90_A0A3P9A9I1/4-78               -P-A---FS--------H-H-----P----A--L-TST--YS-S-GA-FA-
+UniRef90_A0A665XBD5/2-45               ---------------------------------------------------
+UniRef90_A0A665XBD5/51-100             -P-A---LS--------H-H-----ATA--T--L-TAT--YA-S-AG----
+UniRef90_A0A3Q2GFC9/2-95               -P-V---LS--------H---------A--A--L-TAT--YG-PVGA-FGG
+UniRef90_G3PRQ0/2-91                   ---A---LS--------H-H-----AAAAAA--L-SAT--YA-S-AG-L--
+UniRef90_A0A8C4BES9/8-88               -P-A---LT--------ATY-----ASG--A--L-AGS--I----------
+UniRef90_A0A3Q3VYS4/3-95               -P-E---LS--------H-H-----AAA--L--T-AAT--YA-S-AG----
+UniRef90_A0A6J0SUL8/5-51               ---------------------------------------------------
+UniRef90_A0A6J0SUL8/50-105             -P-A---FS--------H-H-----FAA--A--T--TG--YG-A-GP-YG-
+UniRef90_A0A5A9PVC2/7-85               -P-V---FS--------Q-H-----ALT--A--T-YAS-------------
+UniRef90_UPI00097DBB70/2-45            ---------------------------------------------------
+UniRef90_UPI00097DBB70/53-102          -A-A---LS--------H-H-----AAA--M--L-TTT--YA-S-AG----
+UniRef90_A0A6P8T5D6/2-41               ---------------------------------------------------
+UniRef90_A0A6P8T5D6/47-95              -P-A---LS--------H-H-----AAA--C--V-HLR--HP-P-G-----
+UniRef90_UPI00148C823A/2-47            ---------------------------------------------------
+UniRef90_UPI00148C823A/53-102          -A-A---LS--------H-H-----AAA--M--L-TTT--YA-S-AG----
+UniRef90_A0A3N0XP76/8-84               -P-V---LS--------Q-H-----ALA--A--T-YAS--I----------
+UniRef90_A0A673AQU1/2-48               ---------------------------------------------------
+UniRef90_A0A673AQU1/52-103             -P-A---LS--------P-H-----AAAAAA--L-TAS--YA-S-GG----
+UniRef90_A0A6I8NA26/23-106             -P-A-----------------------A--A--L-AAS--YG-V-G-----
+UniRef90_A0A3B5MRR6/3-42               ---------------------------------------------------
+UniRef90_A0A3B5MRR6/48-86              -P-V---LS--------H-A-----AG------------------------
+UniRef90_A0A3P9L4T8/191-248            ---------------------------------------------------
+UniRef90_A0A3P9L4T8/249-295            -P-A---LT--------H-A----------A--L-TAT--YA-S-AG----
+UniRef90_A0A672GUF6/2-50               ---------------------------------------------------
+UniRef90_A0A672GUF6/55-106             -P-A---LS--------H-H-----A----A--L-AAT--YA-S-GGAFGG
+UniRef90_UPI001C03B423/2-43            ---------------------------------------------------
+UniRef90_UPI001C03B423/48-94           -P-A---LS--------H---------A--A--L-TAT--YA-S-GG----
+UniRef90_A0A444UMC3/1123-1202          -P-A---FS--------H-P-------A--A--V-TAT--YN-T-GA-FAG
+UniRef90_A0A1A8C1P7/2-45               ---------------------------------------------------
+UniRef90_A0A1A8C1P7/49-83              -P-A---LY------------------------------------------
+UniRef90_M3Z0J9/21-68                  -P-A---FS--------H-H-----SAA--A--L-AAA--YG-P-GG-FGG
+UniRef90_A0A3B4YY04/2-76               -P-A---LS--------H-H-----A----A--L-TAT--YA-S-AG----
+UniRef90_A0A3Q2YLW8/9-64               ---------------------------------------------------
+UniRef90_A0A3Q2YLW8/71-120             -P-V---LS--------H-H-----HAT--A--A-FAACTYA-S-------
+UniRef90_A0A662YZL8/1019-1098          -P-A---FS--------H-P-------A--A--L-TAT--YN-T-GA-LAG
+UniRef90_UPI0018F6885D/19-100          -P-A---AC--------R-P-----PAA--A--L-AAP--YG-V-G-----
+UniRef90_A0A437CBD3/2-52               ---------------------------------------------------
+UniRef90_A0A437CBD3/53-100             -P-A---LT--------H-A----------A--L-TAT--YA-S-AG----
+UniRef90_A0A672PYB9/9-86               -P-V---LT--------Q-H-----ALA--A--T-YAS--I----------
+UniRef90_A0A672PWQ4/9-86               -P-V---LT--------Q-H-----ALA--A--T-YAS--I----------
+UniRef90_A0A672Q3W3/9-86               -P-V---LT--------Q-H-----ALA--A--T-YAS--I----------
+UniRef90_A0A0G2KXR6/8-77               -P-V---LS--------Q-Y-------------------------------
+UniRef90_A0A7J6CGM3/19-94              -P-V---LS--------Q-Q-----A-L--A--Y-AS--------------
+UniRef90_UPI00188600FC/2-99            -P-A---LS--------H-HHH-HHAAA--A--F-TAT--YA---------
+UniRef90_A0A1A7WG99/2-43               ---------------------------------------------------
+UniRef90_A0A1A7WG99/49-82              -P-V---L-------------------------------------------
+UniRef90_A0A8C5C5U0/8-57               ---------------------------------------------------
+UniRef90_A0A8C5C5U0/61-108             HH-A---FQ--------H-H-----TAA--A--L-NAS--YA---------
+UniRef90_A0A3B3HNN3/162-218            ---------------------------------------------------
+UniRef90_A0A3B3HNN3/219-265            -P-A---LT--------H-A----------A--L-TAT--YA-S-AG----
+UniRef90_UPI000CE190E2/162-218         ---------------------------------------------------
+UniRef90_UPI000CE190E2/219-265         -P-A---LT--------H-A----------A--L-TAT--YA-S-AG----
+UniRef90_A0A671Q6N1/9-85               -P-V---LT--------Q-Q-----ALA--A--T-YAS-------------
+UniRef90_A0A8C2EGI7/8-83               -P-V---LS--------P-Q-----A-L--A--Y-AS--------------
+UniRef90_Q9IAV3/8-79                   -P-V---LS--------Q-Y-----AS------------------------
+UniRef90_A0A3P9JFM9/2-52               ---------------------------------------------------
+UniRef90_A0A3P9JFM9/53-99              -P-A---LT--------H-A----------A--L-TAT--YA-S-AG----
+UniRef90_H3C6A1/9-104                  -------------------H-----AAA--A--LTAAT--YA-S-G-----
+UniRef90_UPI001471AE68/2-72            -P-V---LS--------L---------------------------------
+UniRef90_A0A8C8HNE8/1-73               ---------------------------------------------------
+UniRef90_UPI0015FD73FC/1-89            -P-L---LL--------S-P-----RC---A--S-PAT--YA-S-GA-FA-
+UniRef90_A0A6G1BE69/1-44               -P-A---FS--------H-H-----SAA--A--L-AAA--YG-P-GG-FGG
+UniRef90_A0A674PHK2/2-33               ---------------------------------------------------
+UniRef90_A0A674PHK2/48-91              -H-A---AA--------A-L-----TA---------AT--YA-S-------
+UniRef90_A0A556TWU4/7-48               ---------------------------------------------------
+UniRef90_A0A556TWU4/53-107             -P-QQNPYPHH----HHH-H-----AAL--A--A-AAA--YG---------
+UniRef90_A0A8D0PJW4/104-147            -P-A---FS--------H-H-----SAA--A--L-AAA--YG-P-SG-FGG
+UniRef90_A0A2I4AII7/2-72               -P-V---LT--------V-Y-------------------------------
+UniRef90_B8XI88/1-32                   ---------------------------------------------------
+UniRef90_B8XI88/37-84                  -P-A---LT--------H-A-----A-------L-TAT--YA-S-AG----
+UniRef90_L5JNK1/16-54                  -P-A---FS--------H-H-----SAA--A--L-AAA--YG-P-GG-FGG
+UniRef90_UPI00189F9ABC/2-50            ---------------------------------------------------
+UniRef90_UPI00189F9ABC/51-101          -P-A---LS--------H-HHHHHHHAA--A--A-AA--------------
+UniRef90_A0A553RQN9/4-63               -P-M---LT--------Q-H-----AH------------------------
+UniRef90_UPI000523110E/218-260         -P-A---FS--------H-H-----LAA--T--Y-ST--------G-----
+UniRef90_UPI00111C4A3F/18-62           -P-A---FS--------H-H-----SAA--A--L-AAA--YG-P-GG-FAG
+UniRef90_A0A8C5EX85/2-83               -P-T---LP--------P-H-----ALL-KA--T-YAS--MG-P-------
+UniRef90_UPI00092FD629/71-126          -P-A---FS--------P-H-----PAA--A--L-AAT--YG-S-ST-YAG
+UniRef90_A0A8B9HHG1/1-90               -P-A---LT--------H-H-----AAL--A--A-AAA--AA---------
+UniRef90_A0A2D0SBD1/7-105              -P-H---QSPHP--HPHH-H-----HHA--A--L-AAA--A----------
+UniRef90_A0A3B4E9C5/1-82               -P-A---LA--------H-H-----AAL--A--A-AAA--AA---------
+UniRef90_A0A7J5YXE9/65-103             ---------------------------------------------------
+UniRef90_A0A7J5YXE9/111-139            ---------------------------------------------------
+UniRef90_G1QCH8/1-103                  -PPR---LL--------A-P-----LRG--A--L-AAA--YG-P-GG-FKG
+UniRef90_A0A7J6ARS4/7-106              -P-H---QSPHPHPHHHH-H-----HHA--A--L-AAA-------------
+UniRef90_A0A093IET9/1-41               -P-A---FS--------H-H-------------L-AAT--YG-T-GA-YAG
+UniRef90_A0A834BJG4/122-171            -P-A---LT--------H-A----------A--L-TAT--YA-S-AG----
+UniRef90_UPI000E1EDE5A/1-39            -P-A---FS--------H-H-----LA---------AS--YG-A-GA-YAG
+UniRef90_A0A8C6EUA2/70-99              -P-A---FS--------H-H-----PAA--A--L-AAA--YG-P-GG-FGG
+UniRef90_A0A3B3Z653/2-42               ---------------------------------------------------
+UniRef90_A0A3B3Z653/44-83              -P-L---FT--------S---------------------------------
+UniRef90_A0A1U7SCN9/29-79              -P-A---FS--------P-H-----PAA--A--L-AAT--YG-S-ST-YAG
+UniRef90_UPI001C4C0D17/57-120          -P-A---FA--------H-P-----LAL--A--Y-GAA--GG-A-YG----
+UniRef90_UPI000A1C7437/2-42            ---------------------------------------------------
+UniRef90_UPI000A1C7437/42-81           -P-L---FT--------S---------------------------------
+UniRef90_U3JZQ6/24-78                  -P-A---FS--------H-H-------------L-AAT--YG-T-GA-YAG
+UniRef90_A0A7M4F8S6/69-103             -P-A---FS--------P-H-----PAA--A--L-AAT--YG-S-ST-YAG
+UniRef90_UPI00145B1174/2-83            -P-L---FT--------S---------------------------------
+UniRef90_S4RYU2/3-92                   -P-------------------------------------------------
+#=GC RF                                .x.x...xx........x.x.....xxx..x..x.xxx..xx.x.xx.xxx
+//

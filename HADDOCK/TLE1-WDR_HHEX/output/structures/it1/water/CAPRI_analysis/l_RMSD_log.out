@@ -1,0 +1,412 @@
+Ligand Mode ON
+Loaded 200 structures
+Using complex_7w.pdb as reference
+Read 2 chains from reference file: AB
+Symmetry option on. Checking chain lengths: WARNING!! Chains have different lengths! (B:9 != A:337)
+You main run into problems later on...
+OK!
+Generating ZONE definitions..
+Symmetry option was turned on, but chains are not identical: Turning symmetry off
+Defined 1 zone(s)
+ZONE CLEAR \n ZONE A* \n FIT \nRZONE B*\n
+RMS: 0.000
+1
+RMS: 0.509
+1
+RMS: 1.024
+1
+RMS: 0.539
+1
+RMS: 1.260
+1
+RMS: 0.911
+1
+RMS: 0.477
+1
+RMS: 1.115
+1
+RMS: 0.603
+1
+RMS: 0.592
+1
+RMS: 1.591
+1
+RMS: 0.367
+1
+RMS: 1.018
+1
+RMS: 1.606
+1
+RMS: 1.571
+1
+RMS: 0.523
+1
+RMS: 1.138
+1
+RMS: 0.889
+1
+RMS: 0.957
+1
+RMS: 0.494
+1
+RMS: 1.067
+1
+RMS: 0.573
+1
+RMS: 1.231
+1
+RMS: 2.339
+1
+RMS: 1.368
+1
+RMS: 0.396
+1
+RMS: 0.463
+1
+RMS: 1.012
+1
+RMS: 1.134
+1
+RMS: 1.781
+1
+RMS: 1.123
+1
+RMS: 1.187
+1
+RMS: 0.451
+1
+RMS: 0.657
+1
+RMS: 1.391
+1
+RMS: 1.540
+1
+RMS: 1.970
+1
+RMS: 1.246
+1
+RMS: 0.599
+1
+RMS: 0.855
+1
+RMS: 0.614
+1
+RMS: 0.691
+1
+RMS: 0.395
+1
+RMS: 0.548
+1
+RMS: 0.884
+1
+RMS: 0.782
+1
+RMS: 0.480
+1
+RMS: 1.591
+1
+RMS: 1.512
+1
+RMS: 0.377
+1
+RMS: 0.922
+1
+RMS: 0.637
+1
+RMS: 0.692
+1
+RMS: 1.446
+1
+RMS: 0.500
+1
+RMS: 1.149
+1
+RMS: 1.563
+1
+RMS: 1.126
+1
+RMS: 1.138
+1
+RMS: 0.476
+1
+RMS: 0.715
+1
+RMS: 1.310
+1
+RMS: 0.888
+1
+RMS: 0.306
+1
+RMS: 1.392
+1
+RMS: 1.529
+1
+RMS: 0.639
+1
+RMS: 1.472
+1
+RMS: 0.504
+1
+RMS: 0.880
+1
+RMS: 1.218
+1
+RMS: 1.053
+1
+RMS: 0.616
+1
+RMS: 0.445
+1
+RMS: 1.140
+1
+RMS: 1.536
+1
+RMS: 0.559
+1
+RMS: 1.201
+1
+RMS: 1.744
+1
+RMS: 1.341
+1
+RMS: 0.558
+1
+RMS: 0.543
+1
+RMS: 0.408
+1
+RMS: 0.384
+1
+RMS: 0.585
+1
+RMS: 0.897
+1
+RMS: 1.364
+1
+RMS: 1.277
+1
+RMS: 1.848
+1
+RMS: 1.595
+1
+RMS: 0.548
+1
+RMS: 0.415
+1
+RMS: 1.189
+1
+RMS: 0.873
+1
+RMS: 0.466
+1
+RMS: 0.539
+1
+RMS: 0.607
+1
+RMS: 0.603
+1
+RMS: 1.425
+1
+RMS: 1.515
+1
+RMS: 0.528
+1
+RMS: 0.775
+1
+RMS: 1.149
+1
+RMS: 1.054
+1
+RMS: 1.439
+1
+RMS: 0.401
+1
+RMS: 1.416
+1
+RMS: 1.830
+1
+RMS: 1.267
+1
+RMS: 0.536
+1
+RMS: 0.384
+1
+RMS: 1.004
+1
+RMS: 0.758
+1
+RMS: 1.102
+1
+RMS: 0.625
+1
+RMS: 0.487
+1
+RMS: 0.452
+1
+RMS: 0.427
+1
+RMS: 1.499
+1
+RMS: 0.677
+1
+RMS: 0.598
+1
+RMS: 1.202
+1
+RMS: 2.067
+1
+RMS: 1.930
+1
+RMS: 0.725
+1
+RMS: 1.229
+1
+RMS: 1.849
+1
+RMS: 1.321
+1
+RMS: 1.133
+1
+RMS: 0.604
+1
+RMS: 2.203
+1
+RMS: 0.486
+1
+RMS: 2.086
+1
+RMS: 1.072
+1
+RMS: 0.991
+1
+RMS: 0.624
+1
+RMS: 1.565
+1
+RMS: 1.132
+1
+RMS: 0.620
+1
+RMS: 1.259
+1
+RMS: 0.492
+1
+RMS: 0.439
+1
+RMS: 1.042
+1
+RMS: 0.439
+1
+RMS: 1.391
+1
+RMS: 0.481
+1
+RMS: 1.626
+1
+RMS: 0.599
+1
+RMS: 0.388
+1
+RMS: 0.837
+1
+RMS: 0.931
+1
+RMS: 1.711
+1
+RMS: 1.644
+1
+RMS: 0.973
+1
+RMS: 1.534
+1
+RMS: 0.624
+1
+RMS: 0.972
+1
+RMS: 0.520
+1
+RMS: 0.567
+1
+RMS: 0.449
+1
+RMS: 1.018
+1
+RMS: 1.500
+1
+RMS: 0.523
+1
+RMS: 0.980
+1
+RMS: 0.684
+1
+RMS: 1.156
+1
+RMS: 0.580
+1
+RMS: 1.037
+1
+RMS: 1.189
+1
+RMS: 0.387
+1
+RMS: 1.015
+1
+RMS: 0.605
+1
+RMS: 2.441
+1
+RMS: 0.989
+1
+RMS: 1.503
+1
+RMS: 1.590
+1
+RMS: 0.481
+1
+RMS: 1.282
+1
+RMS: 1.691
+1
+RMS: 1.494
+1
+RMS: 1.099
+1
+RMS: 1.065
+1
+RMS: 2.411
+1
+RMS: 1.036
+1
+RMS: 0.929
+1
+RMS: 1.773
+1
+RMS: 0.979
+1
+RMS: 2.188
+1
+RMS: 2.453
+1
+RMS: 0.946
+1
+RMS: 1.215
+1
+RMS: 1.417
+1
+RMS: 1.656
+1
+RMS: 1.792
+1
+RMS: 1.262
+1
+RMS: 1.032
+1
+RMS: 2.371
+1
+RMS: 1.458
+1
+RMS: 1.701
+1
+RMS: 1.865
+1
+

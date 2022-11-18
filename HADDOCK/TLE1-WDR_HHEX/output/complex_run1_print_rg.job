@@ -1,0 +1,9 @@
+#!/bin/csh
+cd ./
+setenv CURRIT 1
+setenv RUN ./
+setenv NEWIT $RUN/structures/it1
+setenv PREVIT $RUN/structures/it1
+setenv TEMPTRASH $RUN
+protocols/cns1 < protocols/print_rg.inp >! $NEWIT/analysis/print_rg.out
+gzip -f $NEWIT/analysis/print_rg.out

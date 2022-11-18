@@ -1,0 +1,6 @@
+d(H-D)=    1.92 +-  -nan #hb=  200  atoms "A   -531 -ASN -HD2#" and "B   -3   -TRP -O   "
+d(H-D)=    2.19 +-  -nan #hb=  200  atoms "A   -531 -ASN -O   " and "B   -4   -ARG -HE  "
+d(H-D)=    1.79 +-  0.00 #hb=  200  atoms "A   -531 -ASN -O   " and "B   -4   -ARG -HH2#"
+d(H-D)=    2.11 +-  0.00 #hb=  200  atoms "A   -531 -ASN -OD# " and "B   -4   -ARG -HH1#"
+d(H-D)=    2.25 +-  0.00 #hb=  200  atoms "A   -532 -TYR -HH  " and "B   -6   -TYR -O   "
+d(H-D)=    2.40 +-  -nan #hb=  200  atoms "A   -533 -ILE -O   " and "B   -6   -TYR -HH  "

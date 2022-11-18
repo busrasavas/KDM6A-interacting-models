@@ -1,0 +1,831 @@
+#Complex statistics
+#file Etot Ebond Eangle Eimpr Edihed Evdw Eelec
+# PREVIT:complex_7w.pdb -13378.4 46.6245 224.419 56.8418 1803.6 -1700.83 -13809
+# PREVIT:complex_102w.pdb -13538.8 45.8622 236.867 61.1002 1826.42 -1696.2 -14012.9
+# PREVIT:complex_163w.pdb -13621 45.3885 236.68 64.2242 1804.5 -1695.62 -14076.2
+# PREVIT:complex_75w.pdb -13444 45.4553 225.886 60.0802 1809.55 -1722.06 -13862.9
+# PREVIT:complex_130w.pdb -13574.2 45.3252 233.575 58.518 1817.4 -1688.5 -14040.6
+# PREVIT:complex_166w.pdb -13460.4 46.1947 228.449 55.7579 1811.57 -1694.17 -13908.2
+# PREVIT:complex_185w.pdb -13446.5 47.4505 233.609 58.3615 1803.49 -1673.19 -13916.3
+# PREVIT:complex_14w.pdb -13511.8 46.4377 223.482 58.1402 1768.46 -1677.17 -13931.2
+# PREVIT:complex_156w.pdb -13446.1 44.5392 252.378 65.2179 1812.32 -1720.28 -13900.3
+# PREVIT:complex_133w.pdb -13569.7 46.9565 237.227 55.8702 1813.81 -1655.88 -14067.7
+# PREVIT:complex_149w.pdb -13629.1 46.0503 231.159 60.7625 1828.92 -1663.61 -14132.4
+# PREVIT:complex_142w.pdb -13334.4 47.6114 258.298 67.2938 1823.58 -1675.53 -13855.7
+# PREVIT:complex_74w.pdb -13556.6 46.3459 212.84 57.7675 1799.85 -1679.87 -13993.5
+# PREVIT:complex_164w.pdb -13481.9 45.7844 227.41 64.1424 1819.18 -1717.2 -13921.2
+# PREVIT:complex_88w.pdb -13612.9 46.5831 236.433 63.8957 1808.96 -1681.02 -14087.8
+# PREVIT:complex_4w.pdb -13496 47.3677 231.678 56.7294 1807.02 -1698.37 -13940.4
+# PREVIT:complex_144w.pdb -13493.4 47.4472 240.949 62.3407 1826.13 -1700.01 -13970.3
+# PREVIT:complex_69w.pdb -13470.4 46.202 237.601 58.7416 1821.38 -1689.55 -13944.8
+# PREVIT:complex_147w.pdb -13363.1 46.767 239.001 58.1144 1821.76 -1723.06 -13805.7
+# PREVIT:complex_23w.pdb -13608 46.2139 245.39 60.3457 1800.73 -1670.95 -14089.7
+# PREVIT:complex_177w.pdb -13583.1 42.8045 237.538 59.9839 1803.22 -1697.74 -14028.9
+# PREVIT:complex_18w.pdb -13403.3 47.5696 246.365 63.225 1825.59 -1696.99 -13889.1
+# PREVIT:complex_109w.pdb -13369 45.269 219.365 63.2184 1823.19 -1718.97 -13801.1
+# PREVIT:complex_107w.pdb -13573.7 46.4312 224.046 62.1049 1809.42 -1709.32 -14006.4
+# PREVIT:complex_65w.pdb -13387.3 45.2232 234.851 60.9715 1812.64 -1725.64 -13815.4
+# PREVIT:complex_110w.pdb -13348.3 43.873 232.33 62.0761 1798.06 -1690.87 -13793.8
+# PREVIT:complex_187w.pdb -13576.8 45.9863 234.81 64.898 1786.62 -1706.25 -14002.9
+# PREVIT:complex_121w.pdb -13401.5 44.5821 234.007 60.4891 1810.57 -1713.5 -13837.6
+# PREVIT:complex_181w.pdb -13521.2 48.3201 240.051 60.7121 1811.96 -1702.31 -13979.9
+# PREVIT:complex_70w.pdb -13580.4 45.0303 228.577 63.6492 1809.26 -1705.45 -14021.4
+# PREVIT:complex_46w.pdb -13443.9 45.4919 237.196 63.9202 1790.87 -1726.53 -13854.9
+# PREVIT:complex_160w.pdb -13476.7 48.0793 253.618 66.6975 1795.76 -1693.02 -13947.9
+# PREVIT:complex_68w.pdb -13611.5 45.9159 223.079 57.1281 1812.94 -1689.63 -14060.9
+# PREVIT:complex_66w.pdb -13559.1 46.7387 230.969 61.7447 1818.45 -1693.91 -14023
+# PREVIT:complex_127w.pdb -13533.6 43.7909 226.171 57.908 1825.92 -1696.24 -13991.2
+# PREVIT:complex_154w.pdb -13527.9 45.8835 236.311 62.7786 1802.27 -1702.86 -13972.3
+# PREVIT:complex_53w.pdb -13563 45.0116 220.523 61.7111 1821.98 -1713.5 -13998.7
+# PREVIT:complex_80w.pdb -13466.5 46.3819 246.56 69.7425 1809.98 -1704.12 -13935.1
+# PREVIT:complex_1w.pdb -13500.9 45.3274 236.932 64.6827 1828.22 -1682.27 -13993.7
+# PREVIT:complex_114w.pdb -13247.7 44.5694 259.714 64.0325 1802.93 -1682.07 -13736.9
+# PREVIT:complex_126w.pdb -13427.1 45.8453 231.563 59.7029 1822.84 -1671.69 -13915.4
+# PREVIT:complex_72w.pdb -13363.4 46.1547 230.962 64.5626 1820.63 -1698.93 -13826.8
+# PREVIT:complex_96w.pdb -13556.6 46.8202 235.006 64.3306 1824.98 -1720.35 -14007.4
+# PREVIT:complex_43w.pdb -13471.9 46.6293 243.601 56.6105 1801.93 -1704.34 -13916.3
+# PREVIT:complex_31w.pdb -13460 45.0412 228.373 55.0285 1789.25 -1727.47 -13850.2
+# PREVIT:complex_77w.pdb -13517 44.8029 218.644 56.2873 1778.82 -1727.37 -13888.2
+# PREVIT:complex_125w.pdb -13542.5 44.6546 216.349 56.8876 1804.99 -1676.6 -13988.8
+# PREVIT:complex_78w.pdb -13490 46.31 230.452 64.5148 1799.49 -1695.91 -13934.9
+# PREVIT:complex_93w.pdb -13591.5 46.5121 230.426 57.9211 1818.87 -1693.85 -14051.4
+# PREVIT:complex_158w.pdb -13470.8 46.3564 217.561 59.1377 1797.38 -1702.61 -13888.7
+# PREVIT:complex_171w.pdb -13489.9 45.8544 233.076 61.122 1810.51 -1697.51 -13943
+# PREVIT:complex_99w.pdb -13351 44.8989 240.798 63.2149 1801.91 -1716.2 -13785.6
+# PREVIT:complex_87w.pdb -13575.4 45.5383 232.078 60.5397 1811.17 -1728.08 -13996.6
+# PREVIT:complex_165w.pdb -13617 43.235 234.963 60.2178 1815.02 -1715.3 -14055.1
+# PREVIT:complex_196w.pdb -13518.4 44.6466 227.385 58.476 1790.27 -1671.6 -13967.6
+# PREVIT:complex_175w.pdb -13630.4 47.1534 236.096 58.1248 1812.34 -1652.43 -14131.6
+# PREVIT:complex_129w.pdb -13432.5 46.904 224.262 63.0656 1804.78 -1710.31 -13861.2
+# PREVIT:complex_123w.pdb -13427.4 45.1378 230.648 58.7887 1805.52 -1715.1 -13852.4
+# PREVIT:complex_56w.pdb -13589.3 44.5171 231.324 58.2153 1790.12 -1708.85 -14004.7
+# PREVIT:complex_168w.pdb -13560.5 46.866 241.308 59.5615 1813.59 -1668.8 -14053
+# PREVIT:complex_60w.pdb -13388.7 46.4285 223.466 60.0125 1801.65 -1706.2 -13814
+# PREVIT:complex_169w.pdb -13426.2 46.541 246.01 60.8793 1794.67 -1701.86 -13872.5
+# PREVIT:complex_103w.pdb -13554.4 47.1594 243.642 64.9642 1821.33 -1668.97 -14062.5
+# PREVIT:complex_145w.pdb -13490.5 43.6818 220.536 56.8066 1794.52 -1689.89 -13916.2
+# PREVIT:complex_54w.pdb -13510.5 45.5297 218.937 57.4648 1813.87 -1686.11 -13960.2
+# PREVIT:complex_167w.pdb -13384.7 44.4328 218.727 55.9347 1839.89 -1707.93 -13835.8
+# PREVIT:complex_200w.pdb -13448.8 48.0378 229.468 60.3374 1790.52 -1708.52 -13868.7
+# PREVIT:complex_141w.pdb -13610.1 46.0078 228.197 59.1676 1783.7 -1709.13 -14018
+# PREVIT:complex_35w.pdb -13519.1 46.4717 242.837 60.7285 1831.48 -1681.54 -14019.1
+# PREVIT:complex_61w.pdb -13468.7 45.8018 240.368 59.5113 1813.25 -1702.51 -13925.1
+# PREVIT:complex_2w.pdb -13493.3 46.0539 223.899 54.6467 1806.63 -1698.14 -13926.4
+# PREVIT:complex_89w.pdb -13545.5 44.4036 217.579 56.04 1828.16 -1676.62 -14015
+# PREVIT:complex_49w.pdb -13568.6 48.0093 237.842 59.0241 1807.42 -1694.16 -14026.7
+# PREVIT:complex_112w.pdb -13554.7 45.7527 236.873 59.6171 1830.54 -1715.69 -14011.8
+# PREVIT:complex_188w.pdb -13521.9 47.5158 250.047 61.2371 1819.01 -1695.03 -14004.7
+# PREVIT:complex_67w.pdb -13529.4 49.8576 251.504 62.7531 1803.22 -1704.5 -13992.2
+# PREVIT:complex_138w.pdb -13601.5 48.3831 248.797 59.4062 1795.43 -1672.3 -14081.2
+# PREVIT:complex_105w.pdb -13393.3 46.1724 240.942 60.3495 1808.82 -1672.53 -13877
+# PREVIT:complex_140w.pdb -13576.7 44.4642 216.356 57.2242 1827.38 -1714.68 -14007.5
+# PREVIT:complex_172w.pdb -13497.4 44.0905 226.034 58.5609 1821 -1700.64 -13946.5
+# PREVIT:complex_30w.pdb -13601.8 46.3734 239.156 61.5323 1816.04 -1683.28 -14081.6
+# PREVIT:complex_179w.pdb -13603.3 46.7152 253.959 60.9603 1795.31 -1705.21 -14055
+# PREVIT:complex_81w.pdb -13353 47.186 240.505 62.3993 1817.7 -1704.39 -13816.4
+# PREVIT:complex_12w.pdb -13470.8 46.0913 234.519 62.7706 1818.3 -1696.5 -13936
+# PREVIT:complex_10w.pdb -13581.6 46.3354 237.776 59.7283 1815.81 -1710.08 -14031.2
+# PREVIT:complex_115w.pdb -13456.4 45.4149 237.374 59.4982 1821.74 -1679.27 -13941.1
+# PREVIT:complex_151w.pdb -13460.3 44.993 239.541 62.4298 1812.17 -1698.75 -13920.6
+# PREVIT:complex_119w.pdb -13457.2 47.3628 248.775 61.0104 1815.07 -1677.79 -13951.6
+# PREVIT:complex_3w.pdb -13544.9 47.7512 215.682 55.9322 1812.29 -1720.55 -13956
+# PREVIT:complex_159w.pdb -13341 42.5069 212.283 60.5962 1809.96 -1728.88 -13737.4
+# PREVIT:complex_82w.pdb -13579.9 47.6059 226.27 59.8291 1800.13 -1678.86 -14034.9
+# PREVIT:complex_42w.pdb -13641 47.9637 237.577 61.4685 1831.62 -1678.42 -14141.2
+# PREVIT:complex_26w.pdb -13471.7 45.9645 237.926 61.6687 1802.67 -1717.56 -13902.4
+# PREVIT:complex_113w.pdb -13473.7 46.2092 230.027 59.5815 1811.23 -1685.52 -13935.2
+# PREVIT:complex_57w.pdb -13456.1 46.448 247.084 63.1201 1809.71 -1687.55 -13934.9
+# PREVIT:complex_59w.pdb -13568.7 46.0156 237.074 62.783 1819.85 -1692.8 -14041.6
+# PREVIT:complex_50w.pdb -13519.4 45.1133 240.739 63.6655 1818.18 -1689.17 -13998
+# PREVIT:complex_191w.pdb -13446.6 46.285 227.462 57.0476 1820.01 -1688.94 -13908.4
+# PREVIT:complex_194w.pdb -13649.7 46.6239 219.215 56.2622 1831.8 -1729.42 -14074.1
+# PREVIT:complex_180w.pdb -13430.1 46.9761 239.766 62.411 1787.94 -1706.8 -13860.4
+# PREVIT:complex_62w.pdb -13488 45.3007 231.313 60.8636 1810.5 -1690.06 -13945.9
+# PREVIT:complex_189w.pdb -13504.9 48.5051 239.42 64.373 1802.19 -1678.06 -13981.3
+# PREVIT:complex_148w.pdb -13522.9 47.1764 229.844 60.0781 1821.66 -1720.33 -13961.3
+# PREVIT:complex_92w.pdb -13431.9 45.2138 243.157 62.9861 1801.66 -1704.65 -13880.3
+# PREVIT:complex_34w.pdb -13398.6 45.4355 227.16 59.0641 1816.59 -1718.58 -13828.3
+# PREVIT:complex_13w.pdb -13468.2 47.9001 236.698 60.9044 1789.44 -1720.55 -13882.6
+# PREVIT:complex_106w.pdb -13468.9 46.3026 228.507 55.3705 1834.07 -1688.4 -13944.8
+# PREVIT:complex_146w.pdb -13603.2 45.2005 212.647 56.0362 1814.46 -1688.8 -14042.8
+# PREVIT:complex_21w.pdb -13560.5 44.6253 225.091 55.4788 1834.63 -1707.33 -14013
+# PREVIT:complex_173w.pdb -13434.8 47.0238 234.4 60.2774 1811.18 -1700.14 -13887.6
+# PREVIT:complex_9w.pdb -13598.5 46.09 225.66 57.8074 1794.76 -1692.43 -14030.4
+# PREVIT:complex_22w.pdb -13571.7 45.4276 238.256 62.3127 1812.89 -1698.95 -14031.6
+# PREVIT:complex_41w.pdb -13716.1 45.2975 229.66 55.6643 1822.86 -1679.77 -14189.9
+# PREVIT:complex_124w.pdb -13464.7 45.6671 244.658 62.0831 1840.7 -1673.47 -13984.4
+# PREVIT:complex_20w.pdb -13470.8 46.8176 253.743 64.9895 1806.17 -1711.85 -13930.7
+# PREVIT:complex_170w.pdb -13461.3 47.2454 251.249 63.3386 1806.79 -1707.99 -13921.9
+# PREVIT:complex_157w.pdb -13497.1 45.2846 240.146 60.6281 1799.35 -1692.91 -13949.6
+# PREVIT:complex_19w.pdb -13495.3 46.6494 236.307 62.4436 1800.38 -1709.29 -13931.8
+# PREVIT:complex_15w.pdb -13538 42.4531 203.059 57.8739 1826.8 -1711.79 -13956.4
+# PREVIT:complex_37w.pdb -13505.8 45.165 245.68 58.7875 1811.75 -1690.27 -13976.9
+# PREVIT:complex_197w.pdb -13618.4 51.9335 249.531 61.1039 1822.28 -1661.18 -14142.1
+# PREVIT:complex_174w.pdb -13565.7 45.8849 247.142 60.7786 1817.01 -1691.82 -14044.7
+# PREVIT:complex_17w.pdb -13509.8 44.7395 219.251 59.7062 1829.15 -1707.47 -13955.2
+# PREVIT:complex_27w.pdb -13472.9 44.8708 226.244 62.9255 1816.36 -1727.91 -13895.4
+# PREVIT:complex_71w.pdb -13457.3 46.4065 231.172 58.9801 1785.35 -1690.31 -13888.9
+# PREVIT:complex_16w.pdb -13525.8 45.7659 246.661 67.2373 1797.65 -1714.88 -13968.2
+# PREVIT:complex_186w.pdb -13522.6 43.6 215.561 61.4346 1834.58 -1700.56 -13977.3
+# PREVIT:complex_128w.pdb -13595.2 44.228 219.939 55.9392 1821.34 -1712.94 -14023.7
+# PREVIT:complex_84w.pdb -13403.9 46.1535 237.909 59.8884 1808.51 -1711.98 -13844.4
+# PREVIT:complex_90w.pdb -13407.5 46.7897 234.424 62.9149 1791.76 -1675.71 -13867.7
+# PREVIT:complex_132w.pdb -13585.1 44.9359 222.863 61.4009 1805.32 -1722.81 -13996.8
+# PREVIT:complex_122w.pdb -13420.8 45.7238 235.062 58.3657 1795.3 -1699.99 -13855.3
+# PREVIT:complex_39w.pdb -13510.1 45.1076 233.296 57.783 1813.82 -1683.42 -13976.7
+# PREVIT:complex_40w.pdb -13425.1 45.5045 246.994 65.1706 1810.56 -1674.37 -13919
+# PREVIT:complex_120w.pdb -13479.5 46.8725 247.858 67.2676 1814.55 -1700.86 -13955.2
+# PREVIT:complex_97w.pdb -13461.8 47.5592 217.287 58.0627 1805.22 -1693.27 -13896.7
+# PREVIT:complex_25w.pdb -13532.2 45.4656 235.814 60.9241 1841.71 -1727.6 -13988.5
+# PREVIT:complex_116w.pdb -13381.3 46.9703 240.476 60.2879 1808.14 -1709.7 -13827.5
+# PREVIT:complex_199w.pdb -13372.8 46.7378 230.695 59.642 1788.85 -1649.57 -13849.2
+# PREVIT:complex_184w.pdb -13465.5 45.3628 236.395 58.1865 1826.18 -1668.32 -13963.3
+# PREVIT:complex_192w.pdb -13265.4 45.1359 242.605 61.3328 1787.53 -1681.54 -13720.4
+# PREVIT:complex_183w.pdb -13394.3 45.5337 212.856 56.9896 1809.62 -1675.26 -13844
+# PREVIT:complex_47w.pdb -13608.2 45.5027 237.407 64.7397 1823.97 -1719.23 -14060.6
+# PREVIT:complex_143w.pdb -13534.3 45.0619 251.867 65.3044 1802.05 -1654.23 -14044.4
+# PREVIT:complex_52w.pdb -13521.9 45.3702 226.99 57.0852 1806.64 -1685.84 -13972.2
+# PREVIT:complex_152w.pdb -13499.5 46.0731 238.085 61.5685 1822.64 -1680.51 -13987.4
+# PREVIT:complex_45w.pdb -13509.9 45.7994 237.369 59.96 1829.19 -1708.47 -13973.8
+# PREVIT:complex_111w.pdb -13328.1 44.044 242.964 67.2407 1777.75 -1705.45 -13754.7
+# PREVIT:complex_85w.pdb -13420.9 44.8109 221.458 63.3248 1801.71 -1715.56 -13836.6
+# PREVIT:complex_32w.pdb -13396.1 48.2009 244.277 59.4522 1841.81 -1668.54 -13921.3
+# PREVIT:complex_8w.pdb -13498.8 44.2889 235.034 57.3009 1811.46 -1714.66 -13932.3
+# PREVIT:complex_137w.pdb -13514.3 46.3731 227.974 58.9625 1821.77 -1703.12 -13966.2
+# PREVIT:complex_33w.pdb -13351.6 45.3076 227.696 61.8962 1805.54 -1706.44 -13785.6
+# PREVIT:complex_153w.pdb -13467.1 47.1943 244.1 66.2484 1795.5 -1677.31 -13942.8
+# PREVIT:complex_28w.pdb -13583.8 42.496 200.041 56.7227 1827.91 -1718.65 -13992.3
+# PREVIT:complex_73w.pdb -13361.4 47.5658 238.353 62.2663 1823.6 -1707.67 -13825.5
+# PREVIT:complex_162w.pdb -13541.3 46.4207 236.509 63.4887 1811.85 -1686.98 -14012.6
+# PREVIT:complex_24w.pdb -13557.1 45.892 224.64 57.6985 1802.63 -1706.29 -13981.7
+# PREVIT:complex_83w.pdb -13616.3 44.9486 235.107 59.794 1819.34 -1663.43 -14112
+# PREVIT:complex_44w.pdb -13460.4 43.6907 231.065 60.0738 1809.17 -1710.3 -13894.1
+# PREVIT:complex_161w.pdb -13474.1 47.2732 230.011 61.5237 1786.01 -1684.46 -13914.5
+# PREVIT:complex_100w.pdb -13513.6 44.0836 219.005 57.898 1813.6 -1698.5 -13949.7
+# PREVIT:complex_139w.pdb -13454.6 47.7549 240.419 62.4005 1822.05 -1709.22 -13918
+# PREVIT:complex_86w.pdb -13420.6 45.5514 234.864 58.9155 1810.26 -1720.24 -13849.9
+# PREVIT:complex_178w.pdb -13501.2 46.1907 225.822 60.2816 1795.53 -1688.2 -13940.8
+# PREVIT:complex_198w.pdb -13548.6 45.2785 240.415 59.4704 1790.39 -1694.09 -13990.1
+# PREVIT:complex_38w.pdb -13501.5 47.708 245.756 61.5898 1796.97 -1657.82 -13995.7
+# PREVIT:complex_63w.pdb -13493 46.3598 241.206 60.388 1802.86 -1707.33 -13936.5
+# PREVIT:complex_118w.pdb -13508.7 45.6839 235.422 59.8221 1808.3 -1695.55 -13962.4
+# PREVIT:complex_193w.pdb -13446.3 45.4028 235.361 62.078 1828.57 -1684.54 -13933.1
+# PREVIT:complex_150w.pdb -13502.7 45.0429 228.276 61.3844 1814.18 -1734.22 -13917.4
+# PREVIT:complex_91w.pdb -13509.2 49.0865 242.964 62.1665 1832.36 -1675.05 -14020.7
+# PREVIT:complex_94w.pdb -13506.2 44.2495 215.89 57.1414 1827.48 -1699.01 -13952
+# PREVIT:complex_5w.pdb -13296.5 45.4271 243.038 59.3893 1824.73 -1667.29 -13801.8
+# PREVIT:complex_190w.pdb -13478.3 43.8034 235.332 59.4734 1795.68 -1706.16 -13906.5
+# PREVIT:complex_155w.pdb -13518.1 45.4653 231.894 59.9835 1814.58 -1707.85 -13962.2
+# PREVIT:complex_76w.pdb -13362.3 45.6592 234.886 59.1714 1783.11 -1688.41 -13796.7
+# PREVIT:complex_58w.pdb -13601.2 42.1655 202.412 57.5134 1815.4 -1716.84 -14001.8
+# PREVIT:complex_135w.pdb -13524.1 46.7879 229.845 61.6465 1818.38 -1697.21 -13983.6
+# PREVIT:complex_6w.pdb -13635.6 44.9722 229.636 59.2378 1807.97 -1700.75 -14076.6
+# PREVIT:complex_182w.pdb -13518.7 44.271 229.986 60.233 1815.81 -1708.16 -13960.8
+# PREVIT:complex_101w.pdb -13446.2 45.0804 232.225 60.3202 1812.79 -1685.58 -13911
+# PREVIT:complex_108w.pdb -13558.1 45.1401 227.225 61.6442 1807.65 -1704.18 -13995.6
+# PREVIT:complex_117w.pdb -13493.9 45.4848 240.353 57.6145 1819.42 -1701.6 -13955.1
+# PREVIT:complex_51w.pdb -13520 45.8624 229.854 59.3105 1796.01 -1699.24 -13951.8
+# PREVIT:complex_176w.pdb -13609.3 44.9523 211.923 56.5949 1820.3 -1685.92 -14057.2
+# PREVIT:complex_136w.pdb -13387.8 43.9759 241.943 59.4182 1816.18 -1671.07 -13878.2
+# PREVIT:complex_36w.pdb -13510.6 44.2412 213.691 63.0525 1803.32 -1709.01 -13925.9
+# PREVIT:complex_98w.pdb -13645 44.5212 208.211 54.1689 1833.04 -1712.05 -14072.9
+# PREVIT:complex_134w.pdb -13589.3 44.9957 231.259 60.9694 1781.24 -1691.73 -14016.1
+# PREVIT:complex_55w.pdb -13478.2 44.236 245.687 66.1816 1790.22 -1692.11 -13932.5
+# PREVIT:complex_48w.pdb -13446 46.395 250.11 65.6211 1818.09 -1686.41 -13939.8
+# PREVIT:complex_11w.pdb -13400.2 45.3783 247.94 61.0661 1802.63 -1698 -13859.2
+# PREVIT:complex_29w.pdb -13542.8 45.4604 217.198 55.8606 1831.22 -1686.62 -14006
+# PREVIT:complex_64w.pdb -13599.9 45.6397 226.389 61.9543 1792.52 -1701.65 -14024.8
+# PREVIT:complex_195w.pdb -13625.8 45.4206 244.557 61.0662 1782.38 -1694.05 -14065.2
+# PREVIT:complex_131w.pdb -13389.2 45.6021 215.364 62.9987 1810.59 -1705.1 -13818.6
+# PREVIT:complex_104w.pdb -13496.2 46.9051 223.054 60.9613 1804.59 -1675.54 -13956.2
+# PREVIT:complex_79w.pdb -13557.7 46.9323 214.415 59.8153 1790.99 -1703.59 -13966.2
+# PREVIT:complex_95w.pdb -13506.2 45.3678 213.978 57.6025 1807.98 -1668.59 -13962.6
+# mean values protein
+# Etot   -13497.2 (+/- 80.9785 ) [kcal/Mol]
+# Ebond  45.862 (+/- 1.32759 ) [kcal/Mol]
+# Eangle 232.957 (+/- 10.9698 ) [kcal/Mol]
+# Eimpr  60.5017 (+/- 2.86036 ) [kcal/Mol]
+# Edihed 1810.46 (+/- 13.6963 ) [kcal/Mol]
+# Evdw   -1696.78 (+/- 17.3977 ) [kcal/Mol]
+# Eelec  -13950.2 (+/- 84.8715 ) [kcal/Mol]
+#
+#
+#Proteins flexible interface energies
+#file Etot Evdw Eelec
+# PREVIT:complex_7w.pdb	0	0	0
+# PREVIT:complex_102w.pdb	0	0	0
+# PREVIT:complex_163w.pdb	0	0	0
+# PREVIT:complex_75w.pdb	0	0	0
+# PREVIT:complex_130w.pdb	0	0	0
+# PREVIT:complex_166w.pdb	0	0	0
+# PREVIT:complex_185w.pdb	0	0	0
+# PREVIT:complex_14w.pdb	0	0	0
+# PREVIT:complex_156w.pdb	0	0	0
+# PREVIT:complex_133w.pdb	0	0	0
+# PREVIT:complex_149w.pdb	0	0	0
+# PREVIT:complex_142w.pdb	0	0	0
+# PREVIT:complex_74w.pdb	0	0	0
+# PREVIT:complex_164w.pdb	0	0	0
+# PREVIT:complex_88w.pdb	0	0	0
+# PREVIT:complex_4w.pdb	0	0	0
+# PREVIT:complex_144w.pdb	0	0	0
+# PREVIT:complex_69w.pdb	0	0	0
+# PREVIT:complex_147w.pdb	0	0	0
+# PREVIT:complex_23w.pdb	0	0	0
+# PREVIT:complex_177w.pdb	0	0	0
+# PREVIT:complex_18w.pdb	0	0	0
+# PREVIT:complex_109w.pdb	0	0	0
+# PREVIT:complex_107w.pdb	0	0	0
+# PREVIT:complex_65w.pdb	0	0	0
+# PREVIT:complex_110w.pdb	0	0	0
+# PREVIT:complex_187w.pdb	0	0	0
+# PREVIT:complex_121w.pdb	0	0	0
+# PREVIT:complex_181w.pdb	0	0	0
+# PREVIT:complex_70w.pdb	0	0	0
+# PREVIT:complex_46w.pdb	0	0	0
+# PREVIT:complex_160w.pdb	0	0	0
+# PREVIT:complex_68w.pdb	0	0	0
+# PREVIT:complex_66w.pdb	0	0	0
+# PREVIT:complex_127w.pdb	0	0	0
+# PREVIT:complex_154w.pdb	0	0	0
+# PREVIT:complex_53w.pdb	0	0	0
+# PREVIT:complex_80w.pdb	0	0	0
+# PREVIT:complex_1w.pdb	0	0	0
+# PREVIT:complex_114w.pdb	0	0	0
+# PREVIT:complex_126w.pdb	0	0	0
+# PREVIT:complex_72w.pdb	0	0	0
+# PREVIT:complex_96w.pdb	0	0	0
+# PREVIT:complex_43w.pdb	0	0	0
+# PREVIT:complex_31w.pdb	0	0	0
+# PREVIT:complex_77w.pdb	0	0	0
+# PREVIT:complex_125w.pdb	0	0	0
+# PREVIT:complex_78w.pdb	0	0	0
+# PREVIT:complex_93w.pdb	0	0	0
+# PREVIT:complex_158w.pdb	0	0	0
+# PREVIT:complex_171w.pdb	0	0	0
+# PREVIT:complex_99w.pdb	0	0	0
+# PREVIT:complex_87w.pdb	0	0	0
+# PREVIT:complex_165w.pdb	0	0	0
+# PREVIT:complex_196w.pdb	0	0	0
+# PREVIT:complex_175w.pdb	0	0	0
+# PREVIT:complex_129w.pdb	0	0	0
+# PREVIT:complex_123w.pdb	0	0	0
+# PREVIT:complex_56w.pdb	0	0	0
+# PREVIT:complex_168w.pdb	0	0	0
+# PREVIT:complex_60w.pdb	0	0	0
+# PREVIT:complex_169w.pdb	0	0	0
+# PREVIT:complex_103w.pdb	0	0	0
+# PREVIT:complex_145w.pdb	0	0	0
+# PREVIT:complex_54w.pdb	0	0	0
+# PREVIT:complex_167w.pdb	0	0	0
+# PREVIT:complex_200w.pdb	0	0	0
+# PREVIT:complex_141w.pdb	0	0	0
+# PREVIT:complex_35w.pdb	0	0	0
+# PREVIT:complex_61w.pdb	0	0	0
+# PREVIT:complex_2w.pdb	0	0	0
+# PREVIT:complex_89w.pdb	0	0	0
+# PREVIT:complex_49w.pdb	0	0	0
+# PREVIT:complex_112w.pdb	0	0	0
+# PREVIT:complex_188w.pdb	0	0	0
+# PREVIT:complex_67w.pdb	0	0	0
+# PREVIT:complex_138w.pdb	0	0	0
+# PREVIT:complex_105w.pdb	0	0	0
+# PREVIT:complex_140w.pdb	0	0	0
+# PREVIT:complex_172w.pdb	0	0	0
+# PREVIT:complex_30w.pdb	0	0	0
+# PREVIT:complex_179w.pdb	0	0	0
+# PREVIT:complex_81w.pdb	0	0	0
+# PREVIT:complex_12w.pdb	0	0	0
+# PREVIT:complex_10w.pdb	0	0	0
+# PREVIT:complex_115w.pdb	0	0	0
+# PREVIT:complex_151w.pdb	0	0	0
+# PREVIT:complex_119w.pdb	0	0	0
+# PREVIT:complex_3w.pdb	0	0	0
+# PREVIT:complex_159w.pdb	0	0	0
+# PREVIT:complex_82w.pdb	0	0	0
+# PREVIT:complex_42w.pdb	0	0	0
+# PREVIT:complex_26w.pdb	0	0	0
+# PREVIT:complex_113w.pdb	0	0	0
+# PREVIT:complex_57w.pdb	0	0	0
+# PREVIT:complex_59w.pdb	0	0	0
+# PREVIT:complex_50w.pdb	0	0	0
+# PREVIT:complex_191w.pdb	0	0	0
+# PREVIT:complex_194w.pdb	0	0	0
+# PREVIT:complex_180w.pdb	0	0	0
+# PREVIT:complex_62w.pdb	0	0	0
+# PREVIT:complex_189w.pdb	0	0	0
+# PREVIT:complex_148w.pdb	0	0	0
+# PREVIT:complex_92w.pdb	0	0	0
+# PREVIT:complex_34w.pdb	0	0	0
+# PREVIT:complex_13w.pdb	0	0	0
+# PREVIT:complex_106w.pdb	0	0	0
+# PREVIT:complex_146w.pdb	0	0	0
+# PREVIT:complex_21w.pdb	0	0	0
+# PREVIT:complex_173w.pdb	0	0	0
+# PREVIT:complex_9w.pdb	0	0	0
+# PREVIT:complex_22w.pdb	0	0	0
+# PREVIT:complex_41w.pdb	0	0	0
+# PREVIT:complex_124w.pdb	0	0	0
+# PREVIT:complex_20w.pdb	0	0	0
+# PREVIT:complex_170w.pdb	0	0	0
+# PREVIT:complex_157w.pdb	0	0	0
+# PREVIT:complex_19w.pdb	0	0	0
+# PREVIT:complex_15w.pdb	0	0	0
+# PREVIT:complex_37w.pdb	0	0	0
+# PREVIT:complex_197w.pdb	0	0	0
+# PREVIT:complex_174w.pdb	0	0	0
+# PREVIT:complex_17w.pdb	0	0	0
+# PREVIT:complex_27w.pdb	0	0	0
+# PREVIT:complex_71w.pdb	0	0	0
+# PREVIT:complex_16w.pdb	0	0	0
+# PREVIT:complex_186w.pdb	0	0	0
+# PREVIT:complex_128w.pdb	0	0	0
+# PREVIT:complex_84w.pdb	0	0	0
+# PREVIT:complex_90w.pdb	0	0	0
+# PREVIT:complex_132w.pdb	0	0	0
+# PREVIT:complex_122w.pdb	0	0	0
+# PREVIT:complex_39w.pdb	0	0	0
+# PREVIT:complex_40w.pdb	0	0	0
+# PREVIT:complex_120w.pdb	0	0	0
+# PREVIT:complex_97w.pdb	0	0	0
+# PREVIT:complex_25w.pdb	0	0	0
+# PREVIT:complex_116w.pdb	0	0	0
+# PREVIT:complex_199w.pdb	0	0	0
+# PREVIT:complex_184w.pdb	0	0	0
+# PREVIT:complex_192w.pdb	0	0	0
+# PREVIT:complex_183w.pdb	0	0	0
+# PREVIT:complex_47w.pdb	0	0	0
+# PREVIT:complex_143w.pdb	0	0	0
+# PREVIT:complex_52w.pdb	0	0	0
+# PREVIT:complex_152w.pdb	0	0	0
+# PREVIT:complex_45w.pdb	0	0	0
+# PREVIT:complex_111w.pdb	0	0	0
+# PREVIT:complex_85w.pdb	0	0	0
+# PREVIT:complex_32w.pdb	0	0	0
+# PREVIT:complex_8w.pdb	0	0	0
+# PREVIT:complex_137w.pdb	0	0	0
+# PREVIT:complex_33w.pdb	0	0	0
+# PREVIT:complex_153w.pdb	0	0	0
+# PREVIT:complex_28w.pdb	0	0	0
+# PREVIT:complex_73w.pdb	0	0	0
+# PREVIT:complex_162w.pdb	0	0	0
+# PREVIT:complex_24w.pdb	0	0	0
+# PREVIT:complex_83w.pdb	0	0	0
+# PREVIT:complex_44w.pdb	0	0	0
+# PREVIT:complex_161w.pdb	0	0	0
+# PREVIT:complex_100w.pdb	0	0	0
+# PREVIT:complex_139w.pdb	0	0	0
+# PREVIT:complex_86w.pdb	0	0	0
+# PREVIT:complex_178w.pdb	0	0	0
+# PREVIT:complex_198w.pdb	0	0	0
+# PREVIT:complex_38w.pdb	0	0	0
+# PREVIT:complex_63w.pdb	0	0	0
+# PREVIT:complex_118w.pdb	0	0	0
+# PREVIT:complex_193w.pdb	0	0	0
+# PREVIT:complex_150w.pdb	0	0	0
+# PREVIT:complex_91w.pdb	0	0	0
+# PREVIT:complex_94w.pdb	0	0	0
+# PREVIT:complex_5w.pdb	0	0	0
+# PREVIT:complex_190w.pdb	0	0	0
+# PREVIT:complex_155w.pdb	0	0	0
+# PREVIT:complex_76w.pdb	0	0	0
+# PREVIT:complex_58w.pdb	0	0	0
+# PREVIT:complex_135w.pdb	0	0	0
+# PREVIT:complex_6w.pdb	0	0	0
+# PREVIT:complex_182w.pdb	0	0	0
+# PREVIT:complex_101w.pdb	0	0	0
+# PREVIT:complex_108w.pdb	0	0	0
+# PREVIT:complex_117w.pdb	0	0	0
+# PREVIT:complex_51w.pdb	0	0	0
+# PREVIT:complex_176w.pdb	0	0	0
+# PREVIT:complex_136w.pdb	0	0	0
+# PREVIT:complex_36w.pdb	0	0	0
+# PREVIT:complex_98w.pdb	0	0	0
+# PREVIT:complex_134w.pdb	0	0	0
+# PREVIT:complex_55w.pdb	0	0	0
+# PREVIT:complex_48w.pdb	0	0	0
+# PREVIT:complex_11w.pdb	0	0	0
+# PREVIT:complex_29w.pdb	0	0	0
+# PREVIT:complex_64w.pdb	0	0	0
+# PREVIT:complex_195w.pdb	0	0	0
+# PREVIT:complex_131w.pdb	0	0	0
+# PREVIT:complex_104w.pdb	0	0	0
+# PREVIT:complex_79w.pdb	0	0	0
+# PREVIT:complex_95w.pdb	0	0	0
+# mean values
+# Etot   0 (+/- 0 ) [kcal/Mol]
+# Evdw   0 (+/- 0 ) [kcal/Mol]
+# Eelec  0 (+/- 0 ) [kcal/Mol]
+#
+#
+#Protein-Protein intermolecular energies
+#file Etot Evdw Eelec
+# PREVIT:complex_7w.pdb -118.461 -38.5186 -79.9421
+# PREVIT:complex_102w.pdb -142.945 -41.8837 -101.061
+# PREVIT:complex_163w.pdb -116.221 -37.6484 -78.5722
+# PREVIT:complex_75w.pdb -98.204 -44.0039 -54.2
+# PREVIT:complex_130w.pdb -130.906 -36.3216 -94.5849
+# PREVIT:complex_166w.pdb -111.957 -39.4777 -72.479
+# PREVIT:complex_185w.pdb -138.437 -40.7301 -97.7074
+# PREVIT:complex_14w.pdb -113.543 -39.2005 -74.3421
+# PREVIT:complex_156w.pdb -92.9982 -39.4231 -53.5751
+# PREVIT:complex_133w.pdb -105.683 -42.1415 -63.5418
+# PREVIT:complex_149w.pdb -130.071 -36.0016 -94.0697
+# PREVIT:complex_142w.pdb -106.447 -38.8186 -67.6283
+# PREVIT:complex_74w.pdb -107.792 -36.9835 -70.8081
+# PREVIT:complex_164w.pdb -104.261 -38.5716 -65.6897
+# PREVIT:complex_88w.pdb -112.641 -35.1072 -77.534
+# PREVIT:complex_4w.pdb -125.049 -39.0018 -86.047
+# PREVIT:complex_144w.pdb -116.152 -38.2866 -77.865
+# PREVIT:complex_69w.pdb -112.56 -40.5859 -71.974
+# PREVIT:complex_147w.pdb -106.846 -39.6505 -67.1955
+# PREVIT:complex_23w.pdb -125.774 -38.9604 -86.8133
+# PREVIT:complex_177w.pdb -90.8743 -43.7032 -47.1711
+# PREVIT:complex_18w.pdb -108.027 -41.0279 -66.9987
+# PREVIT:complex_109w.pdb -107.199 -37.7434 -69.4557
+# PREVIT:complex_107w.pdb -130.284 -33.4139 -96.8705
+# PREVIT:complex_65w.pdb -93.9137 -41.0381 -52.8756
+# PREVIT:complex_110w.pdb -105.527 -36.2461 -69.2807
+# PREVIT:complex_187w.pdb -97.5833 -36.4522 -61.1311
+# PREVIT:complex_121w.pdb -114.836 -35.8971 -78.939
+# PREVIT:complex_181w.pdb -107.58 -36.0112 -71.5691
+# PREVIT:complex_70w.pdb -92.5432 -40.8513 -51.6919
+# PREVIT:complex_46w.pdb -72.2314 -36.5973 -35.6341
+# PREVIT:complex_160w.pdb -72.9044 -39.8586 -33.0458
+# PREVIT:complex_68w.pdb -111.388 -37.9461 -73.4419
+# PREVIT:complex_66w.pdb -102.742 -41.39 -61.3525
+# PREVIT:complex_127w.pdb -129.93 -31.8127 -98.1177
+# PREVIT:complex_154w.pdb -97.2242 -37.1705 -60.0537
+# PREVIT:complex_53w.pdb -123.165 -34.1151 -89.0496
+# PREVIT:complex_80w.pdb -84.3098 -42.3027 -42.007
+# PREVIT:complex_1w.pdb -119.375 -41.6642 -77.7108
+# PREVIT:complex_114w.pdb -85.4502 -37.4908 -47.9594
+# PREVIT:complex_126w.pdb -98.1978 -40.304 -57.8938
+# PREVIT:complex_72w.pdb -97.1819 -38.7504 -58.4314
+# PREVIT:complex_96w.pdb -116.284 -39.9319 -76.3519
+# PREVIT:complex_43w.pdb -83.3269 -38.6645 -44.6623
+# PREVIT:complex_31w.pdb -101.427 -35.0089 -66.4185
+# PREVIT:complex_77w.pdb -108.737 -40.7744 -67.9628
+# PREVIT:complex_125w.pdb -98.5046 -40.241 -58.2636
+# PREVIT:complex_78w.pdb -142.704 -37.5483 -105.156
+# PREVIT:complex_93w.pdb -63.8434 -38.414 -25.4294
+# PREVIT:complex_158w.pdb -69.7001 -43.2069 -26.4932
+# PREVIT:complex_171w.pdb -68.1727 -38.228 -29.9447
+# PREVIT:complex_99w.pdb -68.3896 -39.1807 -29.2089
+# PREVIT:complex_87w.pdb -117 -39.5095 -77.4907
+# PREVIT:complex_165w.pdb -90.8209 -37.1177 -53.7032
+# PREVIT:complex_196w.pdb -123.776 -34.8561 -88.9196
+# PREVIT:complex_175w.pdb -100.839 -34.5631 -66.2761
+# PREVIT:complex_129w.pdb -65.1931 -42.8248 -22.3682
+# PREVIT:complex_123w.pdb -103.511 -34.837 -68.6744
+# PREVIT:complex_56w.pdb -100.527 -41.9365 -58.5902
+# PREVIT:complex_168w.pdb -112.908 -36.9719 -75.9363
+# PREVIT:complex_60w.pdb -86.6567 -41.4351 -45.2216
+# PREVIT:complex_169w.pdb -86.0002 -38.46 -47.5402
+# PREVIT:complex_103w.pdb -106.165 -37.9508 -68.2145
+# PREVIT:complex_145w.pdb -65.2433 -34.1362 -31.1072
+# PREVIT:complex_54w.pdb -77.3876 -38.9487 -38.4389
+# PREVIT:complex_167w.pdb -73.4745 -37.1896 -36.2849
+# PREVIT:complex_200w.pdb -114.945 -36.2237 -78.7213
+# PREVIT:complex_141w.pdb -78.9339 -40.3447 -38.5892
+# PREVIT:complex_35w.pdb -118.567 -37.1586 -81.4087
+# PREVIT:complex_61w.pdb -70.6016 -39.2326 -31.369
+# PREVIT:complex_2w.pdb -74.3397 -41.2907 -33.049
+# PREVIT:complex_89w.pdb -97.8746 -37.3169 -60.5578
+# PREVIT:complex_49w.pdb -112.772 -34.022 -78.7499
+# PREVIT:complex_112w.pdb -104.917 -39.8076 -65.1091
+# PREVIT:complex_188w.pdb -97.8241 -33.1545 -64.6696
+# PREVIT:complex_67w.pdb -97.476 -36.9426 -60.5333
+# PREVIT:complex_138w.pdb -107.729 -37.0865 -70.6426
+# PREVIT:complex_105w.pdb -107.244 -32.249 -74.9951
+# PREVIT:complex_140w.pdb -93.3639 -37.8576 -55.5063
+# PREVIT:complex_172w.pdb -98.2696 -36.1807 -62.0889
+# PREVIT:complex_30w.pdb -112.551 -39.9419 -72.6091
+# PREVIT:complex_179w.pdb -101.52 -41.356 -60.1643
+# PREVIT:complex_81w.pdb -69.6987 -40.6467 -29.052
+# PREVIT:complex_12w.pdb -64.0744 -38.8201 -25.2542
+# PREVIT:complex_10w.pdb -102.86 -36.1721 -66.6879
+# PREVIT:complex_115w.pdb -71.0667 -35.9073 -35.1594
+# PREVIT:complex_151w.pdb -85.9674 -35.0232 -50.9443
+# PREVIT:complex_119w.pdb -80.3175 -36.3288 -43.9887
+# PREVIT:complex_3w.pdb -106.721 -33.4087 -73.3119
+# PREVIT:complex_159w.pdb -100.373 -40.0635 -60.3092
+# PREVIT:complex_82w.pdb -94.3154 -38.1331 -56.1823
+# PREVIT:complex_42w.pdb -111.741 -36.8833 -74.8576
+# PREVIT:complex_26w.pdb -105.692 -37.679 -68.0126
+# PREVIT:complex_113w.pdb -82.4811 -40.5534 -41.9277
+# PREVIT:complex_57w.pdb -100.72 -36.4323 -64.2873
+# PREVIT:complex_59w.pdb -90.5227 -33.2545 -57.2683
+# PREVIT:complex_50w.pdb -78.6029 -37.8117 -40.7912
+# PREVIT:complex_191w.pdb -90.2352 -32.998 -57.2372
+# PREVIT:complex_194w.pdb -91.0703 -37.3715 -53.6988
+# PREVIT:complex_180w.pdb -73.5329 -36.1596 -37.3733
+# PREVIT:complex_62w.pdb -97.9226 -36.0386 -61.8841
+# PREVIT:complex_189w.pdb -77.8744 -36.1682 -41.7062
+# PREVIT:complex_148w.pdb -47.4199 -43.3849 -4.03503
+# PREVIT:complex_92w.pdb -82.5861 -37.4706 -45.1155
+# PREVIT:complex_34w.pdb -71.3319 -34.3296 -37.0023
+# PREVIT:complex_13w.pdb -101.918 -39.4268 -62.4915
+# PREVIT:complex_106w.pdb -107.835 -33.9021 -73.9333
+# PREVIT:complex_146w.pdb -87.2776 -40.2566 -47.021
+# PREVIT:complex_21w.pdb -37.2427 -38.4092 1.16654
+# PREVIT:complex_173w.pdb -67.4841 -35.9945 -31.4896
+# PREVIT:complex_9w.pdb -89.841 -35.6927 -54.1483
+# PREVIT:complex_22w.pdb -114.12 -35.7325 -78.3876
+# PREVIT:complex_41w.pdb -68.1861 -32.0257 -36.1604
+# PREVIT:complex_124w.pdb -86.9454 -37.6804 -49.265
+# PREVIT:complex_20w.pdb -82.3289 -39.1934 -43.1355
+# PREVIT:complex_170w.pdb -100.311 -37.2547 -63.056
+# PREVIT:complex_157w.pdb -98.9464 -33.3608 -65.5856
+# PREVIT:complex_19w.pdb -105.393 -35.4894 -69.9034
+# PREVIT:complex_15w.pdb -112.227 -38.3328 -73.8945
+# PREVIT:complex_37w.pdb -87.1866 -33.6924 -53.4942
+# PREVIT:complex_197w.pdb -87.5245 -34.6482 -52.8763
+# PREVIT:complex_174w.pdb -63.7986 -37.2484 -26.5502
+# PREVIT:complex_17w.pdb -76.417 -34.0692 -42.3478
+# PREVIT:complex_27w.pdb -75.3302 -41.1447 -34.1855
+# PREVIT:complex_71w.pdb -62.8912 -38.8645 -24.0266
+# PREVIT:complex_16w.pdb -80.6226 -39.4462 -41.1764
+# PREVIT:complex_186w.pdb -58.0883 -36.1262 -21.9621
+# PREVIT:complex_128w.pdb -96.9985 -34.7663 -62.2321
+# PREVIT:complex_84w.pdb -61.9658 -40.6492 -21.3166
+# PREVIT:complex_90w.pdb -71.802 -40.2201 -31.5819
+# PREVIT:complex_132w.pdb -117.029 -33.4744 -83.5548
+# PREVIT:complex_122w.pdb -77.0866 -38.998 -38.0886
+# PREVIT:complex_39w.pdb -118.622 -27.0526 -91.5692
+# PREVIT:complex_40w.pdb -66.1384 -39.8086 -26.3298
+# PREVIT:complex_120w.pdb -112.982 -35.7282 -77.2538
+# PREVIT:complex_97w.pdb -99.5135 -37.3129 -62.2006
+# PREVIT:complex_25w.pdb -84.6301 -38.0172 -46.6129
+# PREVIT:complex_116w.pdb -80.4843 -35.6717 -44.8126
+# PREVIT:complex_199w.pdb -67.953 -35.2907 -32.6622
+# PREVIT:complex_184w.pdb -116.432 -30.3647 -86.0671
+# PREVIT:complex_192w.pdb -78.5729 -39.6852 -38.8876
+# PREVIT:complex_183w.pdb -72.6737 -38.8859 -33.7878
+# PREVIT:complex_47w.pdb -89.5715 -33.7956 -55.7759
+# PREVIT:complex_143w.pdb -73.4314 -36.897 -36.5344
+# PREVIT:complex_52w.pdb -78.8589 -33.8343 -45.0246
+# PREVIT:complex_152w.pdb -75.6774 -36.6721 -39.0053
+# PREVIT:complex_45w.pdb -104.72 -30.2941 -74.4258
+# PREVIT:complex_111w.pdb -74.4877 -36.8834 -37.6043
+# PREVIT:complex_85w.pdb -79.562 -34.6353 -44.9267
+# PREVIT:complex_32w.pdb -96.7308 -41.2697 -55.4611
+# PREVIT:complex_8w.pdb -62.778 -39.9797 -22.7984
+# PREVIT:complex_137w.pdb -69.124 -34.6385 -34.4855
+# PREVIT:complex_33w.pdb -73.9776 -40.3099 -33.6676
+# PREVIT:complex_153w.pdb -96.3821 -34.2228 -62.1592
+# PREVIT:complex_28w.pdb -95.7834 -36.5354 -59.2479
+# PREVIT:complex_73w.pdb -57.2491 -37.0397 -20.2094
+# PREVIT:complex_162w.pdb -113.055 -38.3465 -74.709
+# PREVIT:complex_24w.pdb -59.7916 -36.6065 -23.1851
+# PREVIT:complex_83w.pdb -81.2196 -30.8079 -50.4117
+# PREVIT:complex_44w.pdb -93.4492 -33.6576 -59.7916
+# PREVIT:complex_161w.pdb -107.989 -34.2069 -73.7822
+# PREVIT:complex_100w.pdb -92.6584 -33.2125 -59.4459
+# PREVIT:complex_139w.pdb -82.2618 -36.7797 -45.482
+# PREVIT:complex_86w.pdb -81.1585 -32.2443 -48.9142
+# PREVIT:complex_178w.pdb -93.7143 -35.2754 -58.4389
+# PREVIT:complex_198w.pdb -62.7224 -35.9738 -26.7486
+# PREVIT:complex_38w.pdb -81.9193 -35.2619 -46.6574
+# PREVIT:complex_63w.pdb -82.7844 -38.9262 -43.8582
+# PREVIT:complex_118w.pdb -81.0099 -35.1647 -45.8452
+# PREVIT:complex_193w.pdb -66.5453 -31.6411 -34.9042
+# PREVIT:complex_150w.pdb -71.5352 -41.0739 -30.4614
+# PREVIT:complex_91w.pdb -80.5871 -38.5801 -42.007
+# PREVIT:complex_94w.pdb -96.9843 -32.907 -64.0773
+# PREVIT:complex_5w.pdb -49.1138 -34.1001 -15.0138
+# PREVIT:complex_190w.pdb -50.9291 -41.3503 -9.57879
+# PREVIT:complex_155w.pdb -113.539 -31.7889 -81.7504
+# PREVIT:complex_76w.pdb -85.5617 -34.3759 -51.1858
+# PREVIT:complex_58w.pdb -85.3578 -32.6849 -52.6729
+# PREVIT:complex_135w.pdb -80.893 -33.475 -47.418
+# PREVIT:complex_6w.pdb -74.19 -31.8514 -42.3386
+# PREVIT:complex_182w.pdb -63.137 -39.6508 -23.4862
+# PREVIT:complex_101w.pdb -102.562 -38.4871 -64.0747
+# PREVIT:complex_108w.pdb -64.0762 -29.8154 -34.2608
+# PREVIT:complex_117w.pdb -50.6716 -35.8581 -14.8136
+# PREVIT:complex_51w.pdb -80.9783 -37.5891 -43.3893
+# PREVIT:complex_176w.pdb -71.3047 -32.8829 -38.4218
+# PREVIT:complex_136w.pdb -75.7754 -31.3676 -44.4079
+# PREVIT:complex_36w.pdb -59.1299 -27.039 -32.0909
+# PREVIT:complex_98w.pdb -98.6862 -25.563 -73.1232
+# PREVIT:complex_134w.pdb -70.1407 -37.0059 -33.1348
+# PREVIT:complex_55w.pdb -74.3476 -38.2961 -36.0515
+# PREVIT:complex_48w.pdb -79.993 -36.0201 -43.9729
+# PREVIT:complex_11w.pdb -53.2115 -29.4022 -23.8093
+# PREVIT:complex_29w.pdb -98.187 -30.0952 -68.0917
+# PREVIT:complex_64w.pdb -70.2505 -26.1596 -44.0909
+# PREVIT:complex_195w.pdb -70.2541 -32.9169 -37.3372
+# PREVIT:complex_131w.pdb -61.1934 -27.8197 -33.3737
+# PREVIT:complex_104w.pdb -56.6884 -35.6702 -21.0182
+# PREVIT:complex_79w.pdb -57.6133 -33.6445 -23.9688
+# PREVIT:complex_95w.pdb -49.7747 -29.8229 -19.9518
+# mean values
+# Etot   -90.1807 (+/- 20.6117 ) [kcal/Mol]
+# Evdw   -36.7628 (+/- 3.43143 ) [kcal/Mol]
+# Eelec  -53.4179 (+/- 20.7008 ) [kcal/Mol]
+#
+#
+#Protein-Protein Buried_surface_area
+# PREVIT:complex_7w.pdb 1103.78
+# PREVIT:complex_102w.pdb 1116.1
+# PREVIT:complex_163w.pdb 1059.55
+# PREVIT:complex_75w.pdb 1127.36
+# PREVIT:complex_130w.pdb 1112.26
+# PREVIT:complex_166w.pdb 1144.98
+# PREVIT:complex_185w.pdb 1137.6
+# PREVIT:complex_14w.pdb 1082.07
+# PREVIT:complex_156w.pdb 1187.38
+# PREVIT:complex_133w.pdb 1152.26
+# PREVIT:complex_149w.pdb 1000.6
+# PREVIT:complex_142w.pdb 1074.29
+# PREVIT:complex_74w.pdb 1136.61
+# PREVIT:complex_164w.pdb 1167.41
+# PREVIT:complex_88w.pdb 1083.7
+# PREVIT:complex_4w.pdb 1167.71
+# PREVIT:complex_144w.pdb 1082.99
+# PREVIT:complex_69w.pdb 1109.83
+# PREVIT:complex_147w.pdb 1110.23
+# PREVIT:complex_23w.pdb 1153.33
+# PREVIT:complex_177w.pdb 1093.5
+# PREVIT:complex_18w.pdb 1090.53
+# PREVIT:complex_109w.pdb 1074.24
+# PREVIT:complex_107w.pdb 1023.69
+# PREVIT:complex_65w.pdb 1073.85
+# PREVIT:complex_110w.pdb 1116.02
+# PREVIT:complex_187w.pdb 1088.08
+# PREVIT:complex_121w.pdb 1072.7
+# PREVIT:complex_181w.pdb 1083.69
+# PREVIT:complex_70w.pdb 1136.5
+# PREVIT:complex_46w.pdb 1083.28
+# PREVIT:complex_160w.pdb 1102.88
+# PREVIT:complex_68w.pdb 1099.06
+# PREVIT:complex_66w.pdb 1092.03
+# PREVIT:complex_127w.pdb 1108.75
+# PREVIT:complex_154w.pdb 1139.08
+# PREVIT:complex_53w.pdb 1121
+# PREVIT:complex_80w.pdb 1073.88
+# PREVIT:complex_1w.pdb 1140.4
+# PREVIT:complex_114w.pdb 1069.24
+# PREVIT:complex_126w.pdb 1097.68
+# PREVIT:complex_72w.pdb 1108.77
+# PREVIT:complex_96w.pdb 1074.44
+# PREVIT:complex_43w.pdb 1099.57
+# PREVIT:complex_31w.pdb 1131.37
+# PREVIT:complex_77w.pdb 1160.46
+# PREVIT:complex_125w.pdb 1163.41
+# PREVIT:complex_78w.pdb 1142.28
+# PREVIT:complex_93w.pdb 1047.71
+# PREVIT:complex_158w.pdb 994.771
+# PREVIT:complex_171w.pdb 1084.44
+# PREVIT:complex_99w.pdb 1008.56
+# PREVIT:complex_87w.pdb 1028.44
+# PREVIT:complex_165w.pdb 1047.18
+# PREVIT:complex_196w.pdb 1156.17
+# PREVIT:complex_175w.pdb 1086.25
+# PREVIT:complex_129w.pdb 1125.52
+# PREVIT:complex_123w.pdb 1132.4
+# PREVIT:complex_56w.pdb 1229.27
+# PREVIT:complex_168w.pdb 1127.72
+# PREVIT:complex_60w.pdb 1119.05
+# PREVIT:complex_169w.pdb 1099.51
+# PREVIT:complex_103w.pdb 1120.1
+# PREVIT:complex_145w.pdb 1099.4
+# PREVIT:complex_54w.pdb 1150.01
+# PREVIT:complex_167w.pdb 973.258
+# PREVIT:complex_200w.pdb 1090.24
+# PREVIT:complex_141w.pdb 1167.97
+# PREVIT:complex_35w.pdb 1022.43
+# PREVIT:complex_61w.pdb 1108.73
+# PREVIT:complex_2w.pdb 1081.51
+# PREVIT:complex_89w.pdb 1080.92
+# PREVIT:complex_49w.pdb 1073.35
+# PREVIT:complex_112w.pdb 1063.48
+# PREVIT:complex_188w.pdb 1068.99
+# PREVIT:complex_67w.pdb 1119.99
+# PREVIT:complex_138w.pdb 1101.96
+# PREVIT:complex_105w.pdb 1125.61
+# PREVIT:complex_140w.pdb 1103.7
+# PREVIT:complex_172w.pdb 1045.32
+# PREVIT:complex_30w.pdb 1063.41
+# PREVIT:complex_179w.pdb 1094.79
+# PREVIT:complex_81w.pdb 1086.62
+# PREVIT:complex_12w.pdb 1024.01
+# PREVIT:complex_10w.pdb 1113.52
+# PREVIT:complex_115w.pdb 1110.17
+# PREVIT:complex_151w.pdb 1079.47
+# PREVIT:complex_119w.pdb 1070.93
+# PREVIT:complex_3w.pdb 1130.48
+# PREVIT:complex_159w.pdb 1129.57
+# PREVIT:complex_82w.pdb 1088.37
+# PREVIT:complex_42w.pdb 1066.59
+# PREVIT:complex_26w.pdb 1110.17
+# PREVIT:complex_113w.pdb 1139.64
+# PREVIT:complex_57w.pdb 1171.32
+# PREVIT:complex_59w.pdb 1115.07
+# PREVIT:complex_50w.pdb 1069.53
+# PREVIT:complex_191w.pdb 1077
+# PREVIT:complex_194w.pdb 1116.16
+# PREVIT:complex_180w.pdb 1022.58
+# PREVIT:complex_62w.pdb 1051.64
+# PREVIT:complex_189w.pdb 1077.42
+# PREVIT:complex_148w.pdb 1071.06
+# PREVIT:complex_92w.pdb 1074.65
+# PREVIT:complex_34w.pdb 992.74
+# PREVIT:complex_13w.pdb 1133.2
+# PREVIT:complex_106w.pdb 1053.76
+# PREVIT:complex_146w.pdb 1101.47
+# PREVIT:complex_21w.pdb 1151.3
+# PREVIT:complex_173w.pdb 1048.11
+# PREVIT:complex_9w.pdb 1070.9
+# PREVIT:complex_22w.pdb 1120.87
+# PREVIT:complex_41w.pdb 1052.96
+# PREVIT:complex_124w.pdb 1072.13
+# PREVIT:complex_20w.pdb 1074.15
+# PREVIT:complex_170w.pdb 1060.28
+# PREVIT:complex_157w.pdb 1124.07
+# PREVIT:complex_19w.pdb 1088.15
+# PREVIT:complex_15w.pdb 1172.71
+# PREVIT:complex_37w.pdb 1118.68
+# PREVIT:complex_197w.pdb 1160.34
+# PREVIT:complex_174w.pdb 1060.53
+# PREVIT:complex_17w.pdb 1049.79
+# PREVIT:complex_27w.pdb 1078.27
+# PREVIT:complex_71w.pdb 1134.28
+# PREVIT:complex_16w.pdb 1174.59
+# PREVIT:complex_186w.pdb 1002.19
+# PREVIT:complex_128w.pdb 1068.84
+# PREVIT:complex_84w.pdb 1132.18
+# PREVIT:complex_90w.pdb 1083.57
+# PREVIT:complex_132w.pdb 986.934
+# PREVIT:complex_122w.pdb 1079.16
+# PREVIT:complex_39w.pdb 885.297
+# PREVIT:complex_40w.pdb 1107.5
+# PREVIT:complex_120w.pdb 1024.41
+# PREVIT:complex_97w.pdb 1124.1
+# PREVIT:complex_25w.pdb 1069.08
+# PREVIT:complex_116w.pdb 1123.48
+# PREVIT:complex_199w.pdb 1145.6
+# PREVIT:complex_184w.pdb 1162.23
+# PREVIT:complex_192w.pdb 1048.02
+# PREVIT:complex_183w.pdb 1049.66
+# PREVIT:complex_47w.pdb 1016.48
+# PREVIT:complex_143w.pdb 1052.7
+# PREVIT:complex_52w.pdb 1039.66
+# PREVIT:complex_152w.pdb 1080.35
+# PREVIT:complex_45w.pdb 1090.35
+# PREVIT:complex_111w.pdb 1062.51
+# PREVIT:complex_85w.pdb 1026.51
+# PREVIT:complex_32w.pdb 1183.83
+# PREVIT:complex_8w.pdb 1024.12
+# PREVIT:complex_137w.pdb 1008.75
+# PREVIT:complex_33w.pdb 1093.02
+# PREVIT:complex_153w.pdb 1014.39
+# PREVIT:complex_28w.pdb 1147.23
+# PREVIT:complex_73w.pdb 1082.18
+# PREVIT:complex_162w.pdb 1093.88
+# PREVIT:complex_24w.pdb 1068.13
+# PREVIT:complex_83w.pdb 1033.67
+# PREVIT:complex_44w.pdb 993.55
+# PREVIT:complex_161w.pdb 1132.51
+# PREVIT:complex_100w.pdb 1010.18
+# PREVIT:complex_139w.pdb 1012.5
+# PREVIT:complex_86w.pdb 1008.01
+# PREVIT:complex_178w.pdb 1058.1
+# PREVIT:complex_198w.pdb 1063.71
+# PREVIT:complex_38w.pdb 1082.99
+# PREVIT:complex_63w.pdb 1180.29
+# PREVIT:complex_118w.pdb 1011.92
+# PREVIT:complex_193w.pdb 1074.55
+# PREVIT:complex_150w.pdb 1119.43
+# PREVIT:complex_91w.pdb 1084.94
+# PREVIT:complex_94w.pdb 1011.53
+# PREVIT:complex_5w.pdb 1082.55
+# PREVIT:complex_190w.pdb 1117.95
+# PREVIT:complex_155w.pdb 1058.37
+# PREVIT:complex_76w.pdb 954.526
+# PREVIT:complex_58w.pdb 1048.04
+# PREVIT:complex_135w.pdb 1050.73
+# PREVIT:complex_6w.pdb 1047.02
+# PREVIT:complex_182w.pdb 1141.9
+# PREVIT:complex_101w.pdb 1113.07
+# PREVIT:complex_108w.pdb 1046.45
+# PREVIT:complex_117w.pdb 1036.06
+# PREVIT:complex_51w.pdb 1128.01
+# PREVIT:complex_176w.pdb 1004.64
+# PREVIT:complex_136w.pdb 1106.83
+# PREVIT:complex_36w.pdb 1001.71
+# PREVIT:complex_98w.pdb 960.835
+# PREVIT:complex_134w.pdb 1107.15
+# PREVIT:complex_55w.pdb 1077.79
+# PREVIT:complex_48w.pdb 1175.44
+# PREVIT:complex_11w.pdb 1042.05
+# PREVIT:complex_29w.pdb 1026.61
+# PREVIT:complex_64w.pdb 996.134
+# PREVIT:complex_195w.pdb 1059.41
+# PREVIT:complex_131w.pdb 1008.77
+# PREVIT:complex_104w.pdb 1026.03
+# PREVIT:complex_79w.pdb 1020.28
+# PREVIT:complex_95w.pdb 975.313
+# mean values
+# BSA    1083.85 (+/- 51.88 ) [A^2]

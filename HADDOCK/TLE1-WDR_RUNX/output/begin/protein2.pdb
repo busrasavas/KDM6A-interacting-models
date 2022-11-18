@@ -1,0 +1,78 @@
+REMARK FILENAME="protein2.pdb"
+REMARK coordinates built for atom:      MET  2    HN
+REMARK coordinates built for atom:      TRP  3    HN
+REMARK coordinates built for atom:      TRP  3    HE1
+REMARK coordinates built for atom:      ARG  4    HN
+REMARK coordinates built for atom:      ARG  4    HE
+REMARK coordinates built for atom:      ARG  4    HH11
+REMARK coordinates built for atom:      ARG  4    HH12
+REMARK coordinates built for atom:      ARG  4    HH21
+REMARK coordinates built for atom:      ARG  4    HH22
+REMARK coordinates built for atom:      TYR  6    HN
+REMARK coordinates built for atom:      TYR  6    HH
+REMARK DATE:01-Nov-2022  19:36:29       created by user: enmr
+REMARK VERSION:1.3U
+ATOM      1  N   MET B   2     -25.126 -15.124  33.576  1.00 15.00      B    N  
+ATOM      2  HN  MET B   2     -24.318 -15.579  33.259  1.00 15.00      B    H  
+ATOM      3  CA  MET B   2     -24.995 -13.787  34.278  1.00 15.00      B    C  
+ATOM      4  CB  MET B   2     -25.851 -13.769  35.534  1.00 15.00      B    C  
+ATOM      5  CG  MET B   2     -26.415 -12.420  35.890  1.00 15.00      B    C  
+ATOM      6  SD  MET B   2     -27.842 -11.829  34.940  1.00 15.00      B    S  
+ATOM      7  CE  MET B   2     -27.071 -11.482  33.328  1.00 15.00      B    C  
+ATOM      8  C   MET B   2     -23.570 -13.500  34.662  1.00 15.00      B    C  
+ATOM      9  O   MET B   2     -22.922 -14.365  35.220  1.00 15.00      B    O  
+ATOM     10  N   TRP B   3     -23.052 -12.315  34.343  1.00 15.00      B    N  
+ATOM     11  HN  TRP B   3     -23.576 -11.663  33.833  1.00 15.00      B    H  
+ATOM     12  CA  TRP B   3     -21.678 -12.000  34.770  1.00 15.00      B    C  
+ATOM     13  CB  TRP B   3     -21.097 -10.799  34.021  1.00 15.00      B    C  
+ATOM     14  CG  TRP B   3     -19.806 -10.316  34.625  1.00 15.00      B    C  
+ATOM     15  CD1 TRP B   3     -18.576 -10.901  34.491  1.00 15.00      B    C  
+ATOM     16  CD2 TRP B   3     -19.618  -9.151  35.456  1.00 15.00      B    C  
+ATOM     17  NE1 TRP B   3     -17.643 -10.181  35.190  1.00 15.00      B    N  
+ATOM     18  HE1 TRP B   3     -16.690 -10.400  35.249  1.00 15.00      B    H  
+ATOM     19  CE2 TRP B   3     -18.248  -9.099  35.789  1.00 15.00      B    C  
+ATOM     20  CE3 TRP B   3     -20.480  -8.170  35.973  1.00 15.00      B    C  
+ATOM     21  CZ2 TRP B   3     -17.701  -8.070  36.614  1.00 15.00      B    C  
+ATOM     22  CZ3 TRP B   3     -19.947  -7.130  36.778  1.00 15.00      B    C  
+ATOM     23  CH2 TRP B   3     -18.576  -7.085  37.090  1.00 15.00      B    C  
+ATOM     24  C   TRP B   3     -21.563 -11.810  36.297  1.00 15.00      B    C  
+ATOM     25  O   TRP B   3     -22.274 -10.964  36.880  1.00 15.00      B    O  
+ATOM     26  N   ARG B   4     -20.660 -12.584  36.927  1.00 15.00      B    N  
+ATOM     27  HN  ARG B   4     -20.121 -13.204  36.392  1.00 15.00      B    H  
+ATOM     28  CA  ARG B   4     -20.446 -12.542  38.371  1.00 15.00      B    C  
+ATOM     29  CB  ARG B   4     -21.144 -13.719  39.084  1.00 15.00      B    C  
+ATOM     30  CG  ARG B   4     -22.629 -13.862  38.761  1.00 15.00      B    C  
+ATOM     31  CD  ARG B   4     -23.241 -15.017  39.568  1.00 15.00      B    C  
+ATOM     32  NE  ARG B   4     -24.698 -14.942  39.509  1.00 15.00      B    N  
+ATOM     33  HE  ARG B   4     -25.103 -14.068  39.327  1.00 15.00      B    H  
+ATOM     34  CZ  ARG B   4     -25.495 -15.997  39.689  1.00 15.00      B    C  
+ATOM     35  NH1 ARG B   4     -24.956 -17.183  39.961  1.00 15.00      B    N  
+ATOM     36 HH11 ARG B   4     -25.568 -18.012  40.103  1.00 15.00      B    H  
+ATOM     37 HH12 ARG B   4     -23.923 -17.281  40.031  1.00 15.00      B    H  
+ATOM     38  NH2 ARG B   4     -26.817 -15.869  39.615  1.00 15.00      B    N  
+ATOM     39 HH21 ARG B   4     -27.239 -14.940  39.415  1.00 15.00      B    H  
+ATOM     40 HH22 ARG B   4     -27.428 -16.698  39.757  1.00 15.00      B    H  
+ATOM     41  C   ARG B   4     -18.962 -12.632  38.617  1.00 15.00      B    C  
+ATOM     42  O   ARG B   4     -18.399 -13.703  38.458  1.00 15.00      B    O  
+ATOM     43  N   PRO B   5     -18.324 -11.523  39.023  1.00 15.00      B    N  
+ATOM     44  CA  PRO B   5     -16.846 -11.483  39.099  1.00 15.00      B    C  
+ATOM     45  CB  PRO B   5     -16.547  -9.984  39.198  1.00 15.00      B    C  
+ATOM     46  CG  PRO B   5     -17.817  -9.360  39.849  1.00 15.00      B    C  
+ATOM     47  CD  PRO B   5     -18.957 -10.221  39.369  1.00 15.00      B    C  
+ATOM     48  C   PRO B   5     -16.150 -12.226  40.273  1.00 15.00      B    C  
+ATOM     49  O   PRO B   5     -14.889 -12.359  40.285  1.00 15.00      B    O  
+ATOM     50  N   TYR B   6     -16.933 -12.681  41.247  1.00 15.00      B    N  
+ATOM     51  HN  TYR B   6     -17.907 -12.637  41.144  1.00 15.00      B    H  
+ATOM     52  CA  TYR B   6     -16.361 -13.248  42.476  1.00 15.00      B    C  
+ATOM     53  CB  TYR B   6     -17.261 -12.902  43.680  1.00 15.00      B    C  
+ATOM     54  CG  TYR B   6     -18.828 -13.058  43.665  1.00 15.00      B    C  
+ATOM     55  CD1 TYR B   6     -19.696 -11.953  43.256  1.00 15.00      B    C  
+ATOM     56  CD2 TYR B   6     -19.470 -14.307  44.080  1.00 15.00      B    C  
+ATOM     57  CE1 TYR B   6     -21.136 -12.089  43.257  1.00 15.00      B    C  
+ATOM     58  CE2 TYR B   6     -20.910 -14.447  44.080  1.00 15.00      B    C  
+ATOM     59  CZ  TYR B   6     -21.737 -13.337  43.668  1.00 15.00      B    C  
+ATOM     60  OH  TYR B   6     -23.107 -13.468  43.670  1.00 15.00      B    O  
+ATOM     61  HH  TYR B   6     -23.464 -13.106  42.855  1.00 15.00      B    H  
+ATOM     62  C   TYR B   6     -16.120 -14.768  42.384  1.00 15.00      B    C  
+ATOM     63  O   TYR B   6     -16.411 -15.470  41.399  1.00 15.00      B    O  
+END

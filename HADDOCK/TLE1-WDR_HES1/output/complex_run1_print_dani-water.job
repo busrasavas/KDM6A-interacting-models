@@ -1,0 +1,9 @@
+#!/bin/csh
+cd ./
+setenv CURRIT 2
+setenv RUN ./
+setenv NEWIT $RUN/structures/it1/water
+setenv PREVIT $RUN/structures/it1/water
+setenv TEMPTRASH $RUN
+protocols/cns1 < protocols/print_dani.inp >! $NEWIT/analysis/print_dani.out
+gzip -f $NEWIT/analysis/print_dani.out

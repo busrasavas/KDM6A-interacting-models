@@ -1,0 +1,11 @@
+assign (resid 3 and name ca)  (resid 534 and name ca)  10.6 0.1 0.1
+assign (resid 3 and name ca)  (resid 578 and name ca)   8.7 0.1 0.1
+assign (resid 3 and name ca)  (resid 636 and name ca)   9.6 0.1 0.1
+assign (resid 3 and name ca)  (resid 620 and name ca)   9.4 0.1 0.1
+assign (resid 3 and name ca)  (resid 661 and name ca)  11.1 0.1 0.1
+assign (resid 4 and name ca)  (resid 550 and name ca)   9.8 0.1 0.1
+assign (resid 6 and name ca)  (resid 702 and name ca)   7.8 0.1 0.1
+assign (resid 6 and name ca)  (resid 743 and name ca)   6.9 0.1 0.1
+assign (resid 6 and name ca)  (resid 486 and name ca)   9.4 0.1 0.1
+assign (resid 6 and name ca)  (resid 488 and name ca)   9.1 0.1 0.1
+assign (resid 6 and name ca)  (resid 532 and name ca)  12.4 0.1 0.1
