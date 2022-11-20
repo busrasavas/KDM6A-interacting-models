@@ -10,14 +10,14 @@ This repository represents the structural modeling part of the "Truncated KDM6A 
 
 - **[AlphaFold](https://github.com/deepmind/alphafold):** contains the AlphaFold models. Input FASTA files and output files are provided.
 
-  - **KDM6A-database** - *[Human KDM6A](https://alphafold.ebi.ac.uk/entry/O15550) model is retrieved from [AlphaFold-Database](https://alphafold.ebi.ac.uk/).*
-  - **KDM6A-monomer** 
-  - **TLE1-Q_HHEX-multimer**
+  - **KDM6A-database**: *[Human KDM6A](https://alphafold.ebi.ac.uk/entry/O15550) model is retrieved from [AlphaFold-Database](https://alphafold.ebi.ac.uk/).*
+  - **KDM6A-monomer**: *monomer_ptm is chosed as model preset during the modeling.*
+  - **TLE1-Q_HHEX-multimer**: *multimer is chosed as model preset during the modeling.*
   
 - **[HADDOCK](https://wenmr.science.uu.nl/haddock2.4/submit/1):** contains the HADDOCK refinement related files of TLE1-WDR containing complexes. Input PDB files, distance restraint file and outputs are provided for each complex.
-  - **TLE1-WDR_HES1** 
-  - **TLE1-WDR_HHEX** 
-  - **TLE1-WDR_RUNX**
+  - **TLE1-WDR_HES1**: *Refinement of whole WDR domain and MWRPW peptide.*
+  - **TLE1-WDR_HHEX**: *Refinement of whole WDR domain and MFYIEDILA peptide.*
+  - **TLE1-WDR_RUNX**: *Refinement of whole WDR domain and MWRPY peptide.*
   
 - **[FATCAT](https://fatcat.godziklab.org/fatcat/fatcat_pair.html):** contains the the input PDB files and superimposed structures.
   
