@@ -47,7 +47,7 @@ wget https://github.com/CSB-KaracaLab/XXXX/archive/master.zip
 ```
 
 ## Acknowledgements
-This research is supported by EMBO installation grant( (#4421). 
+This research is supported by EMBO installation grant (#4421). 
 
 ## Contact 
 ezgi.karaca@ibg.edu.tr
