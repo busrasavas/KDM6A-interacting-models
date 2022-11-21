@@ -4,9 +4,25 @@ This repository represents the structural modeling part of the "Truncated KDM6A 
 
 ## Motivation
 
-Here in this work, we aimed to find the interacting regions of KDM6A, TLE1, HES1, RUNX1-2, and HHEX to understand the potential arrangement of the biomolecular complexes they involved in. Checking the literature gave us the advantage to create the initial contact map of the interested proteins. 
+Here in this work, we aimed to find the interacting regions of KDM6A, TLE1, HES1, RUNX1-2, and HHEX to understand the potential arrangement of the biomolecular complexes they involved in. Checking the literature gave us the advantage to create the initial contact map of the interested proteins (see figure below). 
 
 <img width="2024" alt="github-fig" src="https://user-images.githubusercontent.com/62547137/203048915-07c31303-b33a-4dd1-a54f-a859f91beabf.png">
+
+Using this map, we modeled interacting protein pairs in domain-domain or domain-motif level. The details are listed in below:
+
+- **KDM6A-TPR:TLE1-Q** interaction modeled by using a reference structure, [6EJN](https://www.rcsb.org/structure/6EJN), showing the evidence of interaction in between TPR and coiled coils. [FATCAT](https://fatcat.godziklab.org/fatcat/fatcat_pair.html) server used for the obtained superimposed   
+
+- **TLE1-Q:HHEX**
+
+- **TLE1-WDR:HHEX**
+
+- **TLE1-WDR:RUNX**
+
+- **TLE1-WDR:HES1**
+
+
+
+
 
 ## Our folders describe:
 
