@@ -10,9 +10,9 @@ Here in this work, we aimed to find the interacting regions of KDM6A, TLE1, HES1
 
 Using this map, we modeled interacting protein pairs in domain-domain or domain-motif level. The details are listed in below:
 
-- **KDM6A-TPR:TLE1-Q** interaction modeled by using a reference structure, [6EJN](https://www.rcsb.org/structure/6EJN), showing the evidence of interaction in between TPR and coiled coils. [FATCAT](https://fatcat.godziklab.org/fatcat/fatcat_pair.html) server used for the obtained superimposed   
+- **KDM6A-TPR:TLE1-Q** interaction is modeled by using a reference structure, [6EJN](https://www.rcsb.org/structure/6EJN), showing the evidence of interaction in between TPR and coiled coils. [FATCAT](https://fatcat.godziklab.org/fatcat/fatcat_pair.html) server used to obtain superimposed model.  
 
-- **TLE1-Q:HHEX**
+- **TLE1-Q:HHEX** interaction is modeled by [AlphaFold](https://github.com/deepmind/alphafold) multimer. Sequences of TLE1-Q and N-ter 1-98 residues
 
 - **TLE1-WDR:HHEX**
 
