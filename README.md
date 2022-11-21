@@ -4,7 +4,9 @@ This repository represents the structural modeling part of the "Truncated KDM6A 
 
 ## Motivation
 
+Here in this work, we aimed to find the interacting regions of KDM6A, TLE1, HES1, RUNX1-2, and HHEX to understand the potential arrangement of the biomolecular complexes they involved in. Checking the literature gave us the advantage to create the initial contact map of the interested proteins. 
 
+<img width="2024" alt="github-fig" src="https://user-images.githubusercontent.com/62547137/203048915-07c31303-b33a-4dd1-a54f-a859f91beabf.png">
 
 ## Our folders describe:
 
