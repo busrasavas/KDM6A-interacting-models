@@ -1,10 +1,10 @@
-# Structural modeling of KDM6A-TLE1 related interactions
+# Structural modeling efforts to understand landscape of KDM6A-TLE1 related complexes
 
 This repository represents the structural modeling part of the "Truncated KDM6A exhibits differential chromatin occupancy and regulatory interactions" conducted by Gülden Özden Yılmaz, Busra Savas, Ahmet Bursalı, Aleyna Eray, Alirıza Arıbaş, Şerif Şentürk, Ezgi Karaca, Gökhan Karakülah, Serap Erkek-Ozhan. 
 
 ## Motivation
 
-Here in this work, we aimed to find the interacting regions of KDM6A, TLE1, HES1, RUNX1-2, and HHEX to understand the potential arrangement of the biomolecular complexes they involved in. Checking the literature gave us the advantage to create the initial contact map of the interested proteins (see figure below). 
+Here in this work, we aimed to find the interacting regions of KDM6A, TLE1, HES1, RUNX1-2, and HHEX to understand the potential structural arrangement of the biomolecular complexes they involved in. Investigating the literature gave us the advantage to create the initial contact map of the interested proteins (see figure below). 
 
 <img width="1958" alt="github-fig" src="https://user-images.githubusercontent.com/62547137/203270938-24edfbe4-b311-44d5-b07c-b7b4ee0220ba.png">
 
