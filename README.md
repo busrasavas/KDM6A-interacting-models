@@ -2,6 +2,8 @@
 
 This repository represents the structural modeling part of the "Truncated KDM6A exhibits differential chromatin occupancy and regulatory interactions" conducted by Gülden Özden Yılmaz, Busra Savas, Ahmet Bursalı, Aleyna Eray, Alirıza Arıbaş, Şerif Şentürk, Ezgi Karaca, Gökhan Karakülah, Serap Erkek-Ozhan. 
 
+[![DOI:10.3390/cells12060836](https://img.shields.io/badge/DOI-10.3390%2Fcells12060836-red.svg)](https://doi.org/10.3390/cells12060836) 
+
 ## Motivation
 
 Here in this work, we aimed to find the interacting regions of KDM6A, TLE1, HES1, RUNX1-2, and HHEX to understand the potential structural arrangement of the biomolecular complexes they involved in. Investigating the literature gave us the advantage to create the initial contact map of the interested proteins (see figure below). 
